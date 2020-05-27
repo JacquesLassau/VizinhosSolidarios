@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Venha doar amor aos que precisam. Traga conforto, ajude famílias.">
+	<meta name="keywords" content="doar, doação, doe, ajudar, ajuda, ajude, Recife, Pernambuco, mantededor, manter, caridade, vizinhos, solidários">
+    <meta name="author" content="Jacques de Lassau Albuquerque Cheron">
     <title>Vizinhos Solidários</title>
     <!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,6 +21,10 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+	<meta property="og:image" content="images/ico/logo-link.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="460">
     <link rel="shortcut icon" href="images/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
@@ -67,8 +72,10 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
+									<article>
                                     <h2>Venha <span>DAR</span> amor <br />aos que precisam</h2>
                                     <a class="btn btn-primary btn-lg scroll" href="#pricing"><i class="fa fa-heart"> </i> &nbsp;DOAR </a>
+									</article>
                                 </div>
                             </div>
                         </div>
@@ -82,8 +89,10 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
+									<article>
                                     <h2>Traga conforto<br /><span>AJUDE</span> famílias</h2>
                                     <a class="btn btn-primary btn-lg scroll" href="#pricing"><i class="fa fa-heart"> </i> &nbsp;DOAR </a>
+									</article>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +111,7 @@
                 <div class="col-sm-9">
                     <h2>Olá, Nós somos os Vizinhos Solidários!</h2>
                     <p style="text-align:justify;">
-                        Sete voluntários que compartilharam o incômodo com a situação dos moradores de rua. Em tempos de pandemia juntaram-se para entregar refeições. Começamos no dia 31 de março com 20 marmitas, sem nenhuma doação, tudo custeado pelo grupo. Após cinco dias de início, muitas doações passaram a ser recebidas e a as entregas triplicaram. Aumentamos gradativamente e hoje atingimos a marca de cento e cinquenta entregas por dia. Nosso objetivo é crescer cada vez mais. Nossa próxima meta é de duzentas unidades diárias.
+                        Sete voluntários que compartilharam o incômodo com a situação dos moradores de rua. Em tempos de pandemia juntaram-se para entregar refeições. Começamos no dia 31 de março com 20 marmitas, sem nenhuma doação, tudo custeado pelo grupo. Após cinco dias de início, muitas doações passaram a ser recebidas e as entregas triplicaram. Aumentamos gradativamente e hoje atingimos a marca de cento e cinquenta entregas por dia. Nosso objetivo é crescer cada vez mais. Nossa próxima meta é de duzentas unidades diárias.
                     </p>
                 </div>
             </div>
@@ -111,13 +120,71 @@
     <!--/#cta-->
 
     <section id="pricing">
+	<article>
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Doar</h2>
             </div>
-
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
+            <div class="row">		
+				<div class="col-sm-6 col-md-3">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <ul class="pricing">
+                            <li class="plan-header">
+                                <div class="price-duration">
+                                    <span class="price">
+                                        <img src="images/ico/barcode.png" alt="" width="76px" height="76px" style="margin-top:-20px;">
+                                    </span>
+                                </div>
+                                <div class="plan-name">
+                                    Boleto
+                                </div>
+                            </li>	
+							<li class="plan-purchase"><a href="https://www.asaas.com/c/111532349716" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 20,00</a></li>
+                            <li class="plan-purchase"><a href="https://www.asaas.com/c/809064847730" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 35,00</a></li>
+                            <li class="plan-purchase"><a href="https://www.asaas.com/c/539183714742" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 50,00</a></li>							
+                            <li class="plan-purchase"><a href="https://www.asaas.com/c/903541180434" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-money"> </i> &nbsp;&nbsp; Outro valor </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <ul class="pricing">
+                            <li class="plan-header">
+                                <div class="price-duration">
+                                    <span class="price">
+                                        <img src="images/ico/mantededor.png" alt="" width="64px" height="64px" style="margin-top:-8px;">
+                                    </span>
+                                </div>
+                                <div class="plan-name">
+                                    Doação Mensal
+                                </div>
+                            </li>                            
+                            <li class="plan-purchase"><a href="https://www.asaas.com/c/210567123794" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 20,00</a></li>
+							<li class="plan-purchase"><a href="https://www.asaas.com/c/895111014505" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 35,00</a></li>
+							<li class="plan-purchase"><a href="https://www.asaas.com/c/539183714742" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 50,00</a></li>
+							<li class="plan-purchase"><a href="https://www.asaas.com/c/903541180434" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-money"> </i> &nbsp;&nbsp; Outro valor </a></li>
+						</ul>
+					</div>
+                </div>
+				<div class="col-sm-6 col-md-3">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <ul class="pricing">
+                            <li class="plan-header">
+                                <div class="price-duration">
+                                    <span class="price">
+                                        <img src="images/ico/picpay.png" alt="" width="128px" height="64px" style="margin-top:-16px;margin-left:-10px;">
+                                    </span>
+                                </div>
+                                <div class="plan-name">
+                                    PicPay
+                                </div>
+                            </li>
+							<img src="images/ico/pagamento-picpay.jpeg" class="img-responsive" style="width:100%;">
+                            <li class="plan-purchase"><a href="https://picpay.me/vizinhos-solidarios" target="_blank" class="btn btn-primary btn-lg" style="color:#fff;background-color:rgb(30,194,95);border-bottom:3px solid rgb(15,92,47);"><i class="fa fa-qrcode"> </i> &nbsp;&nbsp; Ir para PicPay</a></li>							
+						</ul>
+					</div>
+                </div>
+                <div class="col-sm-6 col-md-3">
                     <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
                         <ul class="pricing">
                             <li class="plan-header">
@@ -132,89 +199,16 @@
                             </li>
                             <li><strong>BANCO:</strong> Caixa</li>
                             <li><strong>AGÊNCIA:</strong> 3818</li>
-                            <li><strong>POUPANÇA:</strong> 86647544-7</li>
+                            <li><strong>POUPANÇA:</strong> 986647544-7</li>
                             <li><strong>OPERAÇÃO:</strong> 1288</li>
                             <li><strong>CPF:</strong> 961.778.024-00</li>
+							<li><strong>NOME:</strong> Maria E. Fernandes</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        <img src="images/ico/barcode.png" alt="" width="76px" height="76px" style="margin-top:-20px;">
-                                    </span>
-                                </div>
-                                <div class="plan-name">
-                                    Boleto
-                                </div>
-                            </li>
-                            <li class="plan-purchase"><button class="btn btn-default btn-lg" style="color:rgb(45,153,179);" id="10" onclick='IncluirValorDoacao("10")' value="10.00" data-toggle="modal" data-target="#modalDoacao" data-whatever="@mdo">R$ 10,00</button></li>
-                            <li class="plan-purchase"><button class="btn btn-default btn-lg" style="color:rgb(45,153,179);" id="20" onclick='IncluirValorDoacao("20")' value="20.00" data-toggle="modal" data-target="#modalDoacao" data-whatever="@mdo">R$ 20,00</button></li>
-                            <li class="plan-purchase"><button class="btn btn-default btn-lg" style="color:rgb(45,153,179);" id="30" onclick='IncluirValorDoacao("30")' value="30.00" data-toggle="modal" data-target="#modalDoacao" data-whatever="@mdo">R$ 30,00</button></li>
-                            <li class="plan-purchase"><button class="btn btn-primary btn-lg" id="outroValor" onclick='IncluirValorDoacao("outroValor")' data-toggle="modal" data-target="#modalDoacao" data-whatever="@mdo"><i class="fa fa-money"> </i> &nbsp;&nbsp; Outro valor </button></li>
-                        </ul>
-                    </div>
-
-                    <!-- Modal para requisição de boletos -->
-                    <div class="modal fade" id="modalDoacao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="labelModal">Fazer Doação</h4>
-                                </div>
-                                <div class="modal-body">
-                                    <form action="validaDadosBoleto.php" method="POST">
-                                        <div class="form-group">
-                                            <label class="control-label">Nome:</label>
-                                            <input type="text" class="form-control" id="txtNome" name="txtNome" required="required" />
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label">E-mail:</label>
-                                            <input type="text" class="form-control" id="txtEmail" name="txtEmail" required="required" />
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label">Valor R$:</label>
-                                            <input type="text" class="form-control" id="txtValor" name="txtValor" maxlength="6" onkeydown="FormataMoeda(this,5,event)" onkeypress="return maskKeyPress(event)" required="required" />
-                                        </div>
-                                        <div class="form-group">
-                                            <button class="btn btn-success" type="submit"><i class="fa fa-heart"> </i> &nbsp;&nbsp;DOAR AGORA</button>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        <img src="images/ico/vakinha.png" alt="" width="64px" height="64px" style="margin-top:-8px;">
-                                    </span>
-                                </div>
-                                <div class="plan-name">
-                                    Vakinha
-                                </div>
-                            </li>
-                            <p style="text-align:justify;">Se você está acostumado a doar pelo site vakinha, também temos nosso cadastro. Mas gostaríamos de lembrar que eles ficam com 10% do arrecadado</p>
-                            <li class="plan-purchase"><a class="btn btn-default btn-lg" href="http://vaka.me/974093" style="color:rgb(45,153,179);"><i class="fa fa-heart"> </i> &nbsp;&nbsp;Ir para o site </a></li>
-                        </ul>
-                    </div>
-                </div>
-
             </div>
         </div>
+	</article>
     </section>
 
     <section id="portfolio">
@@ -236,45 +230,45 @@
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/8.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/8.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/8.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/3.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/3.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/3.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/4.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/4.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/4.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/5.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/5.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/5.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/6.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/6.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/6.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
@@ -290,107 +284,107 @@
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/2.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/2.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/2.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/23.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/23.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/23.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/23.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/24.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/24.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/24.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/24.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/14.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/14.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/14.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/14.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/22.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/22.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/22.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/22.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/13.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/13.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/13.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/11.jpg" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/11.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/13.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/16.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/11.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/16.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/11.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/17.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/16.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/17.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/16.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/18.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/17.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/18.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/17.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/19.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/18.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/19.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/18.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/21.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/19.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/21.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/19.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/21.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/21.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
@@ -406,34 +400,34 @@
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/20.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/20.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/20.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/20.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/15.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/15.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/15.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/15.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/9.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/9.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/9.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/9.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/12.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/12.JPG" alt="">
                         <div class="portfolio-info">
                             <a class="preview" href="images/portfolio/12.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
@@ -442,9 +436,9 @@
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/7.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/7.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/7.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
@@ -463,13 +457,13 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-6 wow fadeInLeft">
+                <div class="col-sm-6 wow fadeInLeft" style="margin-bottom:12px;">
                     <h3 class="column-title">Vídeo</h3>
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
                         <video controls="controls">
-                            <source src="videos/videoSolidario.mp4" type="video/mp4">
-                        </video>
+                            <source src="videos/videoSolidario.mp4" type="video/mp4">							
+                        </video>						
                     </div>
                 </div>
 
@@ -519,11 +513,11 @@
                                 </div>
                                 <div class="media-body">
                                     <br />
-                                    <h4 class="media-heading"><a href="https://api.whatsapp.com/send?l=pt&amp;phone=558191174344" target="_blank">Whatsapp</a></h4>
+                                    <h4 class="media-heading"><a href="https://api.whatsapp.com/send?l=pt&amp;phone=558193270018" target="_blank">Whatsapp</a></h4>
                                 </div>
                             </div>
                             <hr />
-                            <a href="mailto:vizinhossolidarios@gmail.com.com" class="btn btn-primary">ENVIE-NOS UM EMAIL</a>
+                            <a href="mailto:vsolidariospe@gmail.com" class="btn btn-primary">ENVIE-NOS UM EMAIL</a>
                             <a href="#" class="btn btn-inverse"><i class="fa fa-arrow-circle-up fa-2px"></i>&nbsp; Voltar ao Topo &nbsp;<i class="fa fa-arrow-circle-up fa-2px"></i></a>
                             <!--<form id="main-contact-form" name="contact-form" method="post" action="#">
                                 <div class="form-group">
@@ -558,18 +552,7 @@
     <script src="js/jquery.inview.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/MascaraDinheiro.js"></script>
-    <script>        
-        function IncluirValorDoacao(idValor) {
-            var valor = document.getElementById(idValor).value;
-            if (valor == 10 || valor == 20 || valor == 30)
-                $("#txtValor").val(valor).prop("readonly", true);
-            else {
-                $("#txtValor").val(valor).prop("readonly", false);
-            }
-        }
-    </script>
-
+	
 </body>
 
 </html>
