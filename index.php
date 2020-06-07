@@ -45,13 +45,14 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo"></a>
                 </div>
 
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="scroll active"><a href="#home">INÍCIO</a></li>
                         <li class="scroll"><a href="#pricing">DOAR</a></li>
+						<li class="scroll"><a href="#cta2">VOLUNTÁRIO</a></li>
                         <li class="scroll"><a href="#portfolio">GALERIA</a></li>
                         <li class="scroll"><a href="#about">SOBRE</a></li>
                         <li class="scroll"><a href="#faleConosco">CONTATO</a></li>
@@ -210,15 +211,27 @@
         </div>
 	</article>
     </section>
-
+	<section id="cta2">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">SEJA UM <span>VOLUNTÁRIO!</span></h2>
+				<br/>
+				<div class="section-header">
+					<h2 class="section-title text-center wow fadeInDown"></h2>
+				</div>  				
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="formulario.php" ><i class="fa fa-heart"> </i> &nbsp;QUERO SER VOLUNTÁRIO </a></p>                							
+            </div>
+        </div>
+		<br/>
+		<br/>
+    </section>
+	
     <section id="portfolio">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown" style="text-transform:none;">Galeria Solidária</h2>
             </div>
-
             <div class="portfolio-items">
-
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
@@ -489,7 +502,7 @@
     </section>
 
     <section id="contact">
-        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.0820926834535!2d-34.885479285841946!3d-8.0931108831738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f4019b3e0ef%3A0xeb1eb634dde96e63!2sR.%20Souto%20Filho%2C%2096%20-%20Pina%2C%20Recife%20-%20PE%2C%2051011-170!5e0!3m2!1spt-BR!2sbr!4v1590682778752!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+        <div  style="z-index:3;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.0820926834535!2d-34.885479285841946!3d-8.0931108831738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f4019b3e0ef%3A0xeb1eb634dde96e63!2sR.%20Souto%20Filho%2C%2096%20-%20Pina%2C%20Recife%20-%20PE%2C%2051011-170!5e0!3m2!1spt-BR!2sbr!4v1590682778752!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
         <div class="container-wrapper">
             <div class="container">
                 <div class="row">
