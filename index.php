@@ -212,7 +212,8 @@
 	</article>
     </section>
 	<section id="cta2">
-        <div class="container">
+		<div class="section-header"></div> 
+        <div class="container">			 
             <div class="text-center">
                 <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">SEJA UM <span>VOLUNTÁRIO!</span></h2>
 				<br/>
@@ -221,11 +222,12 @@
 				</div>  				
                 <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="formulario.php" ><i class="fa fa-heart"> </i> &nbsp;QUERO SER VOLUNTÁRIO </a></p>                							
             </div>
+			<div class="section-header"></div> 
         </div>
 		<br/>
 		<br/>
-    </section>
-	
+		
+    </section>	
     <section id="portfolio">
         <div class="container">
             <div class="section-header">

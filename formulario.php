@@ -69,23 +69,24 @@
 			<div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Fale Conosco</h2>                
             </div>
-			<div class="row">				
-				<form id="main-contact-form" name="contact-form" method="POST" action="sendmail.php">
-					<div class="form-group">
-						<input type="text" name="nome" class="form-control" placeholder="Nome" required>
-					</div>
-					<div class="form-group">
-						<input type="email" name="email" class="form-control" placeholder="Email" required>
-					</div>
-					<div class="form-group">
-						<input type="number" name="telefone" class="form-control" placeholder="Telefone" maxlength="14" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}$" required>
-					</div>								                   
-					<div class="form-group">
-						<textarea name="mensagem" class="form-control" rows="8" placeholder="Fale mais sobre você ..."></textarea>
-					</div>
-					<button class="btn btn-primary btn-lg pull-right" ><i class="fa fa-check"> </i> &nbsp;ENVIAR </button>									
-				</form>							
-				
+			<div class="container">
+				<div class="row">				
+					<form id="main-contact-form" name="contact-form" method="POST" action="sendmail.php">
+						<div class="form-group">
+							<input type="text" name="nome" class="form-control" placeholder="Nome" required>
+						</div>
+						<div class="form-group">
+							<input type="email" name="email" class="form-control" placeholder="Email" required>
+						</div>
+						<div class="form-group">
+							<input type="number" name="telefone" class="form-control" placeholder="Telefone" maxlength="14" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}$" required>
+						</div>								                   
+						<div class="form-group">
+							<textarea name="mensagem" class="form-control" rows="8" placeholder="Fale mais sobre você ..."></textarea>
+						</div>
+						<button class="btn btn-primary btn-lg pull-right" ><i class="fa fa-check"> </i> &nbsp;ENVIAR </button>									
+					</form>					
+				</div>
 			</div>
 		</div>		
 	</section>
