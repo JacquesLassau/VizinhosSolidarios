@@ -112,7 +112,16 @@
                 <div class="col-sm-9">
                     <h2>Olá, Nós somos os Vizinhos Solidários!</h2>
                     <p style="text-align:justify;">
-                        Sete voluntários que compartilharam o incômodo com a situação dos moradores de rua. Em tempos de pandemia juntaram-se para entregar refeições. Começamos no dia 31 de março com 20 marmitas, sem nenhuma doação, tudo custeado pelo grupo. Após cinco dias de início, muitas doações passaram a ser recebidas e as entregas triplicaram. Aumentamos gradativamente e hoje atingimos a marca de cento e cinquenta entregas por dia. Nosso objetivo é crescer cada vez mais. Nossa próxima meta é de duzentas unidades diárias.
+                        <!--Sete voluntários que compartilharam o incômodo com a situação dos moradores de rua. Em tempos de pandemia juntaram-se para entregar refeições. 
+						Começamos no dia 31 de março com 20 marmitas, sem nenhuma doação, tudo custeado pelo grupo. Após cinco dias de início, muitas doações passaram a 
+						ser recebidas e as entregas triplicaram. Aumentamos gradativamente e hoje atingimos a marca de cento e cinquenta entregas por dia. Nosso objetivo 
+						é crescer cada vez mais. Nossa próxima meta é de duzentas unidades diárias.-->
+						No dia 30 de março de 2020 no início da pandemia, incomodadas com a situação dos moradores de rua e das comunidades,
+						Maria Eduarda Gibson e Mayara Amaral fundam o projeto Vizinhos Solidario. Começaram entregando 20 marmitas por dia. 
+						Logo foram chegando novos vizinhos e hoje o projeto entrega uma média de 300 marmitas, sucos, kits de higiene pessoal
+						e máscaras todos os dias. Além das marmitas, fazemos ações dentro das comunidades levando cestas básicas e todos os 
+						itens que distribuímos diariamente pelas ruas de Recife, Olinda, Jaboatão dos Guararapes e Paulista. 
+						Nosso objetivo é atender mais e mais pessoas nas comunidades.
                     </p>
                 </div>
             </div>
