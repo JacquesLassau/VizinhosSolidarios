@@ -112,16 +112,7 @@
                 <div class="col-sm-9">
                     <h2>Olá, Nós somos os Vizinhos Solidários!</h2>
                     <p style="text-align:justify;">
-                        <!--Sete voluntários que compartilharam o incômodo com a situação dos moradores de rua. Em tempos de pandemia juntaram-se para entregar refeições. 
-						Começamos no dia 31 de março com 20 marmitas, sem nenhuma doação, tudo custeado pelo grupo. Após cinco dias de início, muitas doações passaram a 
-						ser recebidas e as entregas triplicaram. Aumentamos gradativamente e hoje atingimos a marca de cento e cinquenta entregas por dia. Nosso objetivo 
-						é crescer cada vez mais. Nossa próxima meta é de duzentas unidades diárias.-->
-						No dia 30 de março de 2020 no início da pandemia, incomodadas com a situação dos moradores de rua e das comunidades,
-						Maria Eduarda Gibson e Mayara Amaral fundam o projeto Vizinhos Solidario. Começaram entregando 20 marmitas por dia. 
-						Logo foram chegando novos vizinhos e hoje o projeto entrega uma média de 300 marmitas, sucos, kits de higiene pessoal
-						e máscaras todos os dias. Além das marmitas, fazemos ações dentro das comunidades levando cestas básicas e todos os 
-						itens que distribuímos diariamente pelas ruas de Recife, Olinda, Jaboatão dos Guararapes e Paulista. 
-						Nosso objetivo é atender mais e mais pessoas nas comunidades.
+                        Sete voluntários que compartilharam o incômodo com a situação dos moradores de rua. Em tempos de pandemia juntaram-se para entregar refeições. Começamos no dia 31 de março com 20 marmitas, sem nenhuma doação, tudo custeado pelo grupo. Após cinco dias de início, muitas doações passaram a ser recebidas e as entregas triplicaram. Aumentamos gradativamente e hoje atingimos a marca de cento e cinquenta entregas por dia. Nosso objetivo é crescer cada vez mais. Nossa próxima meta é de duzentas unidades diárias.
                     </p>
                 </div>
             </div>
@@ -136,7 +127,7 @@
                 <h2 class="section-title text-center wow fadeInDown">Doar</h2>
             </div>
             <div class="row">		
-				<div class="col-sm-6 col-md-3">
+				<div class="col-sm-6 col-md-4">
                     <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
                         <ul class="pricing">
                             <li class="plan-header">
@@ -156,7 +147,27 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3">
+				<div class="col-sm-6 col-md-4">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <ul class="pricing">
+                            <li class="plan-header">
+                                <div class="price-duration">
+                                    <span class="price">
+                                        <img src="images/ico/cc.png" alt="" width="76px" height="76px" style="margin-top:-20px;">
+                                    </span>
+                                </div>
+                                <div class="plan-name">
+                                    Crédito
+                                </div>
+                            </li>	
+							<li class="plan-purchase"><a href="https://www.asaas.com/c/111532349716" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 20,00</a></li>
+                            <li class="plan-purchase"><a href="https://www.asaas.com/c/809064847730" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 35,00</a></li>
+                            <li class="plan-purchase"><a href="https://www.asaas.com/c/539183714742" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 50,00</a></li>							
+                            <li class="plan-purchase"><a href="https://www.asaas.com/c/903541180434" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-money"> </i> &nbsp;&nbsp; Outro valor </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
                     <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
                         <ul class="pricing">
                             <li class="plan-header">
@@ -176,7 +187,9 @@
 						</ul>
 					</div>
                 </div>
-				<div class="col-sm-6 col-md-3">
+			</div>
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
                     <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
                         <ul class="pricing">
                             <li class="plan-header">
@@ -194,7 +207,7 @@
 						</ul>
 					</div>
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                     <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
                         <ul class="pricing">
                             <li class="plan-header">
@@ -229,7 +242,7 @@
 				<div class="section-header">
 					<h2 class="section-title text-center wow fadeInDown"></h2>
 				</div>  				
-                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="formulario.php" ><i class="fa fa-heart"> </i> &nbsp;QUERO SER VOLUNTÁRIO </a></p>                							
+                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="https://forms.gle/wimtREEUFxyWfe9J7" target="_blank"><i class="fa fa-heart"> </i> &nbsp;QUERO SER VOLUNTÁRIO </a></p>                							
             </div>
 			<div class="section-header"></div> 
         </div>
