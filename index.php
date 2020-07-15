@@ -112,7 +112,8 @@
                 <div class="col-sm-9">
                     <h2>Olá, Nós somos os Vizinhos Solidários!</h2>
                     <p style="text-align:justify;">
-                        Sete voluntários que compartilharam o incômodo com a situação dos moradores de rua. Em tempos de pandemia juntaram-se para entregar refeições. Começamos no dia 31 de março com 20 marmitas, sem nenhuma doação, tudo custeado pelo grupo. Após cinco dias de início, muitas doações passaram a ser recebidas e as entregas triplicaram. Aumentamos gradativamente e hoje atingimos a marca de cento e cinquenta entregas por dia. Nosso objetivo é crescer cada vez mais. Nossa próxima meta é de duzentas unidades diárias.
+						No dia 30 de março de 2020 no início da pandemia, incomodadas com a situação dos moradores de rua e das comunidades Maria Eduarda Gibson e Mayara Amaral fundam o projeto Vizinhos Solidario. Começaram entregando 20 marmitas por dia e logo foram chegando novos vizinhos e hoje o projeto entrega uma média de 300 marmitas, sucos, kits de higiene pessoal e máscaras todos os dias. Além das marmitas, fazemos ações dentro das comunidades levando cestas básicas e todos os itens que distribuímos diariamente pelas ruas de Recife, Olinda, Jaboatão dos Guararapes e Paulista. Nosso objetivo atender mais e mais pessoas e comunidades.
+                        <!--Sete voluntários que compartilharam o incômodo com a situação dos moradores de rua. Em tempos de pandemia juntaram-se para entregar refeições. Começamos no dia 31 de março com 20 marmitas, sem nenhuma doação, tudo custeado pelo grupo. Após cinco dias de início, muitas doações passaram a ser recebidas e as entregas triplicaram. Aumentamos gradativamente e hoje atingimos a marca de cento e cinquenta entregas por dia. Nosso objetivo é crescer cada vez mais. Nossa próxima meta é de duzentas unidades diárias.-->
                     </p>
                 </div>
             </div>
@@ -221,7 +222,7 @@
                                 </div>
                             </li>
                             <li><strong>BANCO:</strong> Caixa</li>
-                            <li><strong>AGÊNCIA:</strong> 3818</li>
+                            <li><strong>AGÊNCIA:</strong> 3808</li>
                             <li><strong>POUPANÇA:</strong> 986647544-7</li>
                             <li><strong>OPERAÇÃO:</strong> 1288</li>
                             <li><strong>CPF:</strong> 961.778.024-00</li>
@@ -526,8 +527,8 @@
     </section>
 
     <section id="contact">
-        <div  style="z-index:3;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.0820926834535!2d-34.885479285841946!3d-8.0931108831738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f4019b3e0ef%3A0xeb1eb634dde96e63!2sR.%20Souto%20Filho%2C%2096%20-%20Pina%2C%20Recife%20-%20PE%2C%2051011-170!5e0!3m2!1spt-BR!2sbr!4v1590682778752!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
-        <div class="container-wrapper">
+        <div  style="z-index:3;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15800.328444580082!2d-34.883457!3d-8.093109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeeb5910e2e7cc1a5!2sVizinhos%20Solid%C3%A1rios!5e0!3m2!1spt-PT!2sbr!4v1593688009979!5m2!1spt-PT!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>								 
+		<div class="container-wrapper">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-sm-offset-8">
