@@ -257,6 +257,97 @@
                 <h2 class="section-title text-center wow fadeInDown" style="text-transform:none;">Galeria Solidária</h2>
             </div>
             <div class="portfolio-items">
+				
+				<div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/28.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/28.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/29.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/29.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/30.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/30.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/31.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/31.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/32.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/32.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/33.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/33.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/34.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/34.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/35.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/35.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/36.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/36.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+				
+				<div class="portfolio-item creative">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/portfolio/37.JPG" alt="">
+                        <div class="portfolio-info">
+                            <a class="preview" href="images/portfolio/37 .JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+			
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
@@ -295,18 +386,18 @@
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/5.JPG" alt="">
+                        <img class="img-responsive" src="images/portfolio/23.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/5.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/23.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/6.JPG" alt="">
+                        <img class="img-responsive" src="images/portfolio/24.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/6.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/24.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
@@ -331,18 +422,18 @@
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/23.JPG" alt="">
+                        <img class="img-responsive" src="images/portfolio/5.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/23.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/5.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/24.JPG" alt="">
+                        <img class="img-responsive" src="images/portfolio/6.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/24.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/6.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
@@ -447,24 +538,6 @@
 
                 <div class="portfolio-item creative">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/15.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/15.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/9.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/9.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/12.JPG" alt="">
                         <div class="portfolio-info">
                             <a class="preview" href="images/portfolio/12.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
@@ -545,15 +618,6 @@
                                 </div>
                             </div>
 
-                            <div class="media service-box wow fadeInRight">
-                                <div class="pull-left">
-                                    <i class=" fa fa-phone"></i>
-                                </div>
-                                <div class="media-body">
-                                    <br />
-                                    <h4 class="media-heading"><a href="https://api.whatsapp.com/send?l=pt&amp;phone=558193270018" target="_blank">Whatsapp</a></h4>
-                                </div>
-                            </div>
                             <hr />
                             <a href="mailto:vsolidariospe@gmail.com" class="btn btn-primary">ENVIE-NOS UM EMAIL</a>
                             <a href="#" class="btn btn-inverse"><i class="fa fa-arrow-circle-up fa-2px"></i>&nbsp; Voltar ao Topo &nbsp;<i class="fa fa-arrow-circle-up fa-2px"></i></a>
