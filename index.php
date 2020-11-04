@@ -51,9 +51,9 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="scroll active"><a href="#home">INÍCIO</a></li>
-                        <li class="scroll"><a href="#pricing">DOAR</a></li>
-						<li class="scroll"><a href="#cta2">VOLUNTÁRIO</a></li>
+                        <li class="scroll"><a href="#pricing">DOAR</a></li>						
                         <li class="scroll"><a href="#portfolio">GALERIA</a></li>
+						<li class="scroll"><a href="#meet-team">AÇÕES</a></li>
                         <li class="scroll"><a href="#about">SOBRE</a></li>
                         <li class="scroll"><a href="#faleConosco">CONTATO</a></li>
                     </ul>
@@ -101,6 +101,23 @@
                 </div>
             </div>
             <!--/.item-->
+			<div class="item" style="background-image: url(images/slider/slide-5.png);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+									<article>
+                                    <h2>Seja Parceiro<br /><span>JUNTE-SE a nós</span></h2>
+                                    <a class="btn btn-primary btn-lg scroll" href="#pricing"><i class="fa fa-heart"> </i> &nbsp;DOAR </a>
+									</article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<!--/.item-->
         </div>
         <!--/.owl-carousel-->
     </section>
@@ -112,7 +129,7 @@
                 <div class="col-sm-9">
                     <h2>Olá, Nós somos os Vizinhos Solidários!</h2>
                     <p style="text-align:justify;">
-						No dia 30 de março de 2020 no início da pandemia, incomodadas com a situação dos moradores de rua e das comunidades Maria Eduarda Gibson e Mayara Amaral fundaramm o projeto Vizinhos Solidários. Começaram entregando 20 marmitas por dia e logo foram chegando novos vizinhos e hoje o projeto entrega uma média de 300 marmitas, sucos, kits de higiene pessoal e máscaras todos os dias. Além das marmitas, fazemos ações dentro das comunidades levando cestas básicas e todos os itens que distribuímos diariamente pelas ruas de Recife, Olinda, Jaboatão dos Guararapes e Paulista. Nosso objetivo é atender mais e mais pessoas e comunidades.
+						No dia 30 de março de 2020 no início da pandemia, incomodadas com a situação dos moradores de rua e das comunidades Maria Eduarda Gibson e Mayara Amaral fundaram o projeto Vizinhos Solidários. Começaram entregando 20 marmitas por dia e logo foram chegando novos vizinhos e hoje o projeto entrega uma média de 300 marmitas, sucos, kits de higiene pessoal e máscaras todos os dias. Além das marmitas, fazemos ações dentro das comunidades levando cestas básicas e todos os itens que distribuímos diariamente pelas ruas de Recife, Olinda, Jaboatão dos Guararapes e Paulista. Nosso objetivo é atender mais e mais pessoas e comunidades.
                         <!--Sete voluntários que compartilharam o incômodo com a situação dos moradores de rua. Em tempos de pandemia juntaram-se para entregar refeições. Começamos no dia 31 de março com 20 marmitas, sem nenhuma doação, tudo custeado pelo grupo. Após cinco dias de início, muitas doações passaram a ser recebidas e as entregas triplicaram. Aumentamos gradativamente e hoje atingimos a marca de cento e cinquenta entregas por dia. Nosso objetivo é crescer cada vez mais. Nossa próxima meta é de duzentas unidades diárias.-->
                     </p>
                 </div>
@@ -222,7 +239,7 @@
                                 </div>
                             </li>
                             <li><strong>BANCO:</strong> Caixa</li>
-                            <li><strong>AGÊNCIA:</strong> 3808</li>
+                            <li><strong>AGÊNCIA:</strong> 3018</li>
                             <li><strong>POUPANÇA:</strong> 986647544-7</li>
                             <li><strong>OPERAÇÃO:</strong> 1288</li>
                             <li><strong>CPF:</strong> 961.778.024-00</li>
@@ -233,23 +250,6 @@
             </div>
         </div>
 	</article>
-    </section>
-	<section id="cta2">
-		<div class="section-header"></div> 
-        <div class="container">			 
-            <div class="text-center">
-                <h2 class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">SEJA UM <span>VOLUNTÁRIO!</span></h2>
-				<br/>
-				<div class="section-header">
-					<h2 class="section-title text-center wow fadeInDown"></h2>
-				</div>  				
-                <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" href="https://forms.gle/wimtREEUFxyWfe9J7" target="_blank"><i class="fa fa-heart"> </i> &nbsp;QUERO SER VOLUNTÁRIO </a></p>                							
-            </div>
-			<div class="section-header"></div> 
-        </div>
-		<br/>
-		<br/>
-		
     </section>	
     <section id="portfolio">
         <div class="container">
@@ -559,17 +559,79 @@
         <!--/.container-->
     </section>
     <!--/#portfolio-->
-
+	
+	<section id="meet-team" style="background-color:#242a33;">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown" style="color:#fff;">Ações</h2>                
+            </div>
+			<div class="row">
+				<div class="col-sm-12 col-xs-12 team-column col-md-4">
+					<div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+						<div class="team-img">
+							<div class="embed-responsive embed-responsive-16by9">
+								<video controls="controls">
+									<source src="videos/acaoInfantil.mp4" type="video/mp4">							
+								</video>						
+							</div>
+						</div>
+						<div class="team-info">
+							<h3>Comunidade do Arruda</h3>								
+						</div>
+						<p>Alegria e diversão em forma de alimento, sorriso no rosto da criançada dia 12 de Outubro.</p>
+						<ul class="social-icons">
+							<li><a href="https://www.instagram.com/vizinhos.solidarios/"><i class="fa fa-instagram"></i></a></li>								
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-12 col-xs-12 team-column col-md-4">
+					<div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+						<div class="team-img">
+							<div class="embed-responsive embed-responsive-16by9">
+								<video controls="controls">
+									<source src="videos/santaLuzia.mp4" type="video/mp4">							
+								</video>						
+							</div>
+						</div>
+						<div class="team-info">
+							<h3>Comunidade Santa Luzia</h3>								
+						</div>
+						<p>Um pouco do trabalho que foi realizado no bairro da Torre, cidade do Recife.</p>
+						<ul class="social-icons">
+							<li><a href="https://www.instagram.com/vizinhos.solidarios/"><i class="fa fa-instagram"></i></a> </li>								
+						</ul>
+					</div>
+				</div>	
+				<div class="col-sm-12 col-xs-12 team-column col-md-4">
+					<div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+						<div class="team-img">
+							<div class="embed-responsive embed-responsive-16by9">
+								<video controls="controls">
+									<source src="videos/sitioCardoso.mp4" type="video/mp4">							
+								</video>						
+							</div>
+						</div>
+						<div class="team-info">
+							<h3>Comunidade Sítio Cardoso</h3>								
+						</div>
+						<p>Entrega de cestas básicas no bairro da Madalena na cidade do Recife.</p>
+						<ul class="social-icons">
+							<li><a href="https://www.instagram.com/vizinhos.solidarios/"><i class="fa fa-instagram"></i></a> </li>								
+						</ul>
+					</div>
+				</div>				
+			</div>		
+        </div>        
+    </section>
+    <!--/#meet-team-->
+	
     <section id="about">
         <div class="container">
-
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown" style="text-transform:none;">Sobre</h2>
             </div>
-
-            <div class="row">
-                <div class="col-sm-6 wow fadeInLeft" style="margin-bottom:12px;">
-                    <h3 class="column-title">Vídeo</h3>
+            <div class="row">								
+                <div class="col-sm-12 col-md-6 wow fadeInLeft" style="margin-bottom:12px;">                    
                     <!-- 16:9 aspect ratio -->
                     <div class="embed-responsive embed-responsive-16by9">
                         <video controls="controls">
@@ -577,14 +639,22 @@
                         </video>						
                     </div>
                 </div>
-
-                <div class="col-sm-6 wow fadeInRight">
-                    <h3 class="column-title">Uma breve descrição</h3>
+				<div class="col-sm-12 col-md-6 wow fadeInRight" style="margin-bottom:12px;">                    
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video controls="controls">
+                            <source src="videos/reportagemJornalHoje.mp4" type="video/mp4">							
+                        </video>						
+                    </div>
+                </div>
+			</div>
+			<br/>
+			<div class="row">
+                <div class="col-sm-12 col-md-12 wow fadeInDown">                    
                     <p style="text-align:justify;">Além das doações que recebemos em dinheiro e alimentos, contamos com ajuda de colaboradores que cozinham de suas casas e entregam as comidas já prontas de acordo com o cardápio da semana, como também com voluntários nas entregas das ruas.</p>
-                    <p style="text-align:justify;">Saímos todos os dias no horário da noite entregando jantares, que incluem uma marmita com comida, bolo e suco. Nossas refeições possuem custo médio de R$ 6,00 por unidade, o que corresponde ao total de R$ 900,00 por dia.</p>
+                    <p style="text-align:justify;">Saímos todos os dias no horário da noite entregando jantares, que incluem uma marmita com comida, bolo, cachorro-quente e suco. Nossas refeições possuem custo médio de R$ 6,40 por unidade, o que corresponde ao total de R$ 1.280,00 por dia e um geral de R$ 2.124,00 em custos. Estimamos anualmente, um investimento maior que meio milhão em alimentação. Por esse motivo, pedimos doações diariamente afim de atender a demanda.</p>
                     <h3 class="column-title"></h3>
-                    <a class="btn btn-primary scroll" href="#pricing"><i class="fa fa-heart"></i> Ajudar</a>
-
+                    <a class="btn btn-primary btn-lg scroll" href="#pricing"><i class="fa fa-heart"></i> Ajudar</a>
                 </div>
             </div>
         </div>
@@ -617,7 +687,15 @@
                                     <h4 class="media-heading"><a href="https://www.instagram.com/vizinhos.solidarios/" target="_blank">Instagram</a></h4>
                                 </div>
                             </div>
-
+							<div class="media service-box wow fadeInRight">
+                                <div class="pull-left">
+                                    <i class=" fa fa-phone"></i>
+                                </div>
+                                <div class="media-body">
+                                    <br />
+                                    <h4 class="media-heading"><a href="https://api.whatsapp.com/send?l=pt&amp;phone=558182400018" target="_blank">WhatsApp</a></h4>
+                                </div>
+                            </div>
                             <hr />
                             <a href="mailto:vsolidariospe@gmail.com" class="btn btn-primary">ENVIE-NOS UM EMAIL</a>
                             <a href="#" class="btn btn-inverse"><i class="fa fa-arrow-circle-up fa-2px"></i>&nbsp; Voltar ao Topo &nbsp;<i class="fa fa-arrow-circle-up fa-2px"></i></a>
