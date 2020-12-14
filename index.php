@@ -206,25 +206,7 @@
 					</div>
                 </div>
 			</div>
-			<div class="row">
-				<div class="col-sm-6 col-md-4">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        <img src="images/ico/picpay.png" alt="" width="128px" height="64px" style="margin-top:-16px;margin-left:-10px;">
-                                    </span>
-                                </div>
-                                <div class="plan-name">
-                                    PicPay
-                                </div>
-                            </li>
-							<img src="images/ico/pagamento-picpay.jpeg" class="img-responsive" style="width:100%;">
-                            <li class="plan-purchase"><a href="https://picpay.me/vizinhos-solidarios" target="_blank" class="btn btn-primary btn-lg" style="color:#fff;background-color:rgb(30,194,95);border-bottom:3px solid rgb(15,92,47);"><i class="fa fa-qrcode"> </i> &nbsp;&nbsp; Ir para PicPay</a></li>							
-						</ul>
-					</div>
-                </div>
+			<div class="row">				
                 <div class="col-sm-6 col-md-4">
                     <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
                         <ul class="pricing">
@@ -238,12 +220,11 @@
                                     Depósito
                                 </div>
                             </li>
-                            <li><strong>BANCO:</strong> Caixa</li>
-                            <li><strong>AGÊNCIA:</strong> 3018</li>
-                            <li><strong>POUPANÇA:</strong> 986647544-7</li>
-                            <li><strong>OPERAÇÃO:</strong> 1288</li>
-                            <li><strong>CPF:</strong> 961.778.024-00</li>
-							<li><strong>NOME:</strong> Maria E. Fernandes</li>
+                            <li><strong>BANCO:</strong> 197 - Stone Pagamentos S.A.</li>
+                            <li><strong>AGÊNCIA:</strong> 0001</li>
+                            <li><strong>CONTA:</strong> 9396483-1</li>
+                            <li><strong>PIX:</strong> 39.988.775/0001-52</li>                            
+							<li><strong>NOME:</strong> Associação Vizinhos Solidários</li>
                         </ul>
                     </div>
                 </div>
@@ -343,7 +324,7 @@
                     <div class="portfolio-item-inner">
                         <img class="img-responsive" src="images/portfolio/37.JPG" alt="">
                         <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/37 .JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <a class="preview" href="images/portfolio/37.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
