@@ -4,30 +4,27 @@
 <title>Enviando...</title>
 </head>
 <body>
-
-<?php
-	
-	$nome = @trim(stripslashes($_GET['nome']));
-	$email = @trim(stripslashes($_GET['email']));
-	$telefone = @trim(stripslashes($_GET['telefone']));	
-	$mensagem = @trim(stripslashes($_GET['mensagem']));		
-	
-	$to = "vsolidariospe@gmail.com";	
-	$subject = "Contato do Site Vizinhos Solidários";
+<?php	
+	$nome = @trim($_GET['nome']);
+	$email = @trim($_GET['email']);
+	$assunto = @trim($_GET['assunto']);	
+	$mensagem = @trim($_GET['mensagem']);	
+	$to = "contato@vizinhossolidarios.ong.br";	
+	$subject = $assunto;
 	$html = "
 	<!DOCTYPE html>
 				<html lang='pt-br'>
-					<head>
-						<link href='css/bootstrap.min.css' rel='stylesheet'>
-						<link href='css/font-awesome.min.css' rel='stylesheet'>
-						<link href='css/prettyPhoto.css' rel='stylesheet'>
-						<link href='css/animate.min.css' rel'stylesheet'>
-						<link href='css/main.css' rel='stylesheet'>
-						<link href='css/responsive.css' rel='stylesheet'>					
+					<head>						
+						<link href='resources/css/bootstrap.min.css' rel='stylesheet'>
+						<link href='resources/css/font-awesome.min.css' rel='stylesheet'>
+						<link href='resources/css/prettyPhoto.css' rel='stylesheet'>
+						<link href='resources/css/animate.min.css' rel'stylesheet'>
+						<link href='resources/css/main.css' rel='stylesheet'>
+						<link href='resources/css/responsive.css' rel='stylesheet'>					
 					</head>
 					<body>
 						<div class='container'>
-						<h2>Dados do Candidato a Voluntário</h2>
+						<h2>Fale Conosco</h2>
 						<table class='table table-striped'>
 							<thead>
 								<tr>
@@ -35,10 +32,7 @@
 								</tr>
 								<tr>
 									<td><strong>Email: </strong></td><td>$email</td>
-								</tr>
-								<tr>
-									<td><strong>Telefone: </strong></td><td>$telefone</td>
-								</tr>								
+								</tr>																
 								<tr>
 									<td><strong>Mensagem: </strong></td><td>$mensagem</td>
 								</tr>
@@ -47,15 +41,10 @@
 					</body>
 				</html>
 	";
-	
-	
 	$headers = "MIME-Version: 1.0\n";
-	$headers .= "Content-type: text/html; charset=iso-8859-1\n";
-	$headers .= "From: $email\n";
-	
+	$headers .= "Content-type: text/html; charset=utf-8\n";
+	$headers .= "From: $email\n";	
 	mail($to, $subject, $html, $headers);
-
 ?>
-
 </body>
 </html>

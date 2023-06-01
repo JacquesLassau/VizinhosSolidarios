@@ -1,40 +1,32 @@
 ﻿<!DOCTYPE html>
 <html lang="pt">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Venha doar amor aos que precisam. Traga conforto, ajude famílias.">
-	<meta name="keywords" content="doar, doação, doe, ajudar, ajuda, ajude, Recife, Pernambuco, mantededor, manter, caridade, vizinhos, solidários">
-    <meta name="author" content="Jacques de Lassau Albuquerque Cheron">
-    <title>Vizinhos Solidários</title>
-    <!-- core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.transitions.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-	<meta property="og:image" content="images/ico/logo-link.png">
+	<meta name="keywords" content="vizinhossolidarios, vizinhossolidariosongbr, ong, ongrecife, vizinhos, vizinhosrecife, recife, doar, doação, doe, ajudar, ajuda, ajude, Recife, Pernambuco, mantededor, manter, caridade, vizinhos, solidários">
+    <meta name="author" content="Jacques de Lassau Albuquerque Cheron">	 
+	<meta property="og:image" content="media/ico/logo-link.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="500">
-    <meta property="og:image:height" content="460">
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
-	
+    <meta property="og:image:height" content="460">   
+	<title>Vizinhos Solidários</title>
+    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/font-awesome.min.css" rel="stylesheet">
+    <link href="resources/css/animate.min.css" rel="stylesheet">
+    <link href="resources/css/owl.carousel.css" rel="stylesheet">
+    <link href="resources/css/owl.transitions.css" rel="stylesheet">
+    <link href="resources/css/prettyPhoto.css" rel="stylesheet">
+    <link href="resources/css/main.css" rel="stylesheet">
+    <link href="resources/css/responsive.css" rel="stylesheet">
+    <link rel="shortcut icon" href="media/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="media/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="media/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="media/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="media/ico/apple-touch-icon-57-precomposed.png">			
 </head>
 <!--/head-->
-
-<body id="home" class="homepage">
+<body id="inicio" class="homepage">	
     <header id="header">
         <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
             <div class="container">
@@ -45,17 +37,18 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo"></a>
+                    <a class="navbar-brand" href="index.php"><img src="media/ico/logo.png" width="169" height="57" alt="logo"></a>
                 </div>
-
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
-                        <li class="scroll active"><a href="#home">INÍCIO</a></li>
-                        <li class="scroll"><a href="#pricing">DOAR</a></li>						
-                        <li class="scroll"><a href="#portfolio">GALERIA</a></li>
-						<li class="scroll"><a href="#meet-team">AÇÕES</a></li>
-                        <li class="scroll"><a href="#about">SOBRE</a></li>
-                        <li class="scroll"><a href="#faleConosco">CONTATO</a></li>
+                        <li class="scroll"><a href="index.php">INÍCIO</a></li>
+                        <li class="scroll"><a href="index.php#doar">DOAR</a></li>						
+                        <li class="scroll"><a href="galeria.html" >GALERIA</a></li>
+						<li class="scroll"><a href="acoes.html">AÇÕES</a></li>						                        
+						<li class="scroll"><a href="noticias.html">NOTÍCIAS</a></li>						
+						<li class="scroll"><a href="formulario.php">VOLUNTÁRIO</a></li>
+						<li class="scroll"><a href="transparencia.html">TRANSPARÊNCIA</a></li>
+                        <li class="scroll"><a href="index.php#faleConosco">FALE CONOSCO</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,27 +57,10 @@
         <!--/nav-->
     </header>
     <!--/header-->
-
-    <section id="main-slider">
-        <div class="owl-carousel">
-            <div class="item" style="background-image: url(images/slider/slide-3.png);">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-									<article>
-                                    <h2>Venha <span>DAR amor </span><br />aos que precisam</h2>
-                                    <a class="btn btn-primary btn-lg scroll" href="#pricing"><i class="fa fa-heart"> </i> &nbsp;DOAR </a>
-									</article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div id="main-slider">
+        <div class="owl-carousel">            
             <!--/.item-->
-            <div class="item" style="background-image: url(images/slider/slide-4.png);">
+            <div class="item">
                 <div class="slider-inner">
                     <div class="container">
                         <div class="row">
@@ -92,128 +68,82 @@
                                 <div class="carousel-content">
 									<article>
                                     <h2>Traga conforto<br /><span>AJUDE famílias</span></h2>
-                                    <a class="btn btn-primary btn-lg scroll" href="#pricing"><i class="fa fa-heart"> </i> &nbsp;DOAR </a>
+                                    <a class="btn btn-primary btn-lg scroll" href="#doar"><i class="fa fa-heart"> </i> &nbsp;DOAR </a>
 									</article>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--/.item-->
-			<div class="item" style="background-image: url(images/slider/slide-5.png);">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-									<article>
-                                    <h2>Seja Parceiro<br /><span>JUNTE-SE a nós</span></h2>
-                                    <a class="btn btn-primary btn-lg scroll" href="#pricing"><i class="fa fa-heart"> </i> &nbsp;DOAR </a>
-									</article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-			<!--/.item-->
+            </div>            
         </div>
         <!--/.owl-carousel-->
-    </section>
+    </div>
     <!--/#main-slider-->
-
-    <section id="cta" class="wow fadeIn">
+    <div id="cta" class="wow fadeIn">
         <div class="container">
             <div class="row">
                 <div class="col-sm-9">
-                    <h2>Olá, Nós somos os Vizinhos Solidários!</h2>
+                    <h2>Olá, somos o instituto Vizinhos Solidários!</h2>
                     <p style="text-align:justify;">
-						No dia 30 de março de 2020 no início da pandemia, incomodadas com a situação dos moradores de rua e das comunidades Maria Eduarda Gibson e Mayara Amaral fundaram o projeto Vizinhos Solidários. Começaram entregando 20 marmitas por dia e logo foram chegando novos vizinhos e hoje o projeto entrega uma média de 300 marmitas, sucos, kits de higiene pessoal e máscaras todos os dias. Além das marmitas, fazemos ações dentro das comunidades levando cestas básicas e todos os itens que distribuímos diariamente pelas ruas de Recife, Olinda, Jaboatão dos Guararapes e Paulista. Nosso objetivo é atender mais e mais pessoas e comunidades.
-                        <!--Sete voluntários que compartilharam o incômodo com a situação dos moradores de rua. Em tempos de pandemia juntaram-se para entregar refeições. Começamos no dia 31 de março com 20 marmitas, sem nenhuma doação, tudo custeado pelo grupo. Após cinco dias de início, muitas doações passaram a ser recebidas e as entregas triplicaram. Aumentamos gradativamente e hoje atingimos a marca de cento e cinquenta entregas por dia. Nosso objetivo é crescer cada vez mais. Nossa próxima meta é de duzentas unidades diárias.-->
+						Diante de tantas pessoas com fome em março de 2020, as empresárias Maria Eduarda Fernandes e Mayara Amaral, decidiram arregaçar as mangas e começaram, fazendo 20 marmitas por dia, em sua residência, para distribuir nas redondezas onde moravam, em Boa Viagem. Vendo a atitude delas, alguns vizinhos decidiram ajudar. A ação cresceu e o projeto Vizinhos Solidários virou Instituto e atende mais de 20 comunidades no grande Recife e Olinda. Já alimentou mais de 200 mil pessoas através das marmitas e distribuiu mais de 80 mil cestas básicas em 72 pontos de Recife, Olinda e Jaboatão dos Guararapes.                       
                     </p>
+					<p style="text-align:justify;">
+						Hoje o Instituto conta com 3 frentes: distribuição de marmitas diariamente, distribuição de cestas básicas com calendário e através do Mercado Solidário, com essas frentes alimentamos até 8 mil pessoas por mês. De segunda à sexta-feira entregamos, todos os dias, entre 150 e 200 refeições, sempre em um local diferente. Vai também suco, água mineral, sobremesa e um kit de higiene pessoal para cada pessoa. Tudo com ajuda de doações de pessoas físicas e empresas parceiras.
+                    </p>
+					<p style="text-align:justify;">
+						A nossa sede ainda dispõe de um bebedouro solidário com água potável, que foi desenvolvido por Maria Eduarda Fernandes, para uso das PSR (pessoas em situação de rua), tomar banho, beber água, lavar roupas, fazer uso a vontade.
+                    </p>
+					<p style="text-align:justify;">
+						O Mercado Solidário atende as famílias que vivem abaixo da linha da pobreza, com renda mensal de até R$ 100,00 reais. Nossa assistente social visita as casas, conversa, faz um levantamento socio-econômico e cadastra a família. Na ocasião, as famílias já recebem um cartão que da direito a fazer a feira no Mercado Solidário, que fica dentro da nossa sede e que tem disponibilidade de 103 itens de compras como: feijão, arroz. macarrão, farinha, fuba, molho de tomate, refrigerantes, aveia, leite, frios, carnes, ovos, frutas, verduras, enlatados, bolachas, biscoitos variados e muitos outros itens.
+					</p>
+					<p style="text-align:justify;">
+						Nosso Instituto possui um time de 4 funcionários, mais de 30 voluntários fixos, cozinha industrial, estoque com itens de uso diário, uma Kombi para fazer as entregas diárias de marmitas e também buscar doações das empresas parceiras. Temos uma estrutura que atende muito bem as comunidades do entorno, 12 projetos sociais que ajudamos mensalmente e aplicamos mentoria.
+					</p>
+					<p style="text-align:justify;">
+						Iniciamos em abril de 2022 as primeiras turmas dos cursos profissionalizantes para as mulheres das comunidades do entorno. Elas estão realizadas com o aumento da renda mensal da família e com a certificação de uma profissão.
+						Também trabalhamos com compostagem de residios e tudo o que produzimos vira adubo para nossa horta. 
+					</p>
+					<p style="text-align:justify;color:#2a95be;">
+						<b>VEM VIZINHAR com a gente!</b>
+					</p>
                 </div>
             </div>
         </div>
-    </section>
-    <!--/#cta-->
-
-    <section id="pricing">
+    </div>
+    <div id="cta2">
+        <div class="container">
+            <div class="text-center">
+				<div class="row">										
+					<img class="img-responsive wow fadeIn center-block" src="media/ico/altrus.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">					
+				</div>				
+				<br/>
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-6">
+						<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">A AltruS é uma Startup de Tecnologia Social que tem como missão conectar pessoas e empresas que desejam ajudar às iniciativas sociais que precisam de ajuda.</p>
+						<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" onclick="callAltrus()"><i class="fa fa-heart"> </i> &nbsp;DOE COM ALTRUS </a></p>
+						</div>
+					<div class="col-md-3"></div>
+				</div>
+				<br/>                
+            </div>
+        </div>
+    </div>     
+    <div id="doar">
 	<article>
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Doar</h2>
-            </div>
-            <div class="row">		
-				<div class="col-sm-6 col-md-4">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        <img src="images/ico/barcode.png" alt="" width="76px" height="76px" style="margin-top:-20px;">
-                                    </span>
-                                </div>
-                                <div class="plan-name">
-                                    Boleto
-                                </div>
-                            </li>	
-							<li class="plan-purchase"><a href="https://www.asaas.com/c/111532349716" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 20,00</a></li>
-                            <li class="plan-purchase"><a href="https://www.asaas.com/c/809064847730" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 35,00</a></li>
-                            <li class="plan-purchase"><a href="https://www.asaas.com/c/539183714742" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 50,00</a></li>							
-                            <li class="plan-purchase"><a href="https://www.asaas.com/c/903541180434" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-money"> </i> &nbsp;&nbsp; Outro valor </a></li>
-                        </ul>
-                    </div>
-                </div>
-				<div class="col-sm-6 col-md-4">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        <img src="images/ico/cc.png" alt="" width="76px" height="76px" style="margin-top:-20px;">
-                                    </span>
-                                </div>
-                                <div class="plan-name">
-                                    Crédito
-                                </div>
-                            </li>	
-							<li class="plan-purchase"><a href="https://www.asaas.com/c/111532349716" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 20,00</a></li>
-                            <li class="plan-purchase"><a href="https://www.asaas.com/c/809064847730" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 35,00</a></li>
-                            <li class="plan-purchase"><a href="https://www.asaas.com/c/539183714742" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 50,00</a></li>							
-                            <li class="plan-purchase"><a href="https://www.asaas.com/c/903541180434" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-money"> </i> &nbsp;&nbsp; Outro valor </a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <ul class="pricing">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        <img src="images/ico/mantededor.png" alt="" width="64px" height="64px" style="margin-top:-8px;">
-                                    </span>
-                                </div>
-                                <div class="plan-name">
-                                    Doação Mensal
-                                </div>
-                            </li>                            
-                            <li class="plan-purchase"><a href="https://www.asaas.com/c/210567123794" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 20,00</a></li>
-							<li class="plan-purchase"><a href="https://www.asaas.com/c/895111014505" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 35,00</a></li>
-							<li class="plan-purchase"><a href="https://www.asaas.com/c/539183714742" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 50,00</a></li>
-							<li class="plan-purchase"><a href="https://www.asaas.com/c/903541180434" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-money"> </i> &nbsp;&nbsp; Outro valor </a></li>
-						</ul>
-					</div>
-                </div>
-			</div>
-			<div class="row">				
-                <div class="col-sm-6 col-md-4">
+            </div>           
+			<div class="row center">								
+                <div class="col-sm-6 col-md-6 col-xs-12">
                     <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <ul class="pricing">
+                        <ul class="doar">
                             <li class="plan-header">
                                 <div class="price-duration">
                                     <span class="price">
-                                        <img src="images/ico/caixa.png" alt="" width="76px" height="76px" style="margin-top:-20px;">
+                                        <img src="media/ico/stone.png" alt="Stone Pagamentos" class="iconsDoar">
                                     </span>
                                 </div>
                                 <div class="plan-name">
@@ -224,438 +154,116 @@
                             <li><strong>AGÊNCIA:</strong> 0001</li>
                             <li><strong>CONTA:</strong> 9396483-1</li>
                             <li><strong>PIX:</strong> 39.988.775/0001-52</li>                            
-							<li><strong>NOME:</strong> Associação Vizinhos Solidários</li>
+							<li><strong>NOME:</strong> Instituto Vizinhos Solidários</li>
+                        </ul>
+                    </div>
+                </div>	
+				<div class="col-sm-6 col-md-6 col-xs-12">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <ul class="doar">
+                            <li class="plan-header">
+                                <div class="price-duration">
+                                    <span class="price">
+                                        <img src="media/ico/mantededor.png" alt="Mantededor" class="iconsDoar">
+                                    </span>
+                                </div>
+                                <div class="plan-name">
+                                    Mantedor
+                                </div>
+                            </li>	
+							<li class="plan-purchase"><a onclick="callAsaas(621563059331)" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 30,00</a></li>
+                            <li class="plan-purchase"><a onclick="callAsaas(568583765685)" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 50,00</a></li>
+                            <li class="plan-purchase"><a onclick="callAsaas(217244449254)" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 100,00</a></li>							
+                            <li class="plan-purchase"><a onclick="callWhatsApp()" class="btn btn-primary btn-lg"><i class="fa fa-money"> </i> &nbsp;&nbsp; Outro valor </a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
 	</article>
-    </section>	
-    <section id="portfolio">
+	</div>	
+    <div id="apoio">
         <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown" style="text-transform:none;">Galeria Solidária</h2>
-            </div>
-            <div class="portfolio-items">
-				
-				<div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/28.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/28.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-				
-				<div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/29.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/29.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-				
-				<div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/30.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/30.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-				
-				<div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/31.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/31.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-				
-				<div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/32.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/32.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-				
-				<div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/33.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/33.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-				
-				<div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/34.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/34.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-				
-				<div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/35.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/35.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-				
-				<div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/36.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/36.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-				
-				<div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/37.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/37.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-			
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/1.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/8.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/8.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/3.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/3.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/4.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/4.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/23.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/23.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/24.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/24.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/25.jpg" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/25.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/2.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/2.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/5.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/5.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/6.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/6.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/14.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/14.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/22.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/22.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/13.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/13.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/11.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/11.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/16.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/16.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/17.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/17.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/18.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/18.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/19.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/19.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/21.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/21.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/26.jpg" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/26.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/20.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/20.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/12.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/12.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="portfolio-item creative">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/7.JPG" alt="">
-                        <div class="portfolio-info">
-                            <a class="preview" href="images/portfolio/7.JPG" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!--/.container-->
-    </section>
-    <!--/#portfolio-->
-	
-	<section id="meet-team" style="background-color:#242a33;">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown" style="color:#fff;">Ações</h2>                
-            </div>
-			<div class="row">
-				<div class="col-sm-12 col-xs-12 team-column col-md-4">
-					<div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-						<div class="team-img">
-							<div class="embed-responsive embed-responsive-16by9">
-								<video controls="controls">
-									<source src="videos/acaoInfantil.mp4" type="video/mp4">							
-								</video>						
+            <div class="section-header">                                
+				<div class="container">
+					<div class="row">			
+						<h2 class="section-title text-center wow fadeInDown" style="text-shadow: 1px 1px #000;text-align:center;">Apoio</h2>
+						<div class="col-md-2"></div>
+						<div class="col-md-8">								
+							<div id="carousel-testimonial" class="carousel slide text-center" data-ride="carousel">
+								<!-- Wrapper for slides -->
+								<div class="carousel-inner" role="listbox">
+									<div class="item active">
+										<p style="margin-top:12px;"><img src="media/ico/microsoft.png" alt="" width="180" height="180"></p>										
+										<h3 style="color:#fff;text-shadow: 1px 1px #000;">Microsoft</h3>										
+										<p style="color:#022e42;">A microsoft forneceu licenças para todos os produtos necessários no uso de nossa causa até o ano de 2031.</p>
+									</div>
+									<div class="item">
+										<p style="margin-top:12px;"><img src="media/ico/altrus.png" alt="" width="180"></p>																													
+										<h3 style="color:#fff;text-shadow: 1px 1px #000;">Altrus</h3>
+										<p style="color:#022e42;">Juntos temos objetivos de desenvolvimento sustentável participando dos 17 objetivos para transformar o mundo.</p>
+									</div>
+								</div>
+		
+								<div class="row">
+									<div class="col-sm-12 col-md-12 center-block">
+										<!-- Controls -->
+										<div class="btns" style="margin-top:12px;">
+											<a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="prev" style="background-color:#fff;">
+												<span class="fa fa-angle-left" aria-hidden="true" style="color:#45aed6;border-color:#2a95be;"></span>
+												<span class="sr-only">Anterior</span>
+											</a>
+											<a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="next" style="background-color:#fff;">
+												<span class="fa fa-angle-right" aria-hidden="true" style="color:#45aed6;border-color:#2a95be;"></span>
+												<span class="sr-only">Próximo</span>
+											</a>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="team-info">
-							<h3>Comunidade do Arruda</h3>								
-						</div>
-						<p>Alegria e diversão em forma de alimento, sorriso no rosto da criançada dia 12 de Outubro.</p>
-						<ul class="social-icons">
-							<li><a href="https://www.instagram.com/vizinhos.solidarios/"><i class="fa fa-instagram"></i></a></li>								
-						</ul>
+						<div class="col-md-2"></div>
 					</div>
 				</div>
-				<div class="col-sm-12 col-xs-12 team-column col-md-4">
-					<div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-						<div class="team-img">
-							<div class="embed-responsive embed-responsive-16by9">
-								<video controls="controls">
-									<source src="videos/santaLuzia.mp4" type="video/mp4">							
-								</video>						
-							</div>
+            </div>
+        </div>
+    </div>	   		
+    <div id="faleConosco">		
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Fale Conosco</h2>
+            </div>
+			<div class="col-md-2 col-sm-12 col-xs-12"></div>
+			<div class="col-md-8 col-sm-12 col-xs-12">
+				<div class="contact-form">
+					<form id="main-contact-form" name="contact-form" method="post" action="sendmail.php">
+						<div class="form-group">
+							<input type="text" name="nome" class="form-control" placeholder="Nome" required>
 						</div>
-						<div class="team-info">
-							<h3>Comunidade Santa Luzia</h3>								
+						<div class="form-group">
+							<input type="email" name="email" class="form-control" placeholder="Email" required>
 						</div>
-						<p>Um pouco do trabalho que foi realizado no bairro da Torre, cidade do Recife.</p>
-						<ul class="social-icons">
-							<li><a href="https://www.instagram.com/vizinhos.solidarios/"><i class="fa fa-instagram"></i></a> </li>								
-						</ul>
-					</div>
-				</div>	
-				<div class="col-sm-12 col-xs-12 team-column col-md-4">
-					<div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-						<div class="team-img">
-							<div class="embed-responsive embed-responsive-16by9">
-								<video controls="controls">
-									<source src="videos/sitioCardoso.mp4" type="video/mp4">							
-								</video>						
-							</div>
+						<div class="form-group">
+							<input type="text" name="assunto" class="form-control" placeholder="Assunto" required>
 						</div>
-						<div class="team-info">
-							<h3>Comunidade Sítio Cardoso</h3>								
+						<div class="form-group">
+							<textarea name="mensagem" class="form-control" rows="6" placeholder="Mensagem" required></textarea>
 						</div>
-						<p>Entrega de cestas básicas no bairro da Madalena na cidade do Recife.</p>
-						<ul class="social-icons">
-							<li><a href="https://www.instagram.com/vizinhos.solidarios/"><i class="fa fa-instagram"></i></a> </li>								
-						</ul>
-					</div>
+						<button type="submit" class="btn btn-primary pull-right">ENVIAR MENSAGEM</button>
+					</form>
 				</div>				
-			</div>		
-        </div>        
-    </section>
-    <!--/#meet-team-->
-	
-    <section id="about">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown" style="text-transform:none;">Sobre</h2>
-            </div>
-            <div class="row">								
-                <div class="col-sm-12 col-md-6 wow fadeInLeft" style="margin-bottom:12px;">                    
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <video controls="controls">
-                            <source src="videos/videoSolidario.mp4" type="video/mp4">							
-                        </video>						
-                    </div>
-                </div>
-				<div class="col-sm-12 col-md-6 wow fadeInRight" style="margin-bottom:12px;">                    
-                    <!-- 16:9 aspect ratio -->
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <video controls="controls">
-                            <source src="videos/reportagemJornalHoje.mp4" type="video/mp4">							
-                        </video>						
-                    </div>
-                </div>
-			</div>
-			<br/>
-			<div class="row">
-                <div class="col-sm-12 col-md-12 wow fadeInDown">                    
-                    <p style="text-align:justify;">Além das doações que recebemos em dinheiro e alimentos, contamos com ajuda de colaboradores que cozinham de suas casas e entregam as comidas já prontas de acordo com o cardápio da semana, como também com voluntários nas entregas das ruas.</p>
-                    <p style="text-align:justify;">Saímos todos os dias no horário da noite entregando jantares, que incluem uma marmita com comida, bolo, cachorro-quente e suco. Nossas refeições possuem custo médio de R$ 6,40 por unidade, o que corresponde ao total de R$ 1.280,00 por dia e um geral de R$ 2.124,00 em custos. Estimamos anualmente, um investimento maior que meio milhão em alimentação. Por esse motivo, pedimos doações diariamente afim de atender a demanda.</p>
-                    <h3 class="column-title"></h3>
-                    <a class="btn btn-primary btn-lg scroll" href="#pricing"><i class="fa fa-heart"></i> Ajudar</a>
-                </div>
-            </div>
+			</div>	
+			<div class="col-md-2 col-sm-12 col-xs-12"></div>			
         </div>
-    </section>
-    <!--/#about-->
-
-    <section id="faleConosco">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown" style="text-transform:none;"></h2>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
+		<br/>
+    </div>    
+    <div id="contact">
         <div  style="z-index:3;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15800.328444580082!2d-34.883457!3d-8.093109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeeb5910e2e7cc1a5!2sVizinhos%20Solid%C3%A1rios!5e0!3m2!1spt-PT!2sbr!4v1593688009979!5m2!1spt-PT!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>								 
 		<div class="container-wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-4 col-sm-offset-8">
+					<div class="col-md-8 col-sm-12 col-xs-12"></div>
+                    <div class="col-md-4 col-sm-12 col-xs-12">						
                         <div class="contact-form">
                             <h3>CONTATO</h3>
                             <strong>MÍDIAS SOCIAIS</strong></br>
@@ -665,7 +273,7 @@
                                 </div>
                                 <div class="media-body">
                                     <br />
-                                    <h4 class="media-heading"><a href="https://www.instagram.com/vizinhos.solidarios/" target="_blank">Instagram</a></h4>
+                                    <h4 class="media-heading"><a onclick="callInstagram()">Instagram</a></h4>
                                 </div>
                             </div>
 							<div class="media service-box wow fadeInRight">
@@ -674,46 +282,102 @@
                                 </div>
                                 <div class="media-body">
                                     <br />
-                                    <h4 class="media-heading"><a href="https://api.whatsapp.com/send?l=pt&amp;phone=558182400018" target="_blank">WhatsApp</a></h4>
+                                    <h4 class="media-heading"><a onclick="callWhatsApp()">WhatsApp</a></h4>
                                 </div>
                             </div>
-                            <hr />
-                            <a href="mailto:vsolidariospe@gmail.com" class="btn btn-primary">ENVIE-NOS UM EMAIL</a>
-                            <a href="#" class="btn btn-inverse"><i class="fa fa-arrow-circle-up fa-2px"></i>&nbsp; Voltar ao Topo &nbsp;<i class="fa fa-arrow-circle-up fa-2px"></i></a>
-                            <!--<form id="main-contact-form" name="contact-form" method="post" action="#">
-                                <div class="form-group">
-                                    <input type="text" name="name" class="form-control" placeholder="Nome" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" name="email" class="form-control" placeholder="Email" required>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" name="subject" class="form-control" placeholder="Assunto" required>
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" class="form-control" rows="8" placeholder="Mensagem" required></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
-                            </form>-->
+                            <hr />							
+                            <p><a href="mailto:contato@vizinhossolidarios.ong.br" class="btn btn-primary" style="width:100%;">ENVIE UM EMAIL PARA: <br/>contato@vizinhossolidarios.ong.br</a></p>
+                            <a href="#" class="btn btn-inverse center-block"><i class="fa fa-arrow-circle-up fa-2px"></i>&nbsp; Voltar ao Topo &nbsp;<i class="fa fa-arrow-circle-up fa-2px"></i></a>
                         </div>
-                    </div>
+                    </div>					
                 </div>
             </div>
         </div>
-    </section><!--/#bottom-->
-
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/mousescroll.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/jquery.inview.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/main.js"></script>
+    </div><!--/#bottom-->
+	<div id="termos-politica" class="termos-politica">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<p>A navegação de nosso site utiliza preenchimento de formulários e envio de dados para garantir uma boa experiência dos usuários. <br>Consulte nossa <a href="transparencia/PoliticaDePrivacidade.pdf" target="_blank" style="color:#fff;"><u>política de privacidade</u></a>. Ao continuar em nosso site, você concorda com nossos termos.</p>
+				<p class="btn btn-success btn-sm" onclick="Aceito()">Aceito</p>
+			</div>
+		</div>				
+	</div>	
 	
+	<div class="modal fade bd-example-modal-lg bd-example-modal-md bd-example-modal-sm bd-example-modal-xs" id="avisosVizinhosSolidarios" tabindex="-1" role="dialog" aria-labelledby="avisosVizinhosSolidariosLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-md modal-sm modal-xs" role="document">
+			<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="avisosVizinhosSolidariosLabel">Precisamos de AJUDA!</h5>				
+			</div>
+			<div class="modal-body">
+				<div class="row">																						
+					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div>												
+					<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">												
+						<!--img class="img-responsive" src="media/avisos/prestacaoContasCestas.jpeg" alt=""-->
+						<div class="embed-responsive embed-responsive-16by9">
+							<video controls="controls">
+								<source src="media/avisos/VizinhosSolidariosMarmitas.mp4" type="video/mp4">							
+							</video>							
+						</div>	
+                        <hr/>
+                        <p style="text-align:justify;">
+                            O Instituto Vizinhos Solidários precisa da sua ajuda.<br/>
+                            Como muitos sabem, somos uma organização não governamental e atendemos mais de 12 mil familias todos os meses.
+                            No entanto, neste último mês de abril, não foi possível atender todas as famílias. Pedimos gentilmente que assistam a reportagem,
+                            confiram os detalhes... vamos juntos doar amor em forma de alimento para os que precisam.
+                        </p>
+					</div>						
+					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div>												
+				</div>				
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>				
+			</div>
+			</div>
+		</div>
+	</div>	
+	<div class="modal fade" id="modalEmailSucesso" tabindex="-1" role="dialog" aria-labelledby="modalEmailSucessoLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="modalEmailSucessoLabel">Atenção:</h5>				
+			</div>
+			<div class="modal-body">
+				Sua mensagem foi enviada com SUCESSO!						
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>				
+			</div>
+			</div>
+		</div>
+	</div>		
+    <script src="resources/js/jquery.js"></script>
+    <script src="resources/js/bootstrap.min.js"></script>    
+    <script src="resources/js/owl.carousel.min.js"></script>    
+    <script src="resources/js/jquery.prettyPhoto.js"></script>
+    <script src="resources/js/jquery.isotope.min.js"></script>    
+    <script src="resources/js/wow.min.js"></script>
+    <script src="resources/js/main.js"></script>		
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			$('#avisosVizinhosSolidarios').modal('show');		
+		});		
+		// Contact form
+		var form = $('#main-contact-form');
+		form.submit(function(event){
+			event.preventDefault();
+			var form_status = $('<div class="form_status"></div>');
+			$.ajax({
+				url: $(this).attr('action'),
+				data: $("#main-contact-form *").serialize(), // Linha add para email funcionar?
+				beforeSend: function(){
+					form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Enviando Email...</p>').fadeIn() );
+				}
+			}).done(function(data){
+				form_status.html('<p class="text-success">Retornaremos em Breve.</p>').delay(6000).fadeOut();			
+				$('#modalEmailSucesso').modal('show');				
+			});
+		});		
+	</script>	
 </body>
-
 </html>
