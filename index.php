@@ -136,8 +136,28 @@
             <div class="section-header">
                 <h2 class="section-title text-center wow fadeInDown">Doar</h2>
             </div>           
-			<div class="row center">								
-                <div class="col-sm-6 col-md-6 col-xs-12">
+			<div class="row center">	
+                <div class="col-sm-4 col-md-4 col-xs-12">
+                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
+                        <ul class="doar">
+                            <li class="plan-header">
+                                <div class="price-duration">
+                                    <span class="price">
+                                        <img src="media/ico/icon-qr-code.png" alt="Pague com QR Code" class="iconsDoar" alt="Diretos autorais: Icons by small.smiles">
+                                    </span>
+                                </div>
+                                <div class="plan-name">
+                                    Pix                                    
+                                </div>
+                            </li>                                                        
+							<li>
+                                <img class="img-responsive" src="media/ico/qrcode.jpeg" alt="Para onde vai a sua Doação">
+                                <button id="btnQrCode" onclick="copyQrCode()" class="btn btn-primary btn-lg" value="00020126360014br.gov.bcb.pix0114399887750001525204000053039865802BR5925ASSOCIACAO VIZINHOS SOLID6014RIO DE JANEIRO62070503***63041F2E"><i class="fa fa-qrcode"> </i> &nbsp;&nbsp; Copiar código QR Code </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>							
+                <div class="col-sm-4 col-md-4 col-xs-12">
                     <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
                         <ul class="doar">
                             <li class="plan-header">
@@ -157,8 +177,8 @@
 							<li><strong>NOME:</strong> Instituto Vizinhos Solidários</li>
                         </ul>
                     </div>
-                </div>	
-				<div class="col-sm-6 col-md-6 col-xs-12">
+                </div>                	
+				<div class="col-sm-4 col-md-4 col-xs-12">
                     <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
                         <ul class="doar">
                             <li class="plan-header">
@@ -306,26 +326,26 @@
 	<div class="modal fade bd-example-modal-lg bd-example-modal-md bd-example-modal-sm bd-example-modal-xs" id="avisosVizinhosSolidarios" tabindex="-1" role="dialog" aria-labelledby="avisosVizinhosSolidariosLabel" aria-hidden="true">
 		<div class="modal-dialog modal-lg modal-md modal-sm modal-xs" role="document">
 			<div class="modal-content">
-			<div class="modal-header">
+			<!--div class="modal-header">
 				<h5 class="modal-title" id="avisosVizinhosSolidariosLabel">Precisamos de AJUDA!</h5>				
-			</div>
+			</div-->
 			<div class="modal-body">
 				<div class="row">																						
 					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div>												
 					<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">												
-						<!--img class="img-responsive" src="media/avisos/prestacaoContasCestas.jpeg" alt=""-->
-						<div class="embed-responsive embed-responsive-16by9">
+						<img class="img-responsive" src="media/avisos/paraOndeVaiSuaDoacao.jpeg" alt="Para onde vai a sua Doação">
+						<!--div class="embed-responsive embed-responsive-16by9">
 							<video controls="controls">
 								<source src="media/avisos/VizinhosSolidariosMarmitas.mp4" type="video/mp4">							
 							</video>							
-						</div>	
-                        <hr/>
-                        <p style="text-align:justify;">
+						</div-->	
+                        <!--hr/-->
+                        <!--p>
                             O Instituto Vizinhos Solidários precisa da sua ajuda.<br/>
-                            Como muitos sabem, somos uma organização não governamental e atendemos mais de 12 mil familias todos os meses.
-                            No entanto, neste último mês de abril, não foi possível atender todas as famílias. Pedimos gentilmente que assistam a reportagem,
-                            confiram os detalhes... vamos juntos doar amor em forma de alimento para os que precisam.
-                        </p>
+                            Como muitos sabem, somos uma organização não governamental e atendemos mais de 12 mil familias todos os meses. 
+                            No entanto, neste último mês de abril, não foi possível atender todas as famílias. Pedimos gentilmente que assistam a reportagem
+                            e confira os detalhes.
+                        </p-->
 					</div>						
 					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div>												
 				</div>				
@@ -377,7 +397,13 @@
 				form_status.html('<p class="text-success">Retornaremos em Breve.</p>').delay(6000).fadeOut();			
 				$('#modalEmailSucesso').modal('show');				
 			});
-		});		
+		});	
+        function copyQrCode() {
+            var copyText = document.getElementById("btnQrCode");        
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);        
+            navigator.clipboard.writeText(copyText.value);
+        }	
 	</script>	
 </body>
 </html>
