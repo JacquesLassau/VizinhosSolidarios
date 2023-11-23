@@ -328,7 +328,7 @@
 		<div class="modal-dialog modal-lg modal-md modal-sm modal-xs" role="document">
 			<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="avisosVizinhosSolidariosLabel">Precisamos da sua AJUDA!</h5>				
+				<h5 class="modal-title" id="avisosVizinhosSolidariosLabel">O verão está chegando e você pode ajudar nosso instituto!</h5>				
 			</div>
 			<div class="modal-body">
 				<div class="row">																						
@@ -337,13 +337,12 @@
 						<!--img class="img-responsive" src="media/avisos/paraOndeVaiSuaDoacao.jpeg" alt="Para onde vai a sua Doação"-->
 						<div class="embed-responsive embed-responsive-16by9">
 							<video controls="controls">
-								<source src="media/avisos/doacoesVizinhosSolidarios.mp4" type="video/mp4">							
+								<source src="media/avisos/IniciativaAlivioDoCalorNaRua.mp4" type="video/mp4">							
 							</video>							
 						</div>	
                         <hr/>
                         <p>
-                            O Instituto Vizinhos Solidários oferece alimentos a quem tem fome.<br/>
-                            Confira conosco o nosso cartão solidário e nosso mercado de doações. Você também pode fazer parte dessa corrente solidária, entrando em contato conosco.
+                            No meio de todo esse calor, o Instituto Vizinhos Solidários tem uma iniciatica para amenizar o calor das pessoas em situação de rua. Assista o vídeo e confira nos detalhes.
                         </p>
 					</div>						
 					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div>												
