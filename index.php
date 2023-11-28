@@ -110,26 +110,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div id="cta2">
-        <div class="container">
-            <div class="text-center">
-				<div class="row">										
-					<img class="img-responsive wow fadeIn center-block" src="media/ico/altrus.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">					
-				</div>				
-				<br/>
-				<div class="row">
-					<div class="col-md-3"></div>
-					<div class="col-md-6">
-						<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">A AltruS é uma Startup de Tecnologia Social que tem como missão conectar pessoas e empresas que desejam ajudar às iniciativas sociais que precisam de ajuda.</p>
-						<p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms"><a class="btn btn-primary btn-lg" onclick="callAltrus()"><i class="fa fa-heart"> </i> &nbsp;DOE COM ALTRUS </a></p>
-						</div>
-					<div class="col-md-3"></div>
-				</div>
-				<br/>                
-            </div>
-        </div>
-    </div>     
+    </div>         
     <div id="doar">
 	<article>
         <div class="container">
@@ -152,8 +133,7 @@
                             </li>                                                        
 							<li>
                                 <img class="img-responsive" src="media/ico/qrcode.jpeg" alt="Para onde vai a sua Doação">
-                                <input type="text" value="00020126360014br.gov.bcb.pix0114399887750001525204000053039865802BR5925ASSOCIACAO VIZINHOS SOLID6014RIO DE JANEIRO62070503***63041F2E" id="txtQrCode" style="display:none;">
-                                <button id="btnQrCode" onclick="copyQrCode()" class="btn btn-primary btn-lg"><i class="fa fa-qrcode"> </i> &nbsp;&nbsp; Copiar código QR Code </button>
+                                <a href="https://api.whatsapp.com/send?phone=558193270018&text=00020126360014br.gov.bcb.pix0114399887750001525204000053039865802BR5925ASSOCIACAO VIZINHOS SOLID6014RIO DE JANEIRO62070503***63041F2E">Compartilhe no WhatsApp</a>                                
                             </li>
                         </ul>
                     </div>
@@ -218,14 +198,8 @@
 										<p style="margin-top:12px;"><img src="media/ico/microsoft.png" alt="" width="180" height="180"></p>										
 										<h3 style="color:#fff;text-shadow: 1px 1px #000;">Microsoft</h3>										
 										<p style="color:#022e42;">A microsoft forneceu licenças para todos os produtos necessários no uso de nossa causa até o ano de 2031.</p>
-									</div>
-									<div class="item">
-										<p style="margin-top:12px;"><img src="media/ico/altrus.png" alt="" width="180"></p>																													
-										<h3 style="color:#fff;text-shadow: 1px 1px #000;">Altrus</h3>
-										<p style="color:#022e42;">Juntos temos objetivos de desenvolvimento sustentável participando dos 17 objetivos para transformar o mundo.</p>
-									</div>
-								</div>
-		
+									</div>									
+								</div>		
 								<div class="row">
 									<div class="col-sm-12 col-md-12 center-block">
 										<!-- Controls -->
@@ -303,7 +277,7 @@
                                 </div>
                                 <div class="media-body">
                                     <br />
-                                    <h4 class="media-heading"><a onclick="callWhatsApp()">WhatsApp</a></h4>
+                                    <h4 class="media-heading"><a href="https://api.whatsapp.com/send?phone=558193270018" target="_blank">WhatsApp</a></h4>
                                 </div>
                             </div>
                             <hr />							
