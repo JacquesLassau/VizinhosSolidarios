@@ -1,381 +1,451 @@
-﻿<!DOCTYPE html>
-<html lang="pt">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Venha doar amor aos que precisam. Traga conforto, ajude famílias.">
-	<meta name="keywords" content="vizinhossolidarios, vizinhossolidariosongbr, ong, ongrecife, vizinhos, vizinhosrecife, recife, doar, doação, doe, ajudar, ajuda, ajude, Recife, Pernambuco, mantededor, manter, caridade, vizinhos, solidários">
-    <meta name="author" content="Jacques de Lassau Albuquerque Cheron">	 
-	<meta property="og:image" content="media/ico/logo-link.png">
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="500">
-    <meta property="og:image:height" content="460">   
-	<title>Vizinhos Solidários</title>
-    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-    <link href="resources/css/font-awesome.min.css" rel="stylesheet">
-    <link href="resources/css/animate.min.css" rel="stylesheet">
-    <link href="resources/css/owl.carousel.css" rel="stylesheet">
-    <link href="resources/css/owl.transitions.css" rel="stylesheet">
-    <link href="resources/css/prettyPhoto.css" rel="stylesheet">
-    <link href="resources/css/main.css" rel="stylesheet">
-    <link href="resources/css/responsive.css" rel="stylesheet">
-    <link rel="shortcut icon" href="media/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="media/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="media/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="media/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="media/ico/apple-touch-icon-57-precomposed.png">			
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Venha doar amor aos que precisam. Traga conforto, ajude famílias.">
+  <meta name="keywords"
+    content="vizinhossolidarios, vizinhossolidariosongbr, ong, ongrecife, vizinhos, vizinhosrecife, recife, doar, doação, doe, ajudar, ajuda, ajude, Recife, Pernambuco, mantededor, manter, caridade, vizinhos, solidários">
+  <meta name="author" content="Jacques de Lassau Albuquerque Cheron">
+  <meta property="og:image" content="media/ico/logo-link.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="500">
+  <meta property="og:image:height" content="460">
+  <meta property="og:image" content="media/ico/logo-link.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Vizinhos Solidários</title>
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="assets/images/favicon.png">
 </head>
-<!--/head-->
-<body id="inicio" class="homepage">	
-    <header id="header">
-        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.php"><img src="media/ico/logo.png" width="169" height="57" alt="logo"></a>
-                </div>
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li class="scroll"><a href="index.php">INÍCIO</a></li>
-                        <li class="scroll"><a href="index.php#doar">DOAR</a></li>						
-                        <li class="scroll"><a href="galeria.html" >GALERIA</a></li>
-						<li class="scroll"><a href="acoes.html">AÇÕES</a></li>						                        
-						<li class="scroll"><a href="noticias.html">NOTÍCIAS</a></li>						
-						<li class="scroll"><a href="formulario.php">VOLUNTÁRIO</a></li>
-						<li class="scroll"><a href="transparencia.html">TRANSPARÊNCIA</a></li>
-                        <li class="scroll"><a href="index.php#faleConosco">FALE CONOSCO</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!--/.container-->
-        </nav>
-        <!--/nav-->
-    </header>
-    <!--/header-->
-    <div id="main-slider">
-        <div class="owl-carousel">            
-            <!--/.item-->
-            <div class="item">
-                <div class="slider-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="carousel-content">
-									<article>
-                                    <h2>Traga conforto<br /><span>AJUDE famílias</span></h2>
-                                    <a class="btn btn-primary btn-lg scroll" href="#doar"><i class="fa fa-heart"> </i> &nbsp;DOAR </a>
-									</article>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>            
-        </div>
-        <!--/.owl-carousel-->
+
+<body>
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-    <!--/#main-slider-->
-    <div id="cta" class="wow fadeIn">
-        <div class="container">
+  </div>
+  <!-- ***** Preloader End ***** -->
+  <div class="sub-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8">
+          <ul class="info">
+            <li><i class="fa fa-envelope"></i> <a href="mailto:contato@vizinhossolidarios.ong.br"
+                style="color:#7a7a7a;">contato@vizinhossolidarios.ong.br</a></li>
+            <li><i class="fa fa-map"></i> R. Souto Filho, 118 - Pina, Recife - PE, 51011-170</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <ul class="social-links">
+            <li><a href="https://api.whatsapp.com/send?phone=558193270018" class="link-whatsapp-button"
+                target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://www.instagram.com/vizinhos.solidarios/" class="link-instagram-button"
+                target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://br.linkedin.com/in/maria-eduarda-fernandes-8721b823" class="link-linkedin-button"
+                target="_blank"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.php" class="logo">
+              <figure><img src="assets/images/logo.png" alt="logomarca" style="width: 150px; margin-top: 18px;">
+              </figure>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.php" class="active">Início</a></li>
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="news.php">Notícias</a></li>
+              <li><a href="actions.php">Ações</a></li>
+              <li><a href="voluntary.php">Voluntário</a></li>
+              <li><a href="transparency.php">Transparência</a></li>
+              <li><a href="#contact">Fale Conosco</a></li>
+              <li><a href="#donate"><i class="fa fa-heart"></i> Doe agora</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+  <div class="main-banner">
+    <div class="owl-carousel owl-banner">
+      <div class="item item-1">
+        <div class="header-text">
+          <h2 style="font-size: 1px;">...<br />...</h2>
+          <br />
+          <span style="font-size: 1px;"></span>...</span>
+        </div>
+      </div>
+      <div class="item item-2">
+        <div class="header-text">
+          <h2>Fazer o bem<br /> Que mal tem?</h2>
+          <br />
+          <span class="category"><a href="#donate" style="color: #007749;">Doe, <em>Agora</em></a></span>
+        </div>
+      </div>
+      <div class="item item-3">
+        <div class="header-text">
+          <h2>Juntos<br /> pelo bem</h2>
+          <br />
+          <span class="category"><a href="#donate" style="color: #007749;">Doe, <em>Agora</em></a></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="presentation section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="left-image">
+            <img src="assets/images/presentation.jpg" alt="">
+            <a href="property-details.php"><img src="assets/images/presentation-icon.png" alt=""
+                style="max-width: 60px; padding: 0px;"></a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="section-heading">
+            <h6>Olá! Somos o Instituto</h6>
+            <h2>Vizinhos Solidários</h2>
+          </div>
+          <div class="accordion" id="accordionAbout">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="false" aria-controls="collapseOne">
+                  Conhece nossa história?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionAbout">
+                <div class="accordion-body" style="text-align: justify;">
+                  <p>Diante de tantas pessoas com fome em março de 2020, as empresárias Maria Eduarda Fernandes e Mayara
+                    Amaral, decidiram arregaçar as mangas e começaram, fazendo 20 marmitas por dia, em sua residência,
+                    para distribuir nas redondezas onde moravam, em Boa Viagem. Vendo a atitude delas, alguns vizinhos
+                    decidiram ajudar. A ação cresceu e o projeto Vizinhos Solidários virou Instituto e atende mais de 20
+                    comunidades no grande Recife e Olinda. Já alimentou mais de 200 mil pessoas através das marmitas e
+                    distribuiu mais de 80 mil cestas básicas em 72 pontos de Recife, Olinda e Jaboatão dos Guararapes.
+                  </p>
+                  <p>Hoje o Instituto conta com 3 frentes: distribuição de marmitas diariamente, distribuição de cestas
+                    básicas com calendário e através do Mercado Solidário, com essas frentes alimentamos até 8 mil
+                    pessoas por mês. De segunda à sexta-feira entregamos, todos os dias, entre 150 e 200 refeições,
+                    sempre em um local diferente. Vai também suco, água mineral, sobremesa e um kit de higiene pessoal
+                    para cada pessoa. Tudo com ajuda de doações de pessoas físicas e empresas parceiras.</p>
+                  <p>A nossa sede ainda dispõe de um bebedouro solidário com água potável, que foi desenvolvido por
+                    Maria Eduarda Fernandes, para uso das PSR (pessoas em situação de rua), tomar banho, beber água,
+                    lavar roupas, fazer uso a vontade.</p>
+                  <p>O Mercado Solidário atende as famílias que vivem abaixo da linha da pobreza, com renda mensal de
+                    até R$ 100,00 reais. Nossa assistente social visita as casas, conversa, faz um levantamento
+                    socio-econômico e cadastra a família. Na ocasião, as famílias já recebem um cartão que da direito a
+                    fazer a feira no Mercado Solidário, que fica dentro da nossa sede e que tem disponibilidade de 103
+                    itens de compras como: feijão, arroz. macarrão, farinha, fuba, molho de tomate, refrigerantes,
+                    aveia, leite, frios, carnes, ovos, frutas, verduras, enlatados, bolachas, biscoitos variados e
+                    muitos outros itens.</p>
+                  <p>Nosso Instituto possui um time de 4 funcionários, mais de 30 voluntários fixos, cozinha industrial,
+                    estoque com itens de uso diário, uma Kombi para fazer as entregas diárias de marmitas e também
+                    buscar doações das empresas parceiras. Temos uma estrutura que atende muito bem as comunidades do
+                    entorno, 12 projetos sociais que ajudamos mensalmente e aplicamos mentoria.</p>
+                  <p>Iniciamos em abril de 2022 as primeiras turmas dos cursos profissionalizantes para as mulheres das
+                    comunidades do entorno. Elas estão realizadas com o aumento da renda mensal da família e com a
+                    certificação de uma profissão. Também trabalhamos com compostagem de residios e tudo o que
+                    produzimos vira adubo para nossa horta.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="info-table">
+            <ul>
+              <li>
+                <h4><i class="fa fa-plus" style="color:#f35525;">&nbsp;</i>&nbsp; 200 mil<br><span>Pessoas
+                    alimentadas</span></h4>
+              </li>
+              <li>
+                <h4><i class="fa fa-plus" style="color:#f35525;">&nbsp;</i>&nbsp; 20<br><span>Comunidades no grande
+                    Recife</span></h4>
+              </li>
+              <li>
+                <h4><i class="fa fa-plus" style="color:#f35525;">&nbsp;</i>&nbsp; 8 mil<br><span>Pessoas atendidas no
+                    Mercado Solidário</span></h4>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sponsors section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6 style="color: #fff;">Apoio</h6>
+            <h2>Microsoft</h2>
+            <img src="assets/images/microsoft.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="properties section" id="donate">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h2>Doar</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <a href="property-details.php"><img src="assets/images/pix.png" alt=""></a>
+            <h4 style="text-align: center;">Transferência via PIX</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://api.whatsapp.com/send?text=00020126360014br.gov.bcb.pix0114399887750001525204000053039865802BR5925ASSOCIACAO VIZINHOS SOLID6014RIO DE JANEIRO62070503***63041F2E" target="_blank">Compartilhe via WhatsApp</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item">
+            <h4 class="text-center">Transferência Bancária</h4>
+            <ul></ul>
+            <ul>
+              <li>Banco: <span>197 - Stone Pagamentos S.A.</span></li>
+              <li>Agência: <span>001</span></li>
+              <li>Conta: <span>9396483-1</span></li>
+              <li>Pix: <span>39.988.775/0001-52</span></li>
+              <li>Nome: <span>Instituto Vizinhos Solidários</span></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="item text-center">
+            <h4 style="text-align: center;">Seja um Mantedor</h4>
+            <ul></ul>
+            <ul>
+              <li>
+                <div class="icon-button">
+                  <a onclick="CallAsaas(621563059331)" target="_blank" class="link-maintainer"><i class="fa fa-money-bill-1" style="font-size: larger;"></i> R$
+                    30,00</a>
+                </div>
+              </li>
+              <li class="button-mantedor">
+                <div class="icon-button">
+                  <a onclick="CallAsaas(568583765685)" target="_blank" class="link-maintainer"><i class="fa fa-money-bill-1" style="font-size: larger;"></i> R$
+                    50,00</a>
+                </div>
+              </li>
+              <li class="button-mantedor">
+                <div class="icon-button">
+                  <a onclick="CallAsaas(217244449254)" target="_blank" class="link-maintainer"><i class="fa fa-money-bill-1" style="font-size: larger;"></i>R$
+                    100,00</a>
+                </div>
+              </li>
+            </ul>
+            <div class="icon-button">
+              <a href="https://api.whatsapp.com/send?phone=558193270018" target="_blank"><i class="fa fa-money-bill-1" style="font-size: larger;"></i>Outros
+                Valores</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="properties section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6>Sobre</h6>
+            <h2>O Instituto</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <div class="item">
+            <img src="assets/images/missao.png" alt="Missão">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="item">
+            <img src="assets/images/valores.png" alt="Valores">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="item">
+            <img src="assets/images/visao.png" alt="Visão">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="item">
+            <video controls="controls" class="video-controls">
+              <source src="assets/videos/videoSobreInstituto.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 offset-lg-4">
+          <div class="section-heading text-center">
+            <h6>Contato</h6>
+            <h2>Fale Conosco</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div id="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15800.328444580082!2d-34.883457!3d-8.093109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeeb5910e2e7cc1a5!2sVizinhos%20Solid%C3%A1rios!5e0!3m2!1spt-PT!2sbr!4v1593688009979!5m2!1spt-PT!2sbr"
+              width="100%" height="500px" frameborder="0"
+              style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);"
+              allowfullscreen=""></iframe>
+          </div>
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="item phone">
+                <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
+                <h6>(81) 99327-0018<br><span>Número de Telefone</span></h6>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="item email">
+                <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
+                <h6 style="font-size: 1em;">contato@vizinhossolidarios.ong.br<br><span>E-mail</span></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <form id="contact-form" method="post" action="FormContact.php">
             <div class="row">
-                <div class="col-sm-9">
-                    <h2>Olá, somos o instituto Vizinhos Solidários!</h2>
-                    <p style="text-align:justify;">
-						Diante de tantas pessoas com fome em março de 2020, as empresárias Maria Eduarda Fernandes e Mayara Amaral, decidiram arregaçar as mangas e começaram, fazendo 20 marmitas por dia, em sua residência, para distribuir nas redondezas onde moravam, em Boa Viagem. Vendo a atitude delas, alguns vizinhos decidiram ajudar. A ação cresceu e o projeto Vizinhos Solidários virou Instituto e atende mais de 20 comunidades no grande Recife e Olinda. Já alimentou mais de 200 mil pessoas através das marmitas e distribuiu mais de 80 mil cestas básicas em 72 pontos de Recife, Olinda e Jaboatão dos Guararapes.                       
-                    </p>
-					<p style="text-align:justify;">
-						Hoje o Instituto conta com 3 frentes: distribuição de marmitas diariamente, distribuição de cestas básicas com calendário e através do Mercado Solidário, com essas frentes alimentamos até 8 mil pessoas por mês. De segunda à sexta-feira entregamos, todos os dias, entre 150 e 200 refeições, sempre em um local diferente. Vai também suco, água mineral, sobremesa e um kit de higiene pessoal para cada pessoa. Tudo com ajuda de doações de pessoas físicas e empresas parceiras.
-                    </p>
-					<p style="text-align:justify;">
-						A nossa sede ainda dispõe de um bebedouro solidário com água potável, que foi desenvolvido por Maria Eduarda Fernandes, para uso das PSR (pessoas em situação de rua), tomar banho, beber água, lavar roupas, fazer uso a vontade.
-                    </p>
-					<p style="text-align:justify;">
-						O Mercado Solidário atende as famílias que vivem abaixo da linha da pobreza, com renda mensal de até R$ 100,00 reais. Nossa assistente social visita as casas, conversa, faz um levantamento socio-econômico e cadastra a família. Na ocasião, as famílias já recebem um cartão que da direito a fazer a feira no Mercado Solidário, que fica dentro da nossa sede e que tem disponibilidade de 103 itens de compras como: feijão, arroz. macarrão, farinha, fuba, molho de tomate, refrigerantes, aveia, leite, frios, carnes, ovos, frutas, verduras, enlatados, bolachas, biscoitos variados e muitos outros itens.
-					</p>
-					<p style="text-align:justify;">
-						Nosso Instituto possui um time de 4 funcionários, mais de 30 voluntários fixos, cozinha industrial, estoque com itens de uso diário, uma Kombi para fazer as entregas diárias de marmitas e também buscar doações das empresas parceiras. Temos uma estrutura que atende muito bem as comunidades do entorno, 12 projetos sociais que ajudamos mensalmente e aplicamos mentoria.
-					</p>
-					<p style="text-align:justify;">
-						Iniciamos em abril de 2022 as primeiras turmas dos cursos profissionalizantes para as mulheres das comunidades do entorno. Elas estão realizadas com o aumento da renda mensal da família e com a certificação de uma profissão.
-						Também trabalhamos com compostagem de residios e tudo o que produzimos vira adubo para nossa horta. 
-					</p>
-					<p style="text-align:justify;color:#2a95be;">
-						<b>VEM VIZINHAR com a gente!</b>
-					</p>
-                </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="name">Nome Completo</label>
+                  <input type="name" name="name" id="name" placeholder="Seu nome..." autocomplete="on" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="email">E-mail</label>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Seu E-mail" required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="phone">Telefone</label>
+                  <input type="phone" name="phone" id="phone" placeholder="Telefone para contato..." autocomplete="on"
+                    required>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <label for="message">Envie uma Mensagem</label>
+                  <textarea name="message" id="message" placeholder="Escreva Aqui..."></textarea>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="orange-button">Enviar Solicitação</button>
+                </fieldset>
+              </div>
             </div>
+          </form>
         </div>
-    </div>         
-    <div id="doar">
-	<article>
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Doar</h2>
-            </div>           
-			<div class="row center">	
-                <div class="col-sm-4 col-md-4 col-xs-12">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <ul class="doar">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        <img src="media/ico/icon-qr-code.png" alt="Pague com QR Code" class="iconsDoar" alt="Diretos autorais: Icons by small.smiles">
-                                    </span>
-                                </div>
-                                <div class="plan-name">
-                                    Pix                                    
-                                </div>
-                            </li>                                                        
-							<li>
-                                <img class="img-responsive" src="media/ico/qrcode.jpeg" alt="Para onde vai a sua Doação">
-                                <a href="https://api.whatsapp.com/send?phone=558193270018&text=00020126360014br.gov.bcb.pix0114399887750001525204000053039865802BR5925ASSOCIACAO VIZINHOS SOLID6014RIO DE JANEIRO62070503***63041F2E">Compartilhe no WhatsApp</a>                                
-                            </li>
-                        </ul>
-                    </div>
-                </div>							
-                <div class="col-sm-4 col-md-4 col-xs-12">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <ul class="doar">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        <img src="media/ico/stone.png" alt="Stone Pagamentos" class="iconsDoar">
-                                    </span>
-                                </div>
-                                <div class="plan-name">
-                                    Depósito
-                                </div>
-                            </li>
-                            <li><strong>BANCO:</strong> 197 - Stone Pagamentos S.A.</li>
-                            <li><strong>AGÊNCIA:</strong> 0001</li>
-                            <li><strong>CONTA:</strong> 9396483-1</li>
-                            <li><strong>PIX:</strong> 39.988.775/0001-52</li>                            
-							<li><strong>NOME:</strong> Instituto Vizinhos Solidários</li>
-                        </ul>
-                    </div>
-                </div>                	
-				<div class="col-sm-4 col-md-4 col-xs-12">
-                    <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <ul class="doar">
-                            <li class="plan-header">
-                                <div class="price-duration">
-                                    <span class="price">
-                                        <img src="media/ico/mantededor.png" alt="Mantededor" class="iconsDoar">
-                                    </span>
-                                </div>
-                                <div class="plan-name">
-                                    Mantedor
-                                </div>
-                            </li>	
-							<li class="plan-purchase"><a onclick="callAsaas(621563059331)" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 30,00</a></li>
-                            <li class="plan-purchase"><a onclick="callAsaas(568583765685)" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 50,00</a></li>
-                            <li class="plan-purchase"><a onclick="callAsaas(217244449254)" target="_blank" class="btn btn-default btn-lg" style="color:rgb(45,153,179);">R$ 100,00</a></li>							
-                            <li class="plan-purchase"><a onclick="callWhatsApp()" class="btn btn-primary btn-lg"><i class="fa fa-money"> </i> &nbsp;&nbsp; Outro valor </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-	</article>
-	</div>	
-    <div id="apoio">
-        <div class="container">
-            <div class="section-header">                                
-				<div class="container">
-					<div class="row">			
-						<h2 class="section-title text-center wow fadeInDown" style="text-shadow: 1px 1px #000;text-align:center;">Apoio</h2>
-						<div class="col-md-2"></div>
-						<div class="col-md-8">								
-							<div id="carousel-testimonial" class="carousel slide text-center" data-ride="carousel">
-								<!-- Wrapper for slides -->
-								<div class="carousel-inner" role="listbox">
-									<div class="item active">
-										<p style="margin-top:12px;"><img src="media/ico/microsoft.png" alt="" width="180" height="180"></p>										
-										<h3 style="color:#fff;text-shadow: 1px 1px #000;">Microsoft</h3>										
-										<p style="color:#022e42;">A microsoft forneceu licenças para todos os produtos necessários no uso de nossa causa até o ano de 2031.</p>
-									</div>									
-								</div>		
-								<div class="row">
-									<div class="col-sm-12 col-md-12 center-block">
-										<!-- Controls -->
-										<div class="btns" style="margin-top:12px;">
-											<a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="prev" style="background-color:#fff;">
-												<span class="fa fa-angle-left" aria-hidden="true" style="color:#45aed6;border-color:#2a95be;"></span>
-												<span class="sr-only">Anterior</span>
-											</a>
-											<a class="btn btn-primary btn-sm" href="#carousel-testimonial" role="button" data-slide="next" style="background-color:#fff;">
-												<span class="fa fa-angle-right" aria-hidden="true" style="color:#45aed6;border-color:#2a95be;"></span>
-												<span class="sr-only">Próximo</span>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-2"></div>
-					</div>
-				</div>
-            </div>
-        </div>
-    </div>	   		
-    <div id="faleConosco">		
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Fale Conosco</h2>
-            </div>
-			<div class="col-md-2 col-sm-12 col-xs-12"></div>
-			<div class="col-md-8 col-sm-12 col-xs-12">
-				<div class="contact-form">
-					<form id="main-contact-form" name="contact-form" method="post" action="sendmail.php">
-						<div class="form-group">
-							<input type="text" name="nome" class="form-control" placeholder="Nome" required>
-						</div>
-						<div class="form-group">
-							<input type="email" name="email" class="form-control" placeholder="Email" required>
-						</div>
-						<div class="form-group">
-							<input type="text" name="assunto" class="form-control" placeholder="Assunto" required>
-						</div>
-						<div class="form-group">
-							<textarea name="mensagem" class="form-control" rows="6" placeholder="Mensagem" required></textarea>
-						</div>
-						<button type="submit" class="btn btn-primary pull-right">ENVIAR MENSAGEM</button>
-					</form>
-				</div>				
-			</div>	
-			<div class="col-md-2 col-sm-12 col-xs-12"></div>			
-        </div>
-		<br/>
-    </div>    
-    <div id="contact">
-        <div  style="z-index:3;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15800.328444580082!2d-34.883457!3d-8.093109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeeb5910e2e7cc1a5!2sVizinhos%20Solid%C3%A1rios!5e0!3m2!1spt-PT!2sbr!4v1593688009979!5m2!1spt-PT!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>								 
-		<div class="container-wrapper">
-            <div class="container">
-                <div class="row">
-					<div class="col-md-8 col-sm-12 col-xs-12"></div>
-                    <div class="col-md-4 col-sm-12 col-xs-12">						
-                        <div class="contact-form">
-                            <h3>CONTATO</h3>
-                            <strong>MÍDIAS SOCIAIS</strong></br>
-                            <div class="media service-box wow fadeInRight">
-                                <div class="pull-left">
-                                    <i class=" fa fa-instagram"></i>
-                                </div>
-                                <div class="media-body">
-                                    <br />
-                                    <h4 class="media-heading"><a onclick="callInstagram()">Instagram</a></h4>
-                                </div>
-                            </div>
-							<div class="media service-box wow fadeInRight">
-                                <div class="pull-left">
-                                    <i class=" fa fa-phone"></i>
-                                </div>
-                                <div class="media-body">
-                                    <br />
-                                    <h4 class="media-heading"><a href="https://api.whatsapp.com/send?phone=558193270018" target="_blank">WhatsApp</a></h4>
-                                </div>
-                            </div>
-                            <hr />							
-                            <p><a href="mailto:contato@vizinhossolidarios.ong.br" class="btn btn-primary" style="width:100%;">ENVIE UM EMAIL PARA: <br/>contato@vizinhossolidarios.ong.br</a></p>
-                            <a href="#" class="btn btn-inverse center-block"><i class="fa fa-arrow-circle-up fa-2px"></i>&nbsp; Voltar ao Topo &nbsp;<i class="fa fa-arrow-circle-up fa-2px"></i></a>
-                        </div>
-                    </div>					
-                </div>
-            </div>
-        </div>
-    </div><!--/#bottom-->
-	<div id="termos-politica" class="termos-politica">
-		<div class="row">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-				<p>A navegação de nosso site utiliza preenchimento de formulários e envio de dados para garantir uma boa experiência dos usuários. <br>Consulte nossa <a href="transparencia/PoliticaDePrivacidade.pdf" target="_blank" style="color:#fff;"><u>política de privacidade</u></a>. Ao continuar em nosso site, você concorda com nossos termos.</p>
-				<p class="btn btn-success btn-sm" onclick="Aceito()">Aceito</p>
-			</div>
-		</div>				
-	</div>	
-	
-	<div class="modal fade bd-example-modal-lg bd-example-modal-md bd-example-modal-sm bd-example-modal-xs" id="avisosVizinhosSolidarios" tabindex="-1" role="dialog" aria-labelledby="avisosVizinhosSolidariosLabel" aria-hidden="true">
-		<div class="modal-dialog modal-lg modal-md modal-sm modal-xs" role="document">
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>© Instituto Vizinhos Solidários</p>
+    <!-- Template cedido por: TemplateMo Distribuído por: ThemeWagon https://templatemo.com/tm-591-villa-agency-->
+  </footer>
+
+  <!-- Modal envio de E-mail -->
+  <div class="modal fade" id="modalFormularioSucesso" tabindex="-1" role="dialog" aria-labelledby="modalFormularioSucessoLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="avisosVizinhosSolidariosLabel">O verão está chegando e você pode ajudar nosso instituto!</h5>				
+				<h5 class="modal-title" id="modalFormularioSucessoLabel">Atenção:</h5>				
 			</div>
 			<div class="modal-body">
-				<div class="row">																						
-					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div>												
-					<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">												
-						<!--img class="img-responsive" src="media/avisos/paraOndeVaiSuaDoacao.jpeg" alt="Para onde vai a sua Doação"-->
-						<div class="embed-responsive embed-responsive-16by9">
-							<video controls="controls">
-								<source src="media/avisos/IniciativaAlivioDoCalorNaRua.mp4" type="video/mp4">							
-							</video>							
-						</div>	
-                        <hr/>
-                        <p>
-                            No meio de todo esse calor, o Instituto Vizinhos Solidários tem uma iniciatica para amenizar o calor das pessoas em situação de rua. Assista o vídeo e confira nos detalhes.
-                        </p>
-					</div>						
-					<div class="col-lg-1 col-md-1 col-sm-12 col-xs-12"></div>												
-				</div>				
+				Sua mensagem foi enviada com SUCESSO!
+        <br/>
+        Por favor, verifique sua caixa de spam. Caso esteja lá, marque essa mensagem como segura.		        	
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>				
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>				
 			</div>
 			</div>
 		</div>
 	</div>
-	<div class="modal fade" id="modalEmailSucesso" tabindex="-1" role="dialog" aria-labelledby="modalEmailSucessoLabel" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="modalEmailSucessoLabel">Atenção:</h5>				
-			</div>
-			<div class="modal-body">
-				Sua mensagem foi enviada com SUCESSO!						
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>				
-			</div>
-			</div>
-		</div>
-	</div>		
-    <script src="resources/js/jquery.js"></script>
-    <script src="resources/js/bootstrap.min.js"></script>    
-    <script src="resources/js/owl.carousel.min.js"></script>    
-    <script src="resources/js/jquery.prettyPhoto.js"></script>
-    <script src="resources/js/jquery.isotope.min.js"></script>    
-    <script src="resources/js/wow.min.js"></script>
-    <script src="resources/js/main.js"></script>		
-	<script type="text/javascript">
-		$( document ).ready(function() {
-			$('#avisosVizinhosSolidarios').modal('show');		
-		});		
-		// Contact form
-		var form = $('#main-contact-form');
+  
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script type="text/javascript">		
+		var form = $('#contact-form');
 		form.submit(function(event){
 			event.preventDefault();
 			var form_status = $('<div class="form_status"></div>');
 			$.ajax({
 				url: $(this).attr('action'),
-				data: $("#main-contact-form *").serialize(), // Linha add para email funcionar?
+				data: $("#contact-form *").serialize(),
 				beforeSend: function(){
-					form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Enviando Email...</p>').fadeIn() );
+					form.prepend( form_status.html('<p><i class="fa fa-spinner fa-spin"></i> Enviando Formulário...</p>').fadeIn() );
 				}
 			}).done(function(data){
 				form_status.html('<p class="text-success">Retornaremos em Breve.</p>').delay(6000).fadeOut();			
-				$('#modalEmailSucesso').modal('show');				
+				$('#modalFormularioSucesso').modal('show');				
 			});
-		});	
-        function copyQrCode() {
-            let copyText = document.querySelector("#txtQrCode");
-            copyText.select();
-            document.execCommand("btnQrCode");
-        }	
-        document.querySelector("#btnQrCode").addEventListener("click", copyQrCode);
-	</script>	
+		});
+	</script>
 </body>
+
 </html>
