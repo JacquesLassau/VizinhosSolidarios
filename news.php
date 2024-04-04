@@ -2,7 +2,8 @@
 <html>
 
 <head>
-  <meta charset="utf-8">  
+  <meta charset="utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Venha doar amor aos que precisam. Traga conforto, ajude famílias.">
   <meta name="keywords"
@@ -44,6 +45,10 @@
       border-radius: 0px;
       background-color: #fafafa !important;
     }
+
+    h6{
+      font-size: 15px !important;
+    }
   </style>
 </head>
 
@@ -78,6 +83,8 @@
                 target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://br.linkedin.com/in/maria-eduarda-fernandes-8721b823" class="link-linkedin-button"
                 target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=cygnussh.vizinhossolidarios.ong" class="link-google-play-button"
+                target="_blank"><img src="assets/images/playStore.png" class="google-play"></a></li>
           </ul>
         </div>
       </div>
@@ -99,7 +106,7 @@
             <ul class="nav">
               <li><a href="index.php">Início</a></li>
               <li><a href="index.php#about">Sobre</a></li>
-              <li><a href="news.php" class="active">Notícias</a></li>
+              <li><a href="news.php" class="active">Na Mídia</a></li>
               <li><a href="actions.php">Ações</a></li>
               <li><a href="voluntary.php">Voluntário</a></li>
               <li><a href="transparency.php">Transparência</a></li>
@@ -352,190 +359,6 @@
         </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
           <div class="item item-link">
-            <span class="category">Maio de 2021</span>
-            <h6>João Alberto</h6>
-            <h4>Vizinhos Solidários está arrecadando alimentos não perecíveis para pessoas em situação de
-              vulnerabilidade social na capital pernambucana.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="http://www.joaoalberto.com/2021/05/17/academia-do-recife-fecha-parceria-com-ong-para-arrecadacao-de-alimentos/"
-                target="_blank">joaoalberto.com <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Agosto de 2022</span>
-            <h6>Jornal do Commercio</h6>
-            <h4>Instituto Vizinhos Solidários recebe alta comenda do Tribunal de Justiça de Pernambuco por serviços
-              prestados à população vulnerável.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://jc.ne10.uol.com.br/pernambuco/2022/08/amp/15063864-instituto-vizinhos-solidarios-recebe-alta-comenda-do-tribunal-de-justica-de-pernambuco-por-servicos-prestados-a-populacao-vulneravel.php"
-                target="_blank">jc.ne10.uol.com.br <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Abril de 2023</span>
-            <h6>JPortal G1</h6>
-            <h4>Instituto Vizinhos Solidários precisa de doações para atender pessoas em situação de rua.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://g1.globo.com/google/amp/pe/pernambuco/bom-dia-pe/video/instituto-vizinhos-solidarios-precisa-de-doacoes-para-atender-pessoas-em-situacao-de-rua-11566334.ghtml"
-                target="_blank">g1.globo.com <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Maio de 2022</span>
-            <h6>Sport Clube</h6>
-            <h4>Instituto Vizinhos Solidários é beneficiado com alimentos arrecadados em jogo rubro-negro.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://sportrecife.com.br/base/instituto-vizinhos-solidarios-e-beneficiado-com-alimentos-arrecadados-em-jogo-rubro-negro/"
-                target="_blank">sportrecife.com.br <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Abril de 2023</span>
-            <h6>Diário de Pernambuco</h6>
-            <h4>Pernambuco Centro de Convenções recebeu 400 crianças do Instituto Vizinhos Solidários na última terça.
-            </h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://www.diariodepernambuco.com.br/ultimas/2023/04/pernambuco-centro-de-convencoes-recebe-400-criancas-do-instituto-vizin.php"
-                target="_blank">diariodepernambuco.com.br <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Setembro de 2022</span>
-            <h6>TV Brasil</h6>
-            <h4>Instituto de Recife alimenta 8 mil pessoas em vulnerabilidade.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://tvbrasil.ebc.com.br/reporter-brasil/2022/10/instituto-de-recife-alimenta-8-mil-pessoas-em-vulnerabilidade"
-                target="_blank">tvbrasil.ebc.com.br <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Maio de 2022</span>
-            <h6>UFRPE</h6>
-            <h4>Solidariedade: a neurociência e a sociologia ajudam a explicar o amor ao próximo.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://www.ufrpe.br/en/content/folha-de-pe-solidariedade-neurociência-e-sociologia-ajudam-explicar-o-amor-ao-próximo"
-                target="_blank">ufrpe.br <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Setembro de 2022</span>
-            <h6>Câmara Municipal de Recife</h6>
-            <h4>Câmara entrega Medalha de Mérito Olegária Mariano a Maria Eduarda Fernandes.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://www.recife.pe.leg.br/comunicacao/noticias/2023/10/camara-entrega-medalha-de-merito-olegaria-mariano-a-maria-eduarda-fernandes"
-                target="_blank">recife.pe.leg.br <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Maio de 2022</span>
-            <h6>Governo Federal</h6>
-            <h4>PRF realiza entrega de 300 Kg de alimentos à instituição social no Pina.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://www.gov.br/prf/pt-br/noticias_anteriores/estaduais/pernambuco/maio-2022/prf-realiza-entrega-de-300-kg-de-alimentos-a-instituicao-social-no-pina"
-                target="_blank">gov.br <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Outubro de 2023</span>
-            <h6>Blog Alberes Xavier</h6>
-            <h4>Vereador Paulo Muniz concede Medalha de Mérito Olegária Mariano à Maria Eduarda Fernandes, fundadora do
-              Instituto Vizinhos Solidários.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://blogdoalberesxavier.com/noticias/28931/vereador-paulo-muniz-concede-medalha-de-merito-olegaria-mariano-a-maria-eduarda-fernandes-fundadora-do-instituto-vizinhos-solidarios"
-                target="_blank">blogdoalberesxavier.com <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Março de 2022</span>
-            <h6>Universidade Maurício de Nassau</h6>
-            <h4>Trote solidário arrecada alimentos para pessoas em situação de rua.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://www.uninassau.edu.br/noticias/trote-solidario-arrecada-alimentos-para-pessoas-em-situacao-de-rua"
-                target="_blank">uninassau.edu.br <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Novembro 2023</span>
-            <h6>Portal G1</h6>
-            <h4>Bebedouro solidário instalado por ONG ajuda população de rua a lidar com o calor no Recife.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://g1.globo.com/pe/pernambuco/noticia/2023/11/18/bebedouro-solidario-instalado-por-ong-ajuda-populacao-de-rua-a-lidar-com-o-calor-no-recife.ghtml"
-                target="_blank">g1.globo.com <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Agosto de 2021</span>
-            <h6>Portal UOL Notícias</h6>
-            <h4>Em Mercado Solidário de PE, famílias podem escolher itens da cesta básica.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://www.uol.com.br/ecoa/ultimas-noticias/2021/08/27/em-mercado-solidario-de-pe-familias-podem-escolher-itens-da-cesta-basica.htm"
-                target="_blank">uol.com.br/ecoa <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Setembro de 2021</span>
-            <h6>Observatório do Terceiro Setor</h6>
-            <h4>Mercado Solidário oferece produtos da cesta básica gratuitamente.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://observatorio3setor.org.br/noticias/mercado-solidario-oferece-produtos-da-cesta-basica-gratuitamente/"
-                target="_blank">observatorio3setor.org.br <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
-            <span class="category">Agosto de 2021</span>
-            <h6>.FDR</h6>
-            <h4>Mercado Solidário em Pernambuco libera produtos totalmente grátis.</h4>
-            <ul></ul>
-            <div class="main-button">
-              <a href="https://fdr.com.br/2021/08/31/mercado-solidario-em-pernambuco-libera-produtos-totalmente-gratis/"
-                target="_blank">fdr.com.br <i class="fa fa-link">&nbsp;</i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
-          <div class="item item-link">
             <span class="category">Março de 2021</span>
             <h6>TV Jornal</h6>
             <h4>Pandemia agrava crise e ruas são tomadas por apelos por comida e emprego; veja como ajudar.</h4>
@@ -557,7 +380,191 @@
                 target="_blank">tvpe.pe.gov.br <i class="fa fa-link">&nbsp;</i></a>
             </div>
           </div>
+        </div>  
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Agosto de 2021</span>
+            <h6>João Alberto</h6>
+            <h4>Vizinhos Solidários está arrecadando alimentos não perecíveis para pessoas em situação de
+              vulnerabilidade social na capital pernambucana.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="http://www.joaoalberto.com/2021/05/17/academia-do-recife-fecha-parceria-com-ong-para-arrecadacao-de-alimentos/"
+                target="_blank">joaoalberto.com <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>             
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Agosto de 2021</span>
+            <h6>Portal UOL Notícias</h6>
+            <h4>Em Mercado Solidário de PE, famílias podem escolher itens da cesta básica.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://www.uol.com.br/ecoa/ultimas-noticias/2021/08/27/em-mercado-solidario-de-pe-familias-podem-escolher-itens-da-cesta-basica.htm"
+                target="_blank">uol.com.br/ecoa <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
         </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Agosto de 2021</span>
+            <h6>.FDR</h6>
+            <h4>Mercado Solidário em Pernambuco libera produtos totalmente grátis.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://fdr.com.br/2021/08/31/mercado-solidario-em-pernambuco-libera-produtos-totalmente-gratis/"
+                target="_blank">fdr.com.br <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Setembro de 2021</span>
+            <h6>Observatório do Terceiro Setor</h6>
+            <h4>Mercado Solidário oferece produtos da cesta básica gratuitamente.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://observatorio3setor.org.br/noticias/mercado-solidario-oferece-produtos-da-cesta-basica-gratuitamente/"
+                target="_blank">observatorio3setor.org.br <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>                
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Março de 2022</span>
+            <h6>Universidade Maurício de Nassau</h6>
+            <h4>Trote solidário arrecada alimentos para pessoas em situação de rua.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://www.uninassau.edu.br/noticias/trote-solidario-arrecada-alimentos-para-pessoas-em-situacao-de-rua"
+                target="_blank">uninassau.edu.br <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Maio de 2022</span>
+            <h6>Sport Clube</h6>
+            <h4>Instituto Vizinhos Solidários é beneficiado com alimentos arrecadados em jogo rubro-negro.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://sportrecife.com.br/base/instituto-vizinhos-solidarios-e-beneficiado-com-alimentos-arrecadados-em-jogo-rubro-negro/"
+                target="_blank">sportrecife.com.br <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Maio de 2022</span>
+            <h6>Governo Federal</h6>
+            <h4>PRF realiza entrega de 300 Kg de alimentos à instituição social no Pina.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://www.gov.br/prf/pt-br/noticias_anteriores/estaduais/pernambuco/maio-2022/prf-realiza-entrega-de-300-kg-de-alimentos-a-instituicao-social-no-pina"
+                target="_blank">gov.br <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Maio de 2022</span>
+            <h6>UFRPE</h6>
+            <h4>Solidariedade: a neurociência e a sociologia ajudam a explicar o amor ao próximo.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://www.ufrpe.br/en/content/folha-de-pe-solidariedade-neurociência-e-sociologia-ajudam-explicar-o-amor-ao-próximo"
+                target="_blank">ufrpe.br <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Agosto de 2022</span>
+            <h6>Jornal do Commercio</h6>
+            <h4>Instituto Vizinhos Solidários recebe alta comenda do Tribunal de Justiça de Pernambuco por serviços
+              prestados à população vulnerável.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://jc.ne10.uol.com.br/pernambuco/2022/08/amp/15063864-instituto-vizinhos-solidarios-recebe-alta-comenda-do-tribunal-de-justica-de-pernambuco-por-servicos-prestados-a-populacao-vulneravel.php"
+                target="_blank">jc.ne10.uol.com.br <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>                        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Setembro de 2022</span>
+            <h6>TV Brasil</h6>
+            <h4>Instituto de Recife alimenta 8 mil pessoas em vulnerabilidade.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://tvbrasil.ebc.com.br/reporter-brasil/2022/10/instituto-de-recife-alimenta-8-mil-pessoas-em-vulnerabilidade"
+                target="_blank">tvbrasil.ebc.com.br <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>        
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Setembro de 2022</span>
+            <h6>Câmara Municipal de Recife</h6>
+            <h4>Câmara entrega Medalha de Mérito Olegária Mariano a Maria Eduarda Fernandes.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://www.recife.pe.leg.br/comunicacao/noticias/2023/10/camara-entrega-medalha-de-merito-olegaria-mariano-a-maria-eduarda-fernandes"
+                target="_blank">recife.pe.leg.br <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>      
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Abril de 2023</span>
+            <h6>JPortal G1</h6>
+            <h4>Instituto Vizinhos Solidários precisa de doações para atender pessoas em situação de rua.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://g1.globo.com/google/amp/pe/pernambuco/bom-dia-pe/video/instituto-vizinhos-solidarios-precisa-de-doacoes-para-atender-pessoas-em-situacao-de-rua-11566334.ghtml"
+                target="_blank">g1.globo.com <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Abril de 2023</span>
+            <h6>Diário de Pernambuco</h6>
+            <h4>Pernambuco Centro de Convenções recebeu 400 crianças do Instituto Vizinhos Solidários na última terça.
+            </h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://www.diariodepernambuco.com.br/ultimas/2023/04/pernambuco-centro-de-convencoes-recebe-400-criancas-do-instituto-vizin.php"
+                target="_blank">diariodepernambuco.com.br <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Outubro de 2023</span>
+            <h6>Blog Alberes Xavier</h6>
+            <h4>Vereador Paulo Muniz concede Medalha de Mérito Olegária Mariano à Maria Eduarda Fernandes, fundadora do
+              Instituto Vizinhos Solidários.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://blogdoalberesxavier.com/noticias/28931/vereador-paulo-muniz-concede-medalha-de-merito-olegaria-mariano-a-maria-eduarda-fernandes-fundadora-do-instituto-vizinhos-solidarios"
+                target="_blank">blogdoalberesxavier.com <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
+          <div class="item item-link">
+            <span class="category">Novembro 2023</span>
+            <h6>Portal G1</h6>
+            <h4>Bebedouro solidário instalado por ONG ajuda população de rua a lidar com o calor no Recife.</h4>
+            <ul></ul>
+            <div class="main-button">
+              <a href="https://g1.globo.com/pe/pernambuco/noticia/2023/11/18/bebedouro-solidario-instalado-por-ong-ajuda-populacao-de-rua-a-lidar-com-o-calor-no-recife.ghtml"
+                target="_blank">g1.globo.com <i class="fa fa-link">&nbsp;</i></a>
+            </div>
+          </div>
+        </div>    
       </div>
     </div>
   </div>  

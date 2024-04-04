@@ -2,7 +2,8 @@
 <html>
 
 <head>
-  <meta charset="utf-8">  
+  <meta charset="utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Venha doar amor aos que precisam. Traga conforto, ajude famílias.">
   <meta name="keywords"
@@ -58,6 +59,8 @@
                 target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://br.linkedin.com/in/maria-eduarda-fernandes-8721b823" class="link-linkedin-button"
                 target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=cygnussh.vizinhossolidarios.ong" class="link-google-play-button"
+                target="_blank"><img src="assets/images/playStore.png" class="google-play"></a></li>
           </ul>
         </div>
       </div>
@@ -79,13 +82,13 @@
             <ul class="nav">
               <li><a href="index.php" class="active">Início</a></li>
               <li><a href="#about">Sobre</a></li>
-              <li><a href="news.php">Notícias</a></li>
+              <li><a href="news.php">Na Mídia</a></li>
               <li><a href="actions.php">Ações</a></li>
               <li><a href="voluntary.php">Voluntário</a></li>
               <li><a href="transparency.php">Transparência</a></li>
               <li><a href="#contact">Fale Conosco</a></li>
-              <li><a href="#donate"><i class="fa fa-heart"></i> Doe agora</a></li>
-            </ul>
+              <li><a href="#donate"><i class="fa fa-heart"></i> Doe agora</a></li>              
+            </ul>            
             <a class='menu-trigger'>
               <span>Menu</span>
             </a>
@@ -97,12 +100,12 @@
   </header>
   <!-- ***** Header Area End ***** -->
   <div class="main-banner">
-    <div class="owl-carousel owl-banner">
+    <div class="owl-carousel owl-banner">      
       <div class="item item-1">
         <div class="header-text">
-          <h2 style="font-size: 1px;">...<br />...</h2>
+          <h2>Juntos<br /> pelo bem</h2>
           <br />
-          <span style="font-size: 1px;"></span>...</span>
+          <span class="category"><a href="#donate" style="color: #007749;">Doe, <em>Agora</em></a></span>
         </div>
       </div>
       <div class="item item-2">
@@ -111,14 +114,7 @@
           <br />
           <span class="category"><a href="#donate" style="color: #007749;">Doe, <em>Agora</em></a></span>
         </div>
-      </div>
-      <div class="item item-3">
-        <div class="header-text">
-          <h2>Juntos<br /> pelo bem</h2>
-          <br />
-          <span class="category"><a href="#donate" style="color: #007749;">Doe, <em>Agora</em></a></span>
-        </div>
-      </div>
+      </div>      
     </div>
   </div>
   <div class="presentation section">
@@ -147,36 +143,21 @@
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionAbout">
                 <div class="accordion-body" style="text-align: justify;">
-                  <p>Diante de tantas pessoas com fome em março de 2020, as empresárias Maria Eduarda Fernandes e Mayara
-                    Amaral, decidiram arregaçar as mangas e começaram, fazendo 20 marmitas por dia, em sua residência,
-                    para distribuir nas redondezas onde moravam, em Boa Viagem. Vendo a atitude delas, alguns vizinhos
-                    decidiram ajudar. A ação cresceu e o projeto Vizinhos Solidários virou Instituto e atende mais de 20
-                    comunidades no grande Recife e Olinda. Já alimentou mais de 200 mil pessoas através das marmitas e
-                    distribuiu mais de 80 mil cestas básicas em 72 pontos de Recife, Olinda e Jaboatão dos Guararapes.
-                  </p>
-                  <p>Hoje o Instituto conta com 3 frentes: distribuição de marmitas diariamente, distribuição de cestas
-                    básicas com calendário e através do Mercado Solidário, com essas frentes alimentamos até 8 mil
-                    pessoas por mês. De segunda à sexta-feira entregamos, todos os dias, entre 150 e 200 refeições,
-                    sempre em um local diferente. Vai também suco, água mineral, sobremesa e um kit de higiene pessoal
-                    para cada pessoa. Tudo com ajuda de doações de pessoas físicas e empresas parceiras.</p>
-                  <p>A nossa sede ainda dispõe de um bebedouro solidário com água potável, que foi desenvolvido por
-                    Maria Eduarda Fernandes, para uso das PSR (pessoas em situação de rua), tomar banho, beber água,
-                    lavar roupas, fazer uso a vontade.</p>
-                  <p>O Mercado Solidário atende as famílias que vivem abaixo da linha da pobreza, com renda mensal de
-                    até R$ 100,00 reais. Nossa assistente social visita as casas, conversa, faz um levantamento
-                    socio-econômico e cadastra a família. Na ocasião, as famílias já recebem um cartão que da direito a
-                    fazer a feira no Mercado Solidário, que fica dentro da nossa sede e que tem disponibilidade de 103
-                    itens de compras como: feijão, arroz. macarrão, farinha, fuba, molho de tomate, refrigerantes,
-                    aveia, leite, frios, carnes, ovos, frutas, verduras, enlatados, bolachas, biscoitos variados e
-                    muitos outros itens.</p>
-                  <p>Nosso Instituto possui um time de 4 funcionários, mais de 30 voluntários fixos, cozinha industrial,
-                    estoque com itens de uso diário, uma Kombi para fazer as entregas diárias de marmitas e também
-                    buscar doações das empresas parceiras. Temos uma estrutura que atende muito bem as comunidades do
-                    entorno, 12 projetos sociais que ajudamos mensalmente e aplicamos mentoria.</p>
-                  <p>Iniciamos em abril de 2022 as primeiras turmas dos cursos profissionalizantes para as mulheres das
-                    comunidades do entorno. Elas estão realizadas com o aumento da renda mensal da família e com a
-                    certificação de uma profissão. Também trabalhamos com compostagem de residios e tudo o que
-                    produzimos vira adubo para nossa horta.</p>
+                  <p>Instituto Vizinhos Solidários: Transformando Vidas e Comunidades.</p>
+                  <br/>
+                  <p>Em março de 2020, diante da crescente crise de fome gerada pela pandemia e que assolava muitas famílias em Boa Viagem e arredores, a Empreendedora Social, Maria Eduarda Fernandes e a nutricionista Mayara Amaral decidiram agir. </p>
+                  <br/>
+                  <p>Começaram modestamente, preparando 20 marmitas por dia em suas casas para distribuir entre os vizinhos necessitados. O gesto generoso logo inspirou outros moradores a se unirem à causa. Dai o nome Vizinhos Solidários.</p>
+                  <br/>
+                  <p>O que começou como uma pequena ação de solidariedade evoluiu para algo muito maior. O projeto Vizinhos Solidários transformou-se em um instituto dedicado a ajudar aqueles que mais precisam na região do grande Recife e Olinda. Ao longo dos anos, eles já forneceram mais de 500 mil de refeições através das marmitas e distribuíram mais de 100 mil cestas básicas em 72 pontos diferentes, abrangendo Recife, Olinda, Jaboatão dos Guararapes e o Sertão de Pernambuco.</p>
+                  <br/>
+                  <p>Hoje, o Instituto Vizinhos Solidários opera com três frentes principais. A primeira consiste na distribuição diária de marmitas, entregando entre 150 e 200 refeições todos os dias em locais diferentes. Cada refeição é acompanhada de suco ou água mineral, sobremesa e um kit de higiene pessoal, proporcionando não apenas alimento, mas também dignidade.</p>
+                  <br/>
+                  <p>Além disso, o instituto implementou um Mercado Solidário para atender às necessidades das famílias que vivem abaixo da linha da pobreza, com renda mensal de até R$ 100,00. Uma assistente social visita essas famílias, realiza uma análise socioeconômica e as cadastra para receber um cartão que lhes permite fazer compras no Mercado Solidário. Este mercado oferece uma variedade de 103 itens essenciais, desde alimentos básicos até produtos de higiene.</p>
+                  <br/>
+                  <p>Mas o Instituto Vizinhos Solidários vai além da assistência alimentar. Eles também oferecem cursos profissionalizantes para mulheres das comunidades locais, visando aumentar sua renda mensal e fornecer certificação em uma profissão. Além disso, o instituto pratica a compostagem de resíduos, transformando o que seria lixo em adubo para sua própria horta, promovendo assim a sustentabilidade ambiental. Tem também o Bebedouro Solidário que distribui água potável 24h por dia para as pessoas em situação de rua, podendo tomar banho, lavar suas roupas, beber água. </p>
+                  <br/>
+                  <p>Com uma equipe de funcionários dedicados, mais de 50 voluntários fixos e uma infraestrutura bem estabelecida, o Instituto Vizinhos Solidários continua a fazer uma diferença significativa na vida das pessoas e das comunidades que atende. Seu compromisso com a solidariedade, empoderamento e sustentabilidade demonstra como a união e a compaixão podem verdadeiramente transformar vidas.</p>
                 </div>
               </div>
             </div>
@@ -256,19 +237,19 @@
             <ul>
               <li>
                 <div class="icon-button">
-                  <a onclick="CallAsaas(621563059331)" target="_blank" class="link-maintainer"><i class="fa fa-money-bill-1" style="font-size: larger;"></i> R$
+                  <a onclick="CallAsaas('bnlzdc62zpwjes2s')" target="_blank" class="link-maintainer"><i class="fa fa-money-bill-1" style="font-size: larger;"></i> R$
                     30,00</a>
                 </div>
               </li>
               <li class="button-mantedor">
                 <div class="icon-button">
-                  <a onclick="CallAsaas(568583765685)" target="_blank" class="link-maintainer"><i class="fa fa-money-bill-1" style="font-size: larger;"></i> R$
+                  <a onclick="CallAsaas('6kj1exw0ra1mqazp')" target="_blank" class="link-maintainer"><i class="fa fa-money-bill-1" style="font-size: larger;"></i> R$
                     50,00</a>
                 </div>
               </li>
               <li class="button-mantedor">
                 <div class="icon-button">
-                  <a onclick="CallAsaas(217244449254)" target="_blank" class="link-maintainer"><i class="fa fa-money-bill-1" style="font-size: larger;"></i>R$
+                  <a onclick="CallAsaas('4bb3ec7qs4fzm5hh')" target="_blank" class="link-maintainer"><i class="fa fa-money-bill-1" style="font-size: larger;"></i>R$
                     100,00</a>
                 </div>
               </li>

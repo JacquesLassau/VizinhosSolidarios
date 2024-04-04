@@ -8,7 +8,7 @@
 	$email = @trim($_GET['email']);
 	$telefone = @trim($_GET['phone']);	
 	$mensagem = @trim($_GET['message']);	
-	$to = "jacques.desenvolvedorweb@gmail.com";	
+	$to = "contato@vizinhossolidarios.ong.br";	
 	$subject = "Contato - Voluntário";
 	$html = "
 	<!DOCTYPE html>

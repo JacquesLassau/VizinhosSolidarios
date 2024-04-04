@@ -425,8 +425,8 @@ Header Style
 
 .header-area .main-nav .nav li a {
   display: block;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-weight: 500;
   font-size: 15px;
   height: 40px;
@@ -1739,6 +1739,18 @@ body {
     padding: 6px;
     border-radius: 10px;
   } 
+  .fa-linkedin{
+    background-color: #004182;
+    padding: 6px;
+    border-radius: 10px;
+  } 
+  .google-play{
+    margin-top: -10%;
+    background-color: #fff;
+    width: 48px;
+    border-radius: 10px;
+    padding: 6px;
+  }
   .sub-header {
     padding: 0px 0px;
   }
@@ -1883,6 +1895,9 @@ body {
 }
 .link-linkedin-button {
   background-color: #004182 !important;
+}
+.link-google-play-button {
+  background-color: transparent !important;
 }
 .news{
   width: 100%;

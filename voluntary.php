@@ -2,7 +2,8 @@
 <html>
 
 <head>
-  <meta charset="utf-8">  
+  <meta charset="utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Venha doar amor aos que precisam. Traga conforto, ajude famílias.">
   <meta name="keywords"
@@ -63,6 +64,8 @@
                 target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://br.linkedin.com/in/maria-eduarda-fernandes-8721b823" class="link-linkedin-button"
                 target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=cygnussh.vizinhossolidarios.ong" class="link-google-play-button"
+                target="_blank"><img src="assets/images/playStore.png" class="google-play"></a></li>
           </ul>
         </div>
       </div>
@@ -84,7 +87,7 @@
             <ul class="nav">
               <li><a href="index.php">Início</a></li>
               <li><a href="index.php#about">Sobre</a></li>
-              <li><a href="news.php">Notícias</a></li>
+              <li><a href="news.php">Na Mídia</a></li>
               <li><a href="actions.php">Ações</a></li>
               <li><a href="voluntary.php" class="active">Voluntário</a></li>
               <li><a href="transparency.php">Transparência</a></li>
