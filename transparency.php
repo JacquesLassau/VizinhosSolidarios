@@ -263,6 +263,10 @@
                           <a href="assets/transparency/balancete/2022/DemoResultadoExercicio2021.pdf" target="_blank"
                             style="text-decoration: underline !important;">DRE SPED ECT 2021</a>
                         </div>
+                        <div class="accordion-body">
+                          <a href="assets/transparency/balancete/2023/DemoResultadoExercicio2023.pdf" target="_blank"
+                            style="text-decoration: underline !important;">DRE SPED ECT 2023</a>
+                        </div>
                       </div>
                     </div>
                   </div>
