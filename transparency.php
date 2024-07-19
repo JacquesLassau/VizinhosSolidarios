@@ -63,8 +63,9 @@
                 target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://br.linkedin.com/in/maria-eduarda-fernandes-8721b823" class="link-linkedin-button"
                 target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=cygnussh.vizinhossolidarios.ong" class="link-google-play-button"
-                target="_blank"><img src="assets/images/playStore.png" class="google-play"></a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=cygnussh.vizinhossolidarios.ong"
+                class="link-google-play-button" target="_blank"><img src="assets/images/playStore.png"
+                  class="google-play"></a></li>
           </ul>
         </div>
       </div>
@@ -115,7 +116,7 @@
           <div class="tabs-content">
             <div class="row">
               <div class="nav-wrapper" id="areaTransparencia">
-                <ul class="nav nav-tabs" role="tablist">                  
+                <ul class="nav nav-tabs" role="tablist">
                   <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="colaboradores-tab" data-bs-toggle="tab"
                       data-bs-target="#collaborator" type="button" role="tab" aria-controls="collaborator"
@@ -131,7 +132,8 @@
                   </li>
                   <li class="nav-item" role="presentation">
                     <button class="nav-link" id="planilhas-tab" data-bs-toggle="tab" data-bs-target="#planilhas"
-                      type="button" role="tab" aria-controls="planilhas" aria-selected="false">Planilhas e Gráficos</button>
+                      type="button" role="tab" aria-controls="planilhas" aria-selected="false">Planilhas e
+                      Gráficos</button>
                   </li>
                 </ul>
               </div>
@@ -149,8 +151,9 @@
                       <img src="assets/images/secretaria.jpeg" alt="Secretária">
                     </div>
                   </div>
-                  <br/>
-                  <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#organograma">Clique aqui e e veja o Organograma do instituto completo.</button>
+                  <br />
+                  <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#organograma">Clique
+                    aqui e e veja o Organograma do instituto completo.</button>
                 </div>
                 <div class="tab-pane fade" id="documents" role="tabpanel" aria-labelledby="documents-tab">
                   <p>
@@ -271,33 +274,43 @@
                     </div>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="report-videos" role="tabpanel" aria-labelledby="report-videos-tab">                  
-				  <div class="row">    
-					<div class="col-lg-3 col-md-3">
+                <div class="tab-pane fade" id="report-videos" role="tabpanel" aria-labelledby="report-videos-tab">
+                  <div class="row">                    
+                    <div class="col-lg-4 col-md-4">
+                      <h4>Relatório de Impacto Social 2024 - de janeiro a junho de 2024</h4>
+                      <video controls="controls" class="video-controls">
+                        <source src="assets/transparency/relatorios/2024/RelatorioImpaccto2024.1.mp4" type="video/mp4">
+                      </video>      
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <h4>Prestação de Contas Parcial - 06 a 23 de maio de 2024</h4>
+                      <a href="assets/transparency/relatorios/2024/RelatorioImpactoChuvasRS.pdf" target="_blank"> <img src="assets/actions/photos/EnchenteRS/19.jpeg" width="100%" height="auto"/></a>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
                       <h4>Prestação de Contas Geral - Ano 2023</h4>
                       <video controls="controls" class="video-controls">
                         <source src="assets/videos/Movimentacoes2023.mp4" type="video/mp4">
                       </video>
                     </div>
-					<div class="col-lg-3 col-md-3">
+                    <div class="col-lg-4 col-md-4">
                       <h4>Relatório Financeiro 1º Semestre 2022</h4>
                       <video controls="controls" class="video-controls">
                         <source src="assets/videos/RelatorioFinanceiro2022-1.mp4" type="video/mp4">
                       </video>
                     </div>
-					<div class="col-lg-3 col-md-3">
+                    <div class="col-lg-4 col-md-4">
                       <h4>Relatório de Progresso dos ODS da ONU</h4>
                       <video controls="controls" class="video-controls">
                         <source src="assets/videos/RelatorioProgressoODS.mp4" type="video/mp4">
                       </video>
-                    </div>                    
-					<div class="col-lg-3 col-md-3">
+                    </div>
+                    <div class="col-lg-4 col-md-4">
                       <h4>Movimentações em Atividade 2021</h4>
                       <video controls="controls" class="video-controls">
                         <source src="assets/videos/Movimentacoes2021.mp4" type="video/mp4">
                       </video>
-                    </div>
-                  </div>				  
+                    </div>                    
+                  </div>                                  
                 </div>
                 <div class="tab-pane fade" id="planilhas" role="tabpanel" aria-labelledby="planilhas-tab">
                   <p>
@@ -316,13 +329,17 @@
                         data-bs-parent="#accordionPlanilhas">
                         <div class="accordion-body">
                           <a href="assets/transparency/planilhas/2023/PlanilhaDoacoes2022e2023.xlsx" target="_blank"
-                            style="text-decoration: underline !important;">Planilha com dados sintéticos e comparativos.</a><br /><br />                          
-                          <buttom type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#graficoComparativo2022e2023" style="padding: 0;">Gráfico sintético e comparativo.</buttom><br /><br />
-                          <buttom type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#trd" style="padding: 0;">Taxa de Retenção de Doadores.</buttom><br /><br />                          
+                            style="text-decoration: underline !important;">Planilha com dados sintéticos e
+                            comparativos.</a><br /><br />
+                          <buttom type="button" class="btn btn-link" data-bs-toggle="modal"
+                            data-bs-target="#graficoComparativo2022e2023" style="padding: 0;">Gráfico sintético e
+                            comparativo.</buttom><br /><br />
+                          <buttom type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#trd"
+                            style="padding: 0;">Taxa de Retenção de Doadores.</buttom><br /><br />
                         </div>
                       </div>
                     </div>
-                  </div>                  
+                  </div>
                 </div>
               </div>
             </div>
@@ -345,7 +362,8 @@
       </div>
     </div>
   </div>
-  <div class="modal fade" id="graficoComparativo2022e2023" tabindex="-1" aria-labelledby="graficoComparativo2022e2023Label" aria-hidden="true">
+  <div class="modal fade" id="graficoComparativo2022e2023" tabindex="-1"
+    aria-labelledby="graficoComparativo2022e2023Label" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-body">
@@ -381,7 +399,7 @@
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
-  
+
 </body>
 
 </html>

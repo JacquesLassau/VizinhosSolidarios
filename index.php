@@ -383,6 +383,28 @@
     <!-- Template cedido por: TemplateMo Distribuído por: ThemeWagon https://templatemo.com/tm-591-villa-agency-->
   </footer>
 
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Relatório de Impacto Social 2024.1</h1>        
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body">
+        <video controls="controls" class="video-controls">
+          <source src="assets/transparency/relatorios/2024/RelatorioImpaccto2024.1.mp4" type="video/mp4">
+        </video>      
+        Saiba um pouco mais do que foi feito no primeiro semestre do ano de 2024.
+      </div>
+      <div class="modal-footer">
+        <!--a href="actions.php" type="button" class="btn button-primary" style="background-color: #2a95be; color: #fff;">Fotos da Ação Solidárias</a-->
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>        
+      </div>
+    </div>
+  </div>
+</div>
+
   <!-- Modal envio de E-mail -->
   <div class="modal fade" id="modalFormularioSucesso" tabindex="-1" role="dialog" aria-labelledby="modalFormularioSucessoLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
@@ -411,6 +433,15 @@
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
   <script type="text/javascript">		
+
+      
+    /*if (localStorage.getItem("popAvisos") != "Sim"){
+      var modalAvisos = new bootstrap.Modal('#staticBackdrop', { keyboard: false });
+      var staticBackdrop = document.getElementById('staticBackdrop'); 
+      modalAvisos.show(staticBackdrop);
+      localStorage.setItem("popAvisos", "Sim");
+    }*/   
+
 		var form = $('#contact-form');
 		form.submit(function(event){
 			event.preventDefault();
@@ -425,7 +456,12 @@
 				form_status.html('<p class="text-success">Retornaremos em Breve.</p>').delay(6000).fadeOut();			
 				$('#modalFormularioSucesso').modal('show');				
 			});
-		});
+		});    
+
+      var modalAvisos = new bootstrap.Modal('#staticBackdrop', { keyboard: false });
+      var staticBackdrop = document.getElementById('staticBackdrop'); 
+      modalAvisos.show(staticBackdrop);
+
 	</script>
 </body>
 

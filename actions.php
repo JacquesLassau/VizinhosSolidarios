@@ -129,6 +129,12 @@
         <li>
           <a href="#!" data-filter=".merito-olegario-mariano">Mérito Olegária Mariano</a>
         </li>
+        <li>
+          <a href="#!" data-filter=".enchente-rs" id="btnEnchenteRs">Enchente Rio Grande do Sul</a>
+        </li>        
+        <li>
+          <a href="#!" data-filter=".sertao">Ajuda Sertão</a>
+        </li>
       </ul>
       <div class="row properties-box">
         <!-- ############### INÍCIO Galeria Solidária ############### -->
@@ -378,6 +384,261 @@
             <img src="assets/actions/photos/MeritoOleMariano/6.jpeg">
           </div>
         </div>
+        <!-- ############### FIM  Mérito Olegário Mariano ############### -->        
+        <!-- ############### INÍCIO  Enchente RS ############### -->
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/1.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/2.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/3.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/4.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/5.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/6.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/7.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/8.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/9.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/10.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/11.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/12.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/13.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/14.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/15.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/16.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/17.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/18.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/19.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/20.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/21.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/22.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/23.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/24.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/25.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/26.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/27.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/28.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/29.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/30.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/31.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/32.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/33.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/34.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/35.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/36.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/37.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/38.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/39.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/40.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/41.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/42.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/43.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/44.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/45.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/46.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/47.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/48.jpeg">
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 enchente-rs">
+          <div class="item">
+            <img src="assets/actions/photos/EnchenteRS/49.jpeg">
+          </div>
+        </div>        
+        <!-- ############### FIM  Enchente RS ############### -->        
+        <!-- ############### INÍCIO  Sertão ############### -->
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 sertao">
+          <video controls="controls" class="news item">
+            <source src="assets/actions/videos/sertao/doacoesSertao.mp4" type="video/mp4">
+          </video>          
+        </div>
+        <!-- ############### FIM Sertão ############### -->
       </div>
     </div>
     <div class="container">
@@ -841,6 +1102,31 @@
           </div>
         </div>
       </div>
+      <div class="accordion p-1" id="accordionAction8">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingAction8">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAction8"
+              aria-expanded="false" aria-controls="collapseAction8">
+              Apoio ao Esporte
+        </div>
+        </button>
+        </h2>
+        <div id="collapseAction8" class="accordion-collapse collapse" aria-labelledby="headingAction8"
+          data-bs-parent="#accordionAction8">
+          <div class="accordion-body" style="text-align: justify;">
+            <div class="row properties-box">
+              <div class="col-lg-12 col-md-12 align-self-center mb-30 properties-items col-md-6">
+                <video controls="controls" class="news item">
+                   <source src="assets/actions/videos/esporte/CopaAGINAT.mp4" type="video/mp4">
+                </video> 
+              </div>   
+              <p style="text-indent:4em">Copa AGINAT Ginástica Rítmica - Rio Grande do Norte. O Instituto tem o orgulho de apoiar talentos como o de Melinda (Mel), de 8 anos, moradora da comunidade do Bode, que se tornou campeã de ginástica rítmica. Há 3 anos, estamos acompanhando e oferecendo apoio não apenas a ela, mas também à sua família, reconhecendo o potencial e o esforço dessa promissora atleta.</p>
+              <br/>
+              <p style="text-indent:4em">Ao proporcionar acesso a atividades esportivas, não apenas fortalecemos o corpo e a mente dos jovens, mas também lhes damos ferramentas para construir um futuro melhor, quebrando barreiras socioeconômicas e criando oportunidades de crescimento pessoal e profissional. “Tudo parece impossível até que seja feito”, e é com essa crença que avançamos rumo a um futuro mais justo e próspero para todos.</p>           
+            </div>
+          </div>
+        </div>
+      </div>      
     </div>
   </div>
   <footer>
