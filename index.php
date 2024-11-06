@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html><html>
 
 <head>
   <meta charset="utf-8">
@@ -48,7 +47,7 @@
           <ul class="info">
             <li><i class="fa fa-envelope"></i> <a href="mailto:contato@vizinhossolidarios.ong.br"
                 style="color:#7a7a7a;">contato@vizinhossolidarios.ong.br</a></li>
-            <li><i class="fa fa-map"></i> R. Souto Filho, 118 - Pina, Recife - PE, 51011-170</li>
+                <li><i class="fa fa-map"></i> R. Pereira da Costa, 208 - Pina, Recife - PE, 51011-190</li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-4">
@@ -318,11 +317,10 @@
       <div class="row">
         <div class="col-lg-8">
           <div id="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15800.328444580082!2d-34.883457!3d-8.093109!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeeb5910e2e7cc1a5!2sVizinhos%20Solid%C3%A1rios!5e0!3m2!1spt-PT!2sbr!4v1593688009979!5m2!1spt-PT!2sbr"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15800.237600311191!2d-34.88495196034249!3d-8.095425315425473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f152e8faac3%3A0xd9ff680328124056!2sR.%20Pereira%20da%20Costa%2C%20208%20-%20Pina%2C%20Recife%20-%20PE%2C%2051011-190!5e0!3m2!1spt-BR!2sbr!4v1725930632227!5m2!1spt-BR!2sbr" 
               width="100%" height="500px" frameborder="0"
               style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);"
-              allowfullscreen=""></iframe>
+              allowfullscreen=""></iframe>            
           </div>
           <div class="row">
             <div class="col-lg-5">
@@ -388,14 +386,15 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Relatório de Impacto Social 2024.1</h1>        
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Ação na Câmara Municipal em Recife</h1>        
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
       </div>
       <div class="modal-body">
+        <!--img src="assets/actions/2024/09/NovoEndereco.jpeg" /-->
         <video controls="controls" class="video-controls">
-          <source src="assets/transparency/relatorios/2024/RelatorioImpaccto2024.1.mp4" type="video/mp4">
-        </video>      
-        Saiba um pouco mais do que foi feito no primeiro semestre do ano de 2024.
+          <source src="assets/videos/CobrandoSolucoes.mp4" type="video/mp4">
+        </video>
+        <p>O Instituto está buscando e cobrando soluções para as pessoas que vivem em situação de rua na Zona Sul de Recife.</p>
       </div>
       <div class="modal-footer">
         <!--a href="actions.php" type="button" class="btn button-primary" style="background-color: #2a95be; color: #fff;">Fotos da Ação Solidárias</a-->
@@ -433,16 +432,8 @@
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
   <script type="text/javascript">		
-
       
-    /*if (localStorage.getItem("popAvisos") != "Sim"){
-      var modalAvisos = new bootstrap.Modal('#staticBackdrop', { keyboard: false });
-      var staticBackdrop = document.getElementById('staticBackdrop'); 
-      modalAvisos.show(staticBackdrop);
-      localStorage.setItem("popAvisos", "Sim");
-    }*/   
-
-		var form = $('#contact-form');
+    var form = $('#contact-form');
 		form.submit(function(event){
 			event.preventDefault();
 			var form_status = $('<div class="form_status"></div>');
@@ -458,9 +449,9 @@
 			});
 		});    
 
-      var modalAvisos = new bootstrap.Modal('#staticBackdrop', { keyboard: false });
-      var staticBackdrop = document.getElementById('staticBackdrop'); 
-      modalAvisos.show(staticBackdrop);
+    //var modalAvisos = new bootstrap.Modal('#staticBackdrop', { keyboard: false });
+    //var staticBackdrop = document.getElementById('staticBackdrop'); 
+    //modalAvisos.show(staticBackdrop);
 
 	</script>
 </body>

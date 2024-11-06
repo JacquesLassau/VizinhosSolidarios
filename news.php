@@ -46,7 +46,7 @@
       background-color: #fafafa !important;
     }
 
-    h6{
+    h6 {
       font-size: 15px !important;
     }
   </style>
@@ -72,7 +72,7 @@
           <ul class="info">
             <li><i class="fa fa-envelope"></i> <a href="mailto:contato@vizinhossolidarios.ong.br"
                 style="color:#7a7a7a;">contato@vizinhossolidarios.ong.br</a></li>
-            <li><i class="fa fa-map"></i> R. Souto Filho, 118 - Pina, Recife - PE, 51011-170</li>
+            <li><i class="fa fa-map"></i> R. Pereira da Costa, 208 - Pina, Recife - PE, 51011-190</li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-4">
@@ -83,8 +83,9 @@
                 target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://br.linkedin.com/in/maria-eduarda-fernandes-8721b823" class="link-linkedin-button"
                 target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=cygnussh.vizinhossolidarios.ong" class="link-google-play-button"
-                target="_blank"><img src="assets/images/playStore.png" class="google-play"></a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=cygnussh.vizinhossolidarios.ong"
+                class="link-google-play-button" target="_blank"><img src="assets/images/playStore.png"
+                  class="google-play"></a></li>
           </ul>
         </div>
       </div>
@@ -234,6 +235,23 @@
                 <source src="assets\videos\news\familiasNaoAtendidasAbril2023.mp4" type="video/mp4">
               </video>
             </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <video controls="controls" class="news item">
+                <source src="assets\videos\news\ginastaRepresentaPE.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <video controls="controls" class="news item">
+                <source src="assets\videos\news\outubroRosa2024.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <video controls="controls" class="news item">
+                <source src="assets\videos\news\diaDasCriancas2024.mp4" type="video/mp4">
+              </video>
+            </div>
           </div>
         </div>
       </div>
@@ -380,7 +398,7 @@
                 target="_blank">tvpe.pe.gov.br <i class="fa fa-link">&nbsp;</i></a>
             </div>
           </div>
-        </div>  
+        </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
           <div class="item item-link">
             <span class="category">Agosto de 2021</span>
@@ -393,7 +411,7 @@
                 target="_blank">joaoalberto.com <i class="fa fa-link">&nbsp;</i></a>
             </div>
           </div>
-        </div>             
+        </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
           <div class="item item-link">
             <span class="category">Agosto de 2021</span>
@@ -429,7 +447,7 @@
                 target="_blank">observatorio3setor.org.br <i class="fa fa-link">&nbsp;</i></a>
             </div>
           </div>
-        </div>                
+        </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
           <div class="item item-link">
             <span class="category">Março de 2022</span>
@@ -490,7 +508,7 @@
                 target="_blank">jc.ne10.uol.com.br <i class="fa fa-link">&nbsp;</i></a>
             </div>
           </div>
-        </div>                        
+        </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
           <div class="item item-link">
             <span class="category">Setembro de 2022</span>
@@ -502,7 +520,7 @@
                 target="_blank">tvbrasil.ebc.com.br <i class="fa fa-link">&nbsp;</i></a>
             </div>
           </div>
-        </div>        
+        </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
           <div class="item item-link">
             <span class="category">Setembro de 2022</span>
@@ -514,7 +532,7 @@
                 target="_blank">recife.pe.leg.br <i class="fa fa-link">&nbsp;</i></a>
             </div>
           </div>
-        </div>      
+        </div>
         <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6">
           <div class="item item-link">
             <span class="category">Abril de 2023</span>
@@ -564,10 +582,10 @@
                 target="_blank">g1.globo.com <i class="fa fa-link">&nbsp;</i></a>
             </div>
           </div>
-        </div>    
+        </div>
       </div>
     </div>
-  </div>  
+  </div>
   <footer>
     <p>© Instituto Vizinhos Solidários</p>
     <!-- Template cedido por: TemplateMo Distribuído por: ThemeWagon https://templatemo.com/tm-591-villa-agency-->
@@ -579,7 +597,7 @@
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
-  <script src="assets/js/custom.js"></script>  
+  <script src="assets/js/custom.js"></script>
 </body>
 
 </html>
