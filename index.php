@@ -47,7 +47,7 @@
           <ul class="info">
             <li><i class="fa fa-envelope"></i> <a href="mailto:contato@vizinhossolidarios.ong.br"
                 style="color:#7a7a7a;">contato@vizinhossolidarios.ong.br</a></li>
-                <li><i class="fa fa-map"></i> R. Pereira da Costa, 208 - Pina, Recife - PE, 51011-190</li>
+                <li><i class="fa fa-map"></i> R. Pereira da Costa, 211 - Pina, Recife - PE, 51011-190</li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-4">
@@ -121,8 +121,8 @@
       <div class="row">
         <div class="col-lg-3">
           <div class="left-image">
-            <img src="assets/images/presentation.jpg" alt="">
-            <a href="property-details.php"><img src="assets/images/presentation-icon.png" alt=""
+            <img src="assets/images/presentation.jpg" alt="Menina com marmita">
+            <a href="property-details.php"><img src="assets/images/presentation-icon.png" alt="Menina com marmita"
                 style="max-width: 60px; padding: 0px;"></a>
           </div>
         </div>
@@ -190,7 +190,7 @@
           <div class="section-heading text-center">
             <h6 style="color: #fff;">Apoio</h6>
             <h2>Microsoft</h2>
-            <img src="assets/images/microsoft.png" alt="">
+            <img src="assets/images/microsoft.png" alt="Microsoft">
           </div>
         </div>
       </div>
@@ -208,7 +208,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.php"><img src="assets/images/pix.png" alt=""></a>
+            <img src="assets/images/pix.png" alt="Transferência via PIX">
             <h4 style="text-align: center;">Transferência via PIX</h4>
             <ul></ul>
             <div class="main-button">
@@ -317,7 +317,7 @@
       <div class="row">
         <div class="col-lg-8">
           <div id="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15800.237600311191!2d-34.88495196034249!3d-8.095425315425473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f152e8faac3%3A0xd9ff680328124056!2sR.%20Pereira%20da%20Costa%2C%20208%20-%20Pina%2C%20Recife%20-%20PE%2C%2051011-190!5e0!3m2!1spt-BR!2sbr!4v1725930632227!5m2!1spt-BR!2sbr" 
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.0579608499!2d-34.887552325441234!3d-8.09557208096405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1f152919debd%3A0xac9782c25723e0fc!2sR.%20Pereira%20da%20Costa%2C%20211%20-%20Pina%2C%20Recife%20-%20PE%2C%2051011-190!5e0!3m2!1spt-BR!2sbr!4v1732357136512!5m2!1spt-BR!2sbr" 
               width="100%" height="500px" frameborder="0"
               style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);"
               allowfullscreen=""></iframe>            
@@ -325,13 +325,13 @@
           <div class="row">
             <div class="col-lg-5">
               <div class="item phone">
-                <img src="assets/images/phone-icon.png" alt="" style="max-width: 52px;">
+                <img src="assets/images/phone-icon.png" alt="Telefone" style="max-width: 52px;">
                 <h6>(81) 99327-0018<br><span>Número de Telefone</span></h6>
               </div>
             </div>
             <div class="col-lg-7">
               <div class="item email">
-                <img src="assets/images/email-icon.png" alt="" style="max-width: 52px;">
+                <img src="assets/images/email-icon.png" alt="E-mail" style="max-width: 52px;">
                 <h6 style="font-size: 1em;">contato@vizinhossolidarios.ong.br<br><span>E-mail</span></h6>
               </div>
             </div>
@@ -386,15 +386,25 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">Ação na Câmara Municipal em Recife</h1>        
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">📢 Um Ano de Avanços e Solidariedade!</h1>        
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
       </div>
       <div class="modal-body">
-        <!--img src="assets/actions/2024/09/NovoEndereco.jpeg" /-->
-        <video controls="controls" class="video-controls">
-          <source src="assets/videos/CobrandoSolucoes.mp4" type="video/mp4">
-        </video>
-        <p>O Instituto está buscando e cobrando soluções para as pessoas que vivem em situação de rua na Zona Sul de Recife.</p>
+        <img src="assets/actions/photos/Jornada2024/LocaisAtuacao.png" />        
+        <p style="text-align: justify;">          
+          Em 2024, o Instituto Vizinhos Solidários rompeu barreiras, ampliando sua atuação para impactar vidas em Pernambuco e em diversas regiões do Brasil.<br/><br/>
+          ✅ No estado, marcamos presença no Sertão, no Grande Recife, em 47 bairros e comunidades, além de cidades como Olinda, Paulista, Igarassu, Itamaracá, Ipojuca, Mata Norte e Mata Sul. Chegamos em 51 municípios.<br/>
+          ✅ A nível nacional, levamos apoio a 8 municípios do Rio Grande do Sul, onde distribuímos 58 toneladas de ajuda humanitária às vítimas das catástrofes, estendendo o suporte também a estados vizinhos.<br/>
+          ✅ No Pará, chegamos através do esporte, apoiando Melinda, nossa ginasta rítmica profissional, que representou o estado e nosso trabalho em competições nacionais.<br/>
+          ✅ Atendemos com agilidade a comunidades afetadas por enchentes e desastres naturais em diversas regiões do país, reafirmando nosso compromisso com quem mais precisa.<br/><br/>
+          Com a força de parcerias estratégicas e a generosidade de nossos doadores, transformamos desafios em oportunidades de cuidado e acolhimento, por meio de doações, ações humanitárias e apoio a projetos sociais.<br/><br/>
+          Seguimos construindo um futuro com mais solidariedade e impacto positivo! Vamos VIZINHANDO pelo Brasil! <br/><br/>
+          #institutovizinhossolidarios <br/>
+          #vailaefaz <br/>
+          #solidariedade <br/>
+          #impactopositiv <br/>
+        </p>
+        
       </div>
       <div class="modal-footer">
         <!--a href="actions.php" type="button" class="btn button-primary" style="background-color: #2a95be; color: #fff;">Fotos da Ação Solidárias</a-->
@@ -449,10 +459,9 @@
 			});
 		});    
 
-    //var modalAvisos = new bootstrap.Modal('#staticBackdrop', { keyboard: false });
-    //var staticBackdrop = document.getElementById('staticBackdrop'); 
-    //modalAvisos.show(staticBackdrop);
-
+    var modalAvisos = new bootstrap.Modal('#staticBackdrop', { keyboard: false });
+    var staticBackdrop = document.getElementById('staticBackdrop'); 
+    modalAvisos.show(staticBackdrop);
 	</script>
 </body>
 

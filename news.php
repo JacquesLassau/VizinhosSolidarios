@@ -72,7 +72,7 @@
           <ul class="info">
             <li><i class="fa fa-envelope"></i> <a href="mailto:contato@vizinhossolidarios.ong.br"
                 style="color:#7a7a7a;">contato@vizinhossolidarios.ong.br</a></li>
-            <li><i class="fa fa-map"></i> R. Pereira da Costa, 208 - Pina, Recife - PE, 51011-190</li>
+            <li><i class="fa fa-map"></i> R. Pereira da Costa, 211 - Pina, Recife - PE, 51011-190</li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-4">
