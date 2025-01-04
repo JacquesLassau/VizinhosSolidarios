@@ -83,6 +83,7 @@
               <li><a href="#about">Sobre</a></li>
               <li><a href="news.php">Na Mídia</a></li>
               <li><a href="actions.php">Ações</a></li>
+			  <li><a href="map.php">Por onde Andamos</a></li>
               <li><a href="voluntary.php">Voluntário</a></li>
               <li><a href="transparency.php">Transparência</a></li>
               <li><a href="#contact">Fale Conosco</a></li>
@@ -121,10 +122,7 @@
       <div class="row">
         <div class="col-lg-3">
           <div class="left-image">
-            <img src="assets/images/presentation.jpg" alt="Menina com marmita">
-            <a href="property-details.php"><img src="assets/images/presentation-icon.png" alt="Menina com marmita"
-                style="max-width: 60px; padding: 0px;"></a>
-          </div>
+            <img src="assets/images/presentation.jpg" alt="Menina com marmita">          
         </div>
         <div class="col-lg-6">
           <div class="section-heading">
@@ -386,23 +384,18 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">📢 Um Ano de Avanços e Solidariedade!</h1>        
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">✨ A Fome Não Tira Férias! ✨</h1>        
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
       </div>
-      <div class="modal-body">
-        <img src="assets/actions/photos/Jornada2024/LocaisAtuacao.png" />        
+      <div class="modal-body">            
         <p style="text-align: justify;">          
-          Em 2024, o Instituto Vizinhos Solidários rompeu barreiras, ampliando sua atuação para impactar vidas em Pernambuco e em diversas regiões do Brasil.<br/><br/>
-          ✅ No estado, marcamos presença no Sertão, no Grande Recife, em 47 bairros e comunidades, além de cidades como Olinda, Paulista, Igarassu, Itamaracá, Ipojuca, Mata Norte e Mata Sul. Chegamos em 51 municípios.<br/>
-          ✅ A nível nacional, levamos apoio a 8 municípios do Rio Grande do Sul, onde distribuímos 58 toneladas de ajuda humanitária às vítimas das catástrofes, estendendo o suporte também a estados vizinhos.<br/>
-          ✅ No Pará, chegamos através do esporte, apoiando Melinda, nossa ginasta rítmica profissional, que representou o estado e nosso trabalho em competições nacionais.<br/>
-          ✅ Atendemos com agilidade a comunidades afetadas por enchentes e desastres naturais em diversas regiões do país, reafirmando nosso compromisso com quem mais precisa.<br/><br/>
-          Com a força de parcerias estratégicas e a generosidade de nossos doadores, transformamos desafios em oportunidades de cuidado e acolhimento, por meio de doações, ações humanitárias e apoio a projetos sociais.<br/><br/>
-          Seguimos construindo um futuro com mais solidariedade e impacto positivo! Vamos VIZINHANDO pelo Brasil! <br/><br/>
-          #institutovizinhossolidarios <br/>
-          #vailaefaz <br/>
-          #solidariedade <br/>
-          #impactopositiv <br/>
+          Nos mobilizamos em momentos de grandes catástrofes, e isso é incrível, pois mostra o quanto somos solidários quando algo grandioso nos desperta. Observem, por exemplo, como no mês de maio recebemos e doamos muito mais, impulsionados pelas enchentes no Rio Grande do Sul. Essa união foi essencial para salvar vidas e dar suporte às famílias afetadas.<br/><br/>
+          Mas é importante lembrar que a fome, a desnutrição e a falta de dignidade não são sazonais. Esses desafios estão presentes todos os dias, e milhares de famílias precisam de ajuda ao longo de todo o ano.<br/><br/>
+          Graças a vocês, que doam com constância e coração aberto, o Instituto Vizinhos Solidários tem conseguido levar dignidade, esperança e alimentos a quem mais precisa. Nosso compromisso é trabalhar com seriedade, transparência e impacto real, e é por isso que cada doação é tão importante para manter essa missão viva. <br/><br/>
+		  Em 2025, queremos ir ainda mais longe, alcançar mais famílias e expandir nossas ações. Contamos com vocês para seguir fazendo a diferença na vida de quem mais precisa.<br/><br/>
+		  Doe sempre que puder. Sua solidariedade é essencial!<br/><br/>
+		  💌 Obrigado a todos que caminham conosco nessa jornada!<br/><br/>
+		  #Solidariedade #DoeAmor #VizinhosSolidários #ContraAFome #FazendoADiferença		  
         </p>
         
       </div>

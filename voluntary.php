@@ -89,6 +89,7 @@
               <li><a href="index.php#about">Sobre</a></li>
               <li><a href="news.php">Na Mídia</a></li>
               <li><a href="actions.php">Ações</a></li>
+			  <li><a href="map.php">Por onde Andamos</a></li>
               <li><a href="voluntary.php" class="active">Voluntário</a></li>
               <li><a href="transparency.php">Transparência</a></li>
               <li><a href="index.php#contact">Fale Conosco</a></li>

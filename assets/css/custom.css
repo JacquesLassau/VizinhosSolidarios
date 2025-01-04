@@ -705,8 +705,7 @@ Header Style
     background: #007749;
     padding-left: 0px !important;
     padding-right: 0px !important;
-  }
-  
+  }     
 }
 
 /* 
@@ -1910,4 +1909,40 @@ body {
 .link-maintainer:hover{
   color: #fff;
   cursor: pointer;
+}
+
+.AreaBackgroundColorMap {
+  background-color: #fafafa;
+  padding: 40px 0px 0px 0px;
+}
+
+.mapaBrasil{
+	margin-top: 0 !important;
+	margin-bottom: 12px !important;
+	width:80%;
+	margin-left:12.5%;
+}
+
+path#BRPE {	
+	fill: orange;
+}
+
+path#BRBA {	
+	fill: orange;
+}
+
+path#BRMT {	
+	fill: orange;
+}
+
+path#BRPR {	
+	fill: orange;
+}
+
+path#BRSC {	
+	fill: orange;
+}
+
+path#BRRS {	
+	fill: orange;
 }

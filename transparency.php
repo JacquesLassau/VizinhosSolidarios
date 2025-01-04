@@ -89,6 +89,7 @@
               <li><a href="index.php#about">Sobre</a></li>
               <li><a href="news.php">Na Mídia</a></li>
               <li><a href="actions.php">Ações</a></li>
+			  <li><a href="map.php">Por onde Andamos</a></li>
               <li><a href="voluntary.php">Voluntário</a></li>
               <li><a href="transparency.php" class="active">Transparência</a></li>
               <li><a href="index.php#contact">Fale Conosco</a></li>
@@ -277,6 +278,12 @@
                 <div class="tab-pane fade" id="report-videos" role="tabpanel" aria-labelledby="report-videos-tab">
                   <div class="row">                    
                     <div class="col-lg-4 col-md-4">
+                      <h4>Relatório de Impacto Social 2024 - de janeiro a dezembro de 2024</h4>
+                      <video controls="controls" class="video-controls">
+                        <source src="assets/transparency/relatorios/2024/RelatorioImpaccto2024.2.mp4" type="video/mp4">
+                      </video>      
+                    </div>
+                    <div class="col-lg-4 col-md-4">
                       <h4>Relatório de Impacto Social 2024 - de janeiro a junho de 2024</h4>
                       <video controls="controls" class="video-controls">
                         <source src="assets/transparency/relatorios/2024/RelatorioImpaccto2024.1.mp4" type="video/mp4">
@@ -317,7 +324,7 @@
                     Escolha qual documento você deseja consultar, clique no referente botão e acesse a lista de links
                     para abri-lo.<br />
                   </p>
-                  <div class="accordion p-1" id="accordionPlanilhas">
+                  <div class="accordion p-1" id="accordionPlanilhas2023">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="heading1">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -325,8 +332,8 @@
                           Resumo das doações de 2022 e 2023
                         </button>
                       </h2>
-                      <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1"
-                        data-bs-parent="#accordionPlanilhas">
+                      <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1"
+                        data-bs-parent="#accordionPlanilhas2023">
                         <div class="accordion-body">
                           <a href="assets/transparency/planilhas/2023/PlanilhaDoacoes2022e2023.xlsx" target="_blank"
                             style="text-decoration: underline !important;">Planilha com dados sintéticos e
@@ -336,6 +343,29 @@
                             comparativo.</buttom><br /><br />
                           <buttom type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#trd"
                             style="padding: 0;">Taxa de Retenção de Doadores.</buttom><br /><br />
+                        </div>
+                      </div>
+                    </div>
+				 </div>
+				 <div class="accordion p-1" id="accordionPlanilhas2024">	
+					<div class="accordion-item">
+                      <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                          Resumo das doações de 2023 e 2024
+                        </button>
+                      </h2>
+                      <div id="collapse2" class="accordion-collapse collapse show" aria-labelledby="heading2"
+                        data-bs-parent="#accordionPlanilhas2024">
+                        <div class="accordion-body">
+                          <!--a href="assets/transparency/planilhas/2023/PlanilhaDoacoes2022e2023.xlsx" target="_blank"
+                            style="text-decoration: underline !important;">Planilha com dados sintéticos e
+                            comparativos.</a><br /><br /-->
+                          <buttom type="button" class="btn btn-link" data-bs-toggle="modal"
+                            data-bs-target="#graficoComparativo2023e2024" style="padding: 0;">Gráfico sintético e
+                            comparativo.</buttom><br /><br />
+                          <!--buttom type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#trd"
+                            style="padding: 0;">Taxa de Retenção de Doadores.</buttom><br /><br /-->
                         </div>
                       </div>
                     </div>
@@ -380,6 +410,19 @@
       <div class="modal-content">
         <div class="modal-body">
           <img src="assets/transparency/graficos/2023/trd.jpeg" alt="Trd">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="graficoComparativo2023e2024" tabindex="-1"
+    aria-labelledby="graficoComparativo2023e2024Label" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-body">
+          <img src="assets/transparency/graficos/2024/grafico.jpeg" alt="Gráfico Comparativo">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>

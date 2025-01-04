@@ -109,6 +109,7 @@
               <li><a href="index.php#about">Sobre</a></li>
               <li><a href="news.php" class="active">Na Mídia</a></li>
               <li><a href="actions.php">Ações</a></li>
+			  <li><a href="map.php">Por onde Andamos</a></li>
               <li><a href="voluntary.php">Voluntário</a></li>
               <li><a href="transparency.php">Transparência</a></li>
               <li><a href="index.php#contact">Fale Conosco</a></li>
@@ -250,6 +251,18 @@
             <div class="col-sm-12 col-md-6 col-lg-6">
               <video controls="controls" class="news item">
                 <source src="assets\videos\news\diaDasCriancas2024.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>		  
+		  <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <video controls="controls" class="news item">
+                <source src="assets\videos\news\PortoVelhoNoticias.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6">
+              <video controls="controls" class="news item">
+                <source src="assets\videos\news\NE2Noticias.mp4" type="video/mp4">
               </video>
             </div>
           </div>
