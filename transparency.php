@@ -278,6 +278,12 @@
                 <div class="tab-pane fade" id="report-videos" role="tabpanel" aria-labelledby="report-videos-tab">
                   <div class="row">                    
                     <div class="col-lg-4 col-md-4">
+                      <h4>Relatório Anual 2024</h4>
+                      <video controls="controls" class="video-controls">
+                        <source src="assets/transparency/relatorios/2024/RelatorioAnual2024.mp4" type="video/mp4">
+                      </video>      
+                    </div>
+                    <div class="col-lg-4 col-md-4">
                       <h4>Relatório de Impacto Social 2024 - de janeiro a dezembro de 2024</h4>
                       <video controls="controls" class="video-controls">
                         <source src="assets/transparency/relatorios/2024/RelatorioImpaccto2024.2.mp4" type="video/mp4">

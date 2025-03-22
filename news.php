@@ -135,6 +135,13 @@
         </div>
         <div class="properties">
           <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <video controls="controls" class="news item">
+                <source src="assets\videos\news\cursoPascoa2025.mp4" type="video/mp4">
+              </video>
+            </div>            
+          </div>
+          <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6">
               <video controls="controls" class="news item">
                 <source src="assets\videos\news\1.mp4" type="video/mp4">

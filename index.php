@@ -1,5 +1,4 @@
 <!DOCTYPE html><html>
-
 <head>
   <meta charset="utf-8">
   <meta charset="utf-8">
@@ -26,7 +25,6 @@
   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
   <link rel="shortcut icon" href="assets/images/favicon.png">
 </head>
-
 <body>
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
@@ -122,7 +120,8 @@
       <div class="row">
         <div class="col-lg-3">
           <div class="left-image">
-            <img src="assets/images/presentation.jpg" alt="Menina com marmita">          
+            <img src="assets/images/presentation.jpg" alt="Menina com marmita" />  
+          </div>        
         </div>
         <div class="col-lg-6">
           <div class="section-heading">
@@ -142,25 +141,27 @@
                 <div class="accordion-body" style="text-align: justify;">
                   <p>Instituto Vizinhos Solidários: Transformando Vidas e Comunidades.</p>
                   <br/>
-                  <p>Em março de 2020, diante da crescente crise de fome gerada pela pandemia e que assolava muitas famílias em Boa Viagem e arredores, a Empreendedora Social, Maria Eduarda Fernandes e a nutricionista Mayara Amaral decidiram agir. </p>
+                  <p>O Instituto Vizinhos Solidários nasceu em março de 2020, quando a empreendedora social Maria Eduarda Fernandes e a nutricionista Mayara Amaral, sensibilizadas pela crise de fome agravada pela pandemia, começaram a preparar 20 marmitas diárias em suas próprias casas para distribuir entre vizinhos necessitados na região de Boa Viagem, Recife. Esse gesto de solidariedade rapidamente inspirou outros moradores a se unirem à causa, originando o nome “Vizinhos Solidários”. </p>
                   <br/>
-                  <p>Começaram modestamente, preparando 20 marmitas por dia em suas casas para distribuir entre os vizinhos necessitados. O gesto generoso logo inspirou outros moradores a se unirem à causa. Dai o nome Vizinhos Solidários.</p>
+                  <p>O que começou como uma pequena ação evoluiu para um instituto dedicado a auxiliar aqueles que mais precisam no Grande Recife e Olinda. Até o momento, já fornecemos mais de 500 mil refeições e distribuímos mais de 100 mil cestas básicas em 72 pontos diferentes, abrangendo Recife, Olinda, Jaboatão dos Guararapes e o Sertão de Pernambuco.</p>
                   <br/>
-                  <p>O que começou como uma pequena ação de solidariedade evoluiu para algo muito maior. O projeto Vizinhos Solidários transformou-se em um instituto dedicado a ajudar aqueles que mais precisam na região do grande Recife e Olinda. Ao longo dos anos, eles já forneceram mais de 500 mil de refeições através das marmitas e distribuíram mais de 100 mil cestas básicas em 72 pontos diferentes, abrangendo Recife, Olinda, Jaboatão dos Guararapes e o Sertão de Pernambuco.</p>
+                  <p>Atualmente, alimentamos mais de 20 mil pessoas por mês, contando com o apoio de 50 voluntários, 4 funcionários, diversos doadores individuais e mais de 30 empresas parceiras. Além da distribuição diária de 150 a 200 marmitas, entregamos 2.410 cestas básicas mensais e assistimos 611 famílias através do Mercado Solidário.</p>
                   <br/>
-                  <p>Hoje, o Instituto Vizinhos Solidários opera com três frentes principais. A primeira consiste na distribuição diária de marmitas, entregando entre 150 e 200 refeições todos os dias em locais diferentes. Cada refeição é acompanhada de suco ou água mineral, sobremesa e um kit de higiene pessoal, proporcionando não apenas alimento, mas também dignidade.</p>
+                  <p>Recentemente, ampliamos nossas iniciativas, investindo no esporte como um viés transformador nas comunidades que atendemos, promovendo inclusão e desenvolvimento social.</p>
                   <br/>
-                  <p>Além disso, o instituto implementou um Mercado Solidário para atender às necessidades das famílias que vivem abaixo da linha da pobreza, com renda mensal de até R$ 100,00. Uma assistente social visita essas famílias, realiza uma análise socioeconômica e as cadastra para receber um cartão que lhes permite fazer compras no Mercado Solidário. Este mercado oferece uma variedade de 103 itens essenciais, desde alimentos básicos até produtos de higiene.</p>
+                  <p>Mantemos um calendário anual de ações, com atuações significativas em diversas áreas. Realizamos atividades nos hospitais, incluindo o Hospital Otávio de Freitas e o Hospital de Câncer de Pernambuco, e desenvolvemos projetos voltados para idosos. Em 2024, expandimos nossa atuação para o âmbito nacional, prestando assistência às vítimas das enchentes no Rio Grande do Sul, demonstrando nosso compromisso em oferecer ajuda emergencial às comunidades afetadas.</p>
                   <br/>
-                  <p>Mas o Instituto Vizinhos Solidários vai além da assistência alimentar. Eles também oferecem cursos profissionalizantes para mulheres das comunidades locais, visando aumentar sua renda mensal e fornecer certificação em uma profissão. Além disso, o instituto pratica a compostagem de resíduos, transformando o que seria lixo em adubo para sua própria horta, promovendo assim a sustentabilidade ambiental. Tem também o Bebedouro Solidário que distribui água potável 24h por dia para as pessoas em situação de rua, podendo tomar banho, lavar suas roupas, beber água. </p>
+                  <p>Apoiamos mais de 16 projetos sociais que atuam em todo o Recife, Grande Recife, Olinda e outros estados. Além disso, oferecemos cursos profissionalizantes para proporcionar às pessoas da comunidade oportunidades de uma vida digna e sustentável, juntamente com programas de acompanhamento com assistentes sociais.</p>
                   <br/>
-                  <p>Com uma equipe de funcionários dedicados, mais de 50 voluntários fixos e uma infraestrutura bem estabelecida, o Instituto Vizinhos Solidários continua a fazer uma diferença significativa na vida das pessoas e das comunidades que atende. Seu compromisso com a solidariedade, empoderamento e sustentabilidade demonstra como a união e a compaixão podem verdadeiramente transformar vidas.</p>
+                  <p>Acreditamos que podemos mudar os mundos ao nosso redor. Assim, transformamos vidas, realizamos sonhos e levamos esperança a muitas famílias.</p>
+                  <br/>
+                  <p>Para saber mais ou contribuir com nossa missão, visite nosso site: <a href="#">vizinhossolidarios.ong.br</a> e siga-nos no Instagram: <a href="https://www.instagram.com/vizinhos.solidarios/" target="_blank">@vizinhos.solidarios<a/></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <!--div class="col-lg-3">
           <div class="info-table">
             <ul>
               <li>
@@ -177,7 +178,7 @@
               </li>
             </ul>
           </div>
-        </div>
+        </div-->
       </div>
     </div>
   </div>
@@ -207,8 +208,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="item">
             <img src="assets/images/pix.png" alt="Transferência via PIX">
-            <h4 style="text-align: center;">Transferência via PIX</h4>
-            <ul></ul>
+            <h4 style="text-align: center;">Transferência via PIX</h4>            
             <div class="main-button">
               <a href="https://api.whatsapp.com/send?text=00020126360014br.gov.bcb.pix0114399887750001525204000053039865802BR5925ASSOCIACAO VIZINHOS SOLID6014RIO DE JANEIRO62070503***63041F2E" target="_blank">Compartilhe via WhatsApp</a>
             </div>
@@ -216,8 +216,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <h4 class="text-center">Transferência Bancária</h4>
-            <ul></ul>
+            <h4 class="text-center">Transferência Bancária</h4>            
             <ul>
               <li>Banco: <span>197 - Stone Pagamentos S.A.</span></li>
               <li>Agência: <span>001</span></li>
@@ -229,8 +228,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item text-center">
-            <h4 style="text-align: center;">Seja um Mantedor</h4>
-            <ul></ul>
+            <h4 style="text-align: center;">Seja um Mantedor</h4>            
             <ul>
               <li>
                 <div class="icon-button">
@@ -384,20 +382,11 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="staticBackdropLabel">✨ A Fome Não Tira Férias! ✨</h1>        
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">✨ Vamos investir em famílias? ✨</h1>        
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
       </div>
       <div class="modal-body">            
-        <p style="text-align: justify;">          
-          Nos mobilizamos em momentos de grandes catástrofes, e isso é incrível, pois mostra o quanto somos solidários quando algo grandioso nos desperta. Observem, por exemplo, como no mês de maio recebemos e doamos muito mais, impulsionados pelas enchentes no Rio Grande do Sul. Essa união foi essencial para salvar vidas e dar suporte às famílias afetadas.<br/><br/>
-          Mas é importante lembrar que a fome, a desnutrição e a falta de dignidade não são sazonais. Esses desafios estão presentes todos os dias, e milhares de famílias precisam de ajuda ao longo de todo o ano.<br/><br/>
-          Graças a vocês, que doam com constância e coração aberto, o Instituto Vizinhos Solidários tem conseguido levar dignidade, esperança e alimentos a quem mais precisa. Nosso compromisso é trabalhar com seriedade, transparência e impacto real, e é por isso que cada doação é tão importante para manter essa missão viva. <br/><br/>
-		  Em 2025, queremos ir ainda mais longe, alcançar mais famílias e expandir nossas ações. Contamos com vocês para seguir fazendo a diferença na vida de quem mais precisa.<br/><br/>
-		  Doe sempre que puder. Sua solidariedade é essencial!<br/><br/>
-		  💌 Obrigado a todos que caminham conosco nessa jornada!<br/><br/>
-		  #Solidariedade #DoeAmor #VizinhosSolidários #ContraAFome #FazendoADiferença		  
-        </p>
-        
+        <img src="assets/actions/2025/03/cursoPascoa.jpeg" >        
       </div>
       <div class="modal-footer">
         <!--a href="actions.php" type="button" class="btn button-primary" style="background-color: #2a95be; color: #fff;">Fotos da Ação Solidárias</a-->
@@ -457,5 +446,4 @@
     modalAvisos.show(staticBackdrop);
 	</script>
 </body>
-
 </html>

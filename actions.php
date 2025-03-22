@@ -136,6 +136,9 @@
         <li>
           <a href="#!" data-filter=".sertao">Ajuda Sertão</a>
         </li>
+        <li>
+          <a href="#!" data-filter=".citacaoInternacional">Citação Power UP (USA)</a>
+        </li>
       </ul>
       <div class="row properties-box">
         <!-- ############### INÍCIO Galeria Solidária ############### -->
@@ -639,7 +642,38 @@
             <source src="assets/actions/videos/sertao/doacoesSertao.mp4" type="video/mp4">
           </video>          
         </div>
-        <!-- ############### FIM Sertão ############### -->
+        <!-- ############### Início citação Internacional ############### -->
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 citacaoInternacional">
+          <div class="item">
+            <img src="assets/actions/photos/CitacaoInternacional/LAwEnforcementAward.png">            
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 citacaoInternacional">
+          <div class="item">
+            <img src="assets/actions/photos/CitacaoInternacional/PremioGTAPEBrasil.jpeg">            
+          </div>
+        </div>   
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 properties-items col-md-6 citacaoInternacional">
+          <div class="item">
+            <p>🏆 Prêmio Salute to Excellence 🏆 <br/> Um Reconhecimento para Todos Nós!</p>
+            <br/>
+            <p>O Instituto Vizinhos Solidários e o GTA (Grupo Tático de Apoio) @gta_pernambuco receberam um reconhecimento internacional pelo impacto das ações humanitárias realizadas em Pernambuco durante as enchentes de 2022! Na última semana, o GTA esteve nos Estados Unidos para receber o Prêmio Salute to Excellence, um momento de grande emoção e gratidão. </p>
+            <br/>
+            <p>Este prêmio não é apenas uma homenagem ao GTA, mas a todos que estiveram ao nosso lado naquele período tão desafiador. O Instituto Vizinhos Solidários foi citado na revista americana que divulgou a premiação, destacando o papel fundamental da solidariedade e da união em nossas missões.</p>
+            <br/>
+            <p>Esse prêmio também é de vocês! De cada pessoa que doou, que se voluntariou, que acreditou no poder do coletivo para transformar realidades.</p>
+            <br/>
+            <p>Seguimos firmes, construindo pontes, fortalecendo laços e levando esperança a quem mais precisa!</p>
+            <br/>
+            <p>Obrigado por fazerem parte dessa jornada!</p>
+            <br/>
+            <p>#SaluteToExcellence #GTA #VizinhosSolidários #Solidariedade #Gratidão #JuntosSomosMaisFortes</p>
+            <br/> 
+            <p>Para saber mais sobre o prêmio, por favor, leia a publicação em detalhes: <a href="assets/actions/photos/CitacaoInternacional/PrêmioSalutetoExcellence.pdf" target="_blank">Salute to Excellence<a/></p>
+          </div>
+        </div>
+          
+        <!-- ############### Fim citação Internacional ############### -->
       </div>
     </div>
     <div class="container">
