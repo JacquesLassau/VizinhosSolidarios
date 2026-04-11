@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novidades em Breve | Instituto Vizinhos Solidários</title>
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts: Montserrat -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <style>
+        :root {
+            --azul: #004a80;
+            --laranja: #fb9d1e;
+        }
+
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #fff;
+            overflow: hidden;
+        }
+
+        .bg-overlay {
+            background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(240,242,245,0.8) 100%), 
+                        url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=2070');
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content-box {
+            text-align: center;
+            max-width: 600px;
+            padding: 40px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .logo-main {
+            height: 120px;
+            margin-bottom: 30px;
+            animation: pulse 2s infinite;
+        }
+
+        h1 {
+            color: var(--azul);
+            font-weight: 800;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 40px;
+        }
+
+        .progress {
+            height: 8px;
+            border-radius: 10px;
+            background-color: #e9ecef;
+            margin-bottom: 40px;
+        }
+
+        .progress-bar {
+            background-color: var(--laranja);
+            border-radius: 10px;
+        }
+
+        .social-links a {
+            color: var(--azul);
+            font-size: 1.5rem;
+            margin: 0 15px;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            color: var(--laranja);
+            transform: translateY(-5px);
+        }
+
+        .badge-dev {
+            position: fixed;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 0.75rem;
+            color: #999;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-overlay">
+        <div class="content-box">            
+            
+            <!-- Mensagem -->
+            <h1>O Instituto está evoluindo.</h1>
+            <p>Estamos preparando uma nova experiência digital para conectar você ainda mais à nossa causa. Em breve, um novo portal, mais transparência e mais solidariedade.</p>
+            
+            <!-- Barra de Progresso Estilizada -->
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 85%"></div>
+            </div>
+
+            <!-- Redes Sociais -->
+            <div class="social-links">
+                <span class="d-block mb-3 small fw-bold text-muted text-uppercase" style="letter-spacing: 2px;">Acompanhe as novidades:</span>
+				<a href="https://www.instagram.com/vizinhos.solidarios/" target="_blank" class="me-3 fs-3"><i class="fab fa-instagram"></i></a>   
+				<a href="https://api.whatsapp.com/send?phone=558193270018" target="_blank" class="me-3 fs-3"><i class="fab fa-whatsapp"></i></a>
+				<a href="https://linkedin.com/in/maria-eduarda-fernandes-8721b823/" target="_blank" class="me-3 fs-3"><i class="fab fa-linkedin"></i></a>
+				<a href="https://play.google.com/store/apps/details?id=cygnussh.vizinhossolidarios.ong" target="_blank" class="me-3 fs-3"><i class="fab fa-google-play"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="badge-dev">
+        © 2026 Instituto Vizinhos Solidários
+    </div>
+
+</body>
+</html>

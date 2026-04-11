@@ -1,0 +1,923 @@
+:root {
+    --azul-institucional: #004a80;
+    --laranja-acao: #fb9d1e;
+    --branco: #ffffff;
+	--verde: #007749;
+}
+
+body { font-family: 'Montserrat', sans-serif; color: #333; }
+
+.nav-link { padding-right: 0 !important}
+
+.navbar { background: var(--branco) !important; padding: 15px 0; border-bottom: 1px solid #f0f0f0; }
+
+.nav-link {
+    font-weight: 700;
+    color: var(--azul-institucional) !important;
+    text-transform: uppercase;
+    font-size: 0.70rem;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+
+@media (min-width: 992px) {
+    .navbar-collapse { order: 1; } /* Links na esquerda */
+    .nav-btn-container { order: 2; margin-right: auto; margin-left: 10px; } /* Botão no meio/esquerda */
+    .navbar-brand { order: 3; margin-left: 0; } /* Logo na direita */
+}
+
+@media (max-width: 991px) {
+    .navbar .container { display: flex; justify-content: space-between; align-items: center; }
+    .navbar-toggler { order: 1; border: none; } /* Hambúrguer na esquerda */
+    .navbar-brand { order: 2; margin: 0; } /* Logo na direita */
+    .navbar-brand img { height: 50px; }
+}
+
+#heroSlider .carousel-item { 
+    height: 85vh; 
+    min-height: 500px; 
+    background-color: #000; 
+}
+
+.hero-img { 
+    object-fit: cover; 
+    height: 100%; 
+    width: 100%; 
+    opacity: 0.75;     
+    object-position: center 20%; 
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        bottom: 15%; /* Desce um pouco o texto no celular */
+    }
+    .hero-title {
+        font-size: 2.2rem !important;
+    }
+}
+
+.carousel-caption { 
+    bottom: 30%; 
+    z-index: 10; 
+    padding: 0 15px;
+}
+
+.hero-title { 
+    font-weight: 700; 
+    font-size: calc(2.2rem + 2vw); 
+    color: var(--branco);
+    text-shadow: 2px 2px 15px rgba(0,0,0,0.6); /* Sombreamento da foto */
+    margin-bottom: 15px;
+}
+
+.hero-text { 
+    font-size: calc(1rem + 0.4vw); 
+    font-weight: 400;
+    max-width: 800px; 
+    margin: 0 auto 30px;
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+}
+
+/* Botões Arredondados */
+.btn-laranja {
+    background-color: var(--laranja-acao);
+    color: white !important;
+    padding: 12px 40px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+    border: none;
+    box-shadow: 0 4px 15px rgba(251, 157, 30, 0.3);
+}
+
+.btn-laranja:hover {
+    transform: scale(1.05);
+    background-color: #e68a0d;
+}
+
+.bg-impacto { 
+    background-color: #f4f7f9; /* Tom de cinza claro/azulado do fundo */
+    padding: 80px 0;
+}
+
+.section-title {
+    font-weight: 700;
+    color: var(--azul-institucional);
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/* Linha laranja abaixo do título */
+.section-title::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: var(--laranja-acao);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.counter-box {
+    text-align: center;
+    padding: 40px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.counter-box:hover {
+    transform: translateY(-5px);
+}
+
+.counter-box i {
+    color: var(--azul-institucional);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.counter-number {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--azul-institucional);
+    display: block;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.counter-text {
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Espaçamento extra para a descrição abaixo do título */
+.bg-impacto .text-muted {
+    margin-bottom: 50px;
+    display: block;
+}
+
+/* Garante que a imagem do card ocupe toda a altura disponível no desktop */
+@media (min-width: 992px) {
+    #sobre .row, #doar .row {
+        display: flex;
+        align-items: stretch; /* Faz as duas colunas terem a mesma altura */
+    }
+    #sobre img, #doar img {
+        height: 100% !important;
+        min-height: 100%;
+    }
+}
+
+/* Ajuste de espaçamento para o texto no mobile */
+@media (max-width: 991px) {
+    #sobre .p-5, #doar .p-5 {
+        padding: 40px 25px !important;
+    }
+}
+
+/* --- ESTILO SEJA UM MANTEDOR (RÉGUA DE DOAÇÃO) --- */
+.mantedor-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.btn-mantedor {
+    display: flex;
+    align-items: center;
+    background-color: #3498db; /* Azul secundário para os botões */
+    color: white !important;
+    text-decoration: none;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 280px;
+    transition: 0.3s;
+    overflow: hidden;
+    border: none;
+}
+
+.btn-mantedor:hover {
+    transform: scale(1.05);
+    background-color: var(--azul-institucional);
+}
+
+.mantedor-icon {
+    background-color: var(--laranja-acao);
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50% 0 0 50%;
+}
+
+.mantedor-value {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding-right: 15px;
+}
+
+.divider-mantedor {
+    width: 80%;
+    height: 1px;
+    background-color: #dee2e6;
+    margin: 20px 0;
+}
+
+.bg-campanhas { background-color: #fff; padding: 80px 0; }
+
+.card-campanha {
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    height: 100%;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    margin: 10px; /* Espaço para o carrossel */
+}
+
+.card-campanha h5 { font-weight: 800; font-size: 1.4rem; margin-bottom: 5px; }
+.card-campanha .sub-header { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; opacity: 0.9; }
+.card-campanha .icon-impacto { font-size: 3.5rem; margin: 25px 0; }
+.card-campanha .titulo-destino { font-weight: 900; font-size: 1.2rem; text-transform: uppercase; line-height: 1.2; }
+.card-campanha .pix-box { 
+    background: rgba(255,255,255,0.2); 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin-top: 20px; 
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+/* Cards */
+.card-azul { background-color: #004a80;}
+.card-laranja { background-color: #fb9d1e; }
+.card-amarelo { background-color: #f9ca24; color: #333 !important; } /* Texto escuro no amarelo */
+.card-verde { background-color: #6ab04c; }
+.card-roxo { background-color: #686de0; }
+.card-branco { background-color: #ffffff; color: #333 !important; border: 2px solid #eee; }
+.card-teal { background-color: #22a6b3; }
+.card-vermelho { background-color: #7b0000; }
+
+/* Ajustes de Navegação do Carrossel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: var(--azul-institucional);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* --- ESTILO DO CARD ESCURO --- */
+.card-escuro {
+    background-color: #1a1a1a; /* Fundo escuro elegante */
+    color: #ffffff !important;
+    border: none;
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    height: 100%;
+	min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card-escuro h5 {
+    font-weight: 800;
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.card-escuro .sub-header {
+    color: #cccccc;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-escuro .icon-impacto {
+    font-size: 3.5rem;
+    color: #ffffff; 
+    margin: 30px 0;
+}
+
+.card-escuro .titulo-destino {
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+/* --- BOTÃO DO CNPJ (PIX) --- */
+.pix-btn-card {
+    background-color: rgba(255, 255, 255, 0.1); /* Fundo sutil */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Borda fina */
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 12px;
+    margin-top: 25px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+    text-decoration: none;
+}
+
+/* --- SEÇÃO APOIO (PARTNERS) --- */
+.bg-apoio {
+    background-color: #f8f9fa; /* Um cinza quase branco, muito limpo */
+    padding: 50px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.apoio-label {
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: #999;
+    margin-bottom: 30px;
+}
+
+.logo-apoio {
+    max-height: 64px; /* Tamanho elegante, não exagerado */
+    width: auto;	
+    filter: grayscale(100%);  /* Começa em P&B para ser discreto */
+    opacity: 0.6;
+    transition: all 0.4s ease;
+}
+
+.logo-apoio:hover {
+    filter: grayscale(0%); /* Ganha cor ao passar o mouse */
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .logo-apoio {    
+	max-height: 64px; /* Tamanho elegante, não exagerado */
+    width: auto;	
+    /* filter: grayscale(100%);  Começa em P&B para ser discreto */
+    opacity: 0.6;
+    transition: all 0.4s ease;
+	}
+}
+
+/* Garante texto branco e centralizado para os 3 cards em qualquer dispositivo */
+.cor-missao, .cor-valores, .cor-visao {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --- SEÇÃO INFORMATIVA --- */
+.bg-informativo { background-color: #ffffff; padding: 80px 0; border-top: 1px solid #eee; }
+
+.titulo-sessao-news {
+    color: var(--azul-institucional);
+    font-weight: 800;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.accordion-fiel .accordion-item {
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-radius: 12px !important;
+}
+
+.accordion-fiel .accordion-button {
+    font-weight: 700;
+    color: var(--azul-institucional);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.accordion-fiel .accordion-button:not(.collapsed) {
+    background-color: var(--cinza-claro);
+    color: var(--laranja-acao);
+}
+
+/* Estilo para a Tabela de Metodologia */
+.table-metodologia {
+    font-size: 0.8rem;
+    margin-top: 15px;
+    border: 1px solid #dee2e6;
+}
+.table-metodologia th { background-color: #e9ecef; color: var(--azul-institucional); }
+
+.label-jornal {
+    color: #0093e9;
+    font-weight: 800;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* --- ESTILO DOS ÍCONES NO INFORMATIVO --- */
+.icon-informativo {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+/* Cores dos círculos dos ícones */
+.bg-icon-orange { background-color: rgba(251, 157, 30, 0.1); color: #fb9d1e; }
+.bg-icon-blue { background-color: rgba(0, 147, 233, 0.1); color: #0093e9; }
+
+.accordion-button:not(.collapsed) .icon-informativo {
+    transform: rotate(360deg);
+    background-color: var(--azul-institucional);
+    color: #fff;
+}
+
+.titulo-sessao-news i {
+    margin-right: 10px;
+}
+
+/* --- ESTILO GALERIA DE AÇÕES --- */
+.filter-container {
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-filter {
+    background-color: #fff;
+    border: 2px solid var(--azul-institucional);
+    color: var(--azul-institucional);
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: 0.3s;
+}
+
+.btn-filter.active, .btn-filter:hover {
+    background-color: var(--azul-institucional);
+    color: #fff;
+}
+
+.gallery-item {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-item:hover {
+    transform: scale(1.03);
+}
+
+.gallery-item img, .gallery-item video {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.03);
+}
+
+.award-card {
+    background-color: #fff;
+    border-left: 5px solid var(--laranja-acao);
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.award-text {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* Filtro da Galeria */
+.filter-btn {
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-weight: 600;
+    margin: 5px;
+    transition: 0.3s;
+    border: 2px solid var(--azul-institucional);
+    color: var(--azul-institucional);
+    background: transparent;
+}
+
+.filter-btn.active, .filter-btn:hover {
+    background-color: var(--azul-institucional);
+    color: white;
+}
+
+.gallery-item img {
+    cursor: pointer;
+}
+
+/* --- BOTÕES FECHAR  --- */
+#modalGaleria .btn-close {
+    background-color: var(--laranja-acao) !important; /* Nosso laranja oficial */
+    opacity: 1; /* Tira a transparência para brilhar */
+    padding: 15px; 
+    border-radius: 50%; /* Deixa redondinho como uma pílula */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5); /* Sombra para destacar da foto */
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 9999;
+    border: 2px solid #fff; /* Uma bordinha branca para dar acabamento */
+}
+
+/* Garante que o "X" interno fique visível (Bootstrap usa filtro para a cor do SVG) */
+#modalGaleria .btn-close {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+}
+
+/* Efeito de aumentar ao passar o mouse */
+#modalGaleria .btn-close:hover {
+    transform: scale(1.1);
+    background-color: #e68a0d !important;
+}
+
+/* Ajuste para o mobile: não deixar o botão sair da tela */
+@media (max-width: 576px) {
+    #modalGaleria .btn-close {
+        right: 10px;
+        top: 10px;
+    }
+}
+#modalEventos .btn-close {
+    background-color: var(--laranja-acao) !important; /* Nosso laranja oficial */
+    opacity: 1; /* Tira a transparência para brilhar */
+    padding: 15px; 
+    border-radius: 50%; /* Deixa redondinho como uma pílula */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5); /* Sombra para destacar da foto */
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 9999;
+    border: 2px solid #fff; /* Uma bordinha branca para dar acabamento */
+}
+
+#modalEventos .btn-close {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+}
+
+/* Efeito de aumentar ao passar o mouse */
+#modalEventos .btn-close:hover {
+    transform: scale(1.1);
+    background-color: #e68a0d !important;
+}
+
+/* Ajuste para o mobile: não deixar o botão sair da tela */
+@media (max-width: 576px) {
+    #modalEventos .btn-close {
+        right: 10px;
+        top: 10px;
+    }
+}
+
+#modalOrganograma .btn-close {
+    background-color: var(--laranja-acao) !important; /* Nosso laranja oficial */
+    opacity: 1; /* Tira a transparência para brilhar */
+    padding: 15px; 
+    border-radius: 50%; /* Deixa redondinho como uma pílula */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5); /* Sombra para destacar da foto */
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 9999;
+    border: 2px solid #fff; /* Uma bordinha branca para dar acabamento */
+}
+
+#modalOrganograma .btn-close {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e");
+}
+
+/* Efeito de aumentar ao passar o mouse */
+#modalOrganograma .btn-close:hover {
+    transform: scale(1.1);
+    background-color: #e68a0d !important;
+}
+
+/* Ajuste para o mobile: não deixar o botão sair da tela */
+@media (max-width: 576px) {
+    #modalOrganograma .btn-close {
+        right: 10px;
+        top: 10px;
+    }
+}
+
+/* Força o grid dentro do accordion */
+.accordion-body .row {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+
+/* Garante que as fotos fiquem do mesmo tamanho e não quebrem o layout */
+.event-img {
+    width: 100%;
+    height: 200px !important; /* Altura fixa para o grid ficar alinhado */
+    object-fit: cover;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 15px;
+}
+
+/* Padroniza os vídeos para ficarem idênticos às fotos */
+.event-video {
+    width: 100%;
+    height: 200px !important; /* Mesma altura que usamos na .event-img */
+    object-fit: cover;        /* Faz o vídeo preencher o quadrado sem esticar */
+    border-radius: 12px;      /* Arredondamento igual ao das fotos */
+    background-color: #000;   /* Garante fundo preto se o vídeo for menor */
+    display: block;
+}
+
+/* --- SEÇÃO POR ONDE ANDAMOS (CHAMADA) --- */
+.bg-rota-impacto {
+    background-color: #fffaf2; /* Laranja clarinho, quase um creme, para destaque sutil */
+    padding: 90px 0;
+    border-top: 1px solid rgba(251, 157, 30, 0.1);
+    border-bottom: 1px solid rgba(251, 157, 30, 0.1);
+}
+
+.rota-map-icon {
+    font-size: 8rem;
+    color: var(--laranja-acao);
+    opacity: 0.2;
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-explorar {
+    background-color: transparent;
+    border: 2px solid var(--laranja-acao);
+    color: var(--laranja-acao);
+    padding: 12px 35px;
+    border-radius: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-explorar:hover {
+    background-color: var(--laranja-acao);
+    color: #fff !important;
+    transform: translateX(10px); /* Efeito de movimento para a direita */
+    box-shadow: 0 5px 15px rgba(251, 157, 30, 0.3);
+}
+
+/* --- PÁGINA POR ONDE ANDAMOS (MAPA ANIMADO) --- */
+/* --- MAPA BRASIL PROFISSIONAL (Ajustado) --- */
+.AreaBackgroundColorMap {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.mapaBrasil {
+    width: 100%;
+    max-width: 700px; /* Controle o tamanho do mapa aqui */
+    height: auto;
+}
+
+/* Força a cor cinza em todos os estados do SVG novo */
+.mapaBrasil path {
+    fill: #e9ecef !important; 
+    stroke: #ffffff !important;
+    stroke-width: 1;
+    transition: 0.3s;
+}
+
+/* Destaque nos estados de atuação (Cores do Index) */
+path#BRPE, path#BRBA, path#BRMT, path#BRPR, path#BRSC, path#BRRS, path#BRRO {
+    fill: #fb9d1e !important; /* Laranja da campanha */
+    opacity: 0.8;
+}
+
+/* Efeito ao passar o mouse no estado */
+.mapaBrasil path:hover {
+    fill: var(--azul-institucional) !important;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Estilo dos Pins (Ajustado para o Viewbox 1000) */
+.map-pin {
+    fill: var(--azul-institucional) !important;
+    cursor: pointer;
+}
+
+.pulse {
+    fill: var(--azul-institucional) !important;
+    fill-opacity: 0.4;
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% { r: 8; fill-opacity: 0.7; }
+    100% { r: 25; fill-opacity: 0; }
+}
+
+/* Card de Detalhes do Local */
+.info-local-card {
+    border-left: 5px solid var(--laranja-acao);
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.info-local-card:hover, .info-local-card.active {
+    transform: translateX(10px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    background-color: #fffaf2;
+}
+
+.badge-uf {
+    background-color: var(--azul-institucional);
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+/* --- ESTILO TABS TRANSPARÊNCIA --- */
+.nav-transp .btn-filter {
+    background-color: transparent;
+    border: 2px solid var(--laranja-acao);    
+	color: var(--azul-institucional);
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: 700;
+    font-size: 0.8rem;    
+    transition: 0.3s;
+}
+
+.nav-transp .btn-filter.active {
+    background-color: var(--laranja-acao);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(251, 157, 30, 0.3);
+}
+
+/* --- ACCORDION ESTILO INFORMATIVO --- */
+.acc-transp .accordion-item {
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+    border-radius: 15px !important;
+    overflow: hidden;
+}
+
+.acc-transp .accordion-button {
+    font-weight: 700;
+    color: var(--azul-institucional);
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Ícone circular igual ao do Informativo */
+.icon-transp {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: rgba(0, 74, 128, 0.1);
+    color: var(--azul-institucional);
+    transition: 0.3s;
+}
+
+/* Quando Aberto: Fundo Azul, Texto Branco e Ícone Gira */
+.acc-transp .accordion-button:not(.collapsed) {
+    background-color: var(--azul-institucional);
+    color: #fff !important;
+}
+
+.acc-transp .accordion-button:not(.collapsed) .icon-transp {
+    background-color: var(--laranja-acao);
+    color: #fff;
+    transform: rotate(360deg);
+}
+
+.acc-transp .accordion-button::after {
+    filter: brightness(0) invert(1); /* Deixa a setinha branca quando aberto */
+}
+.acc-transp .accordion-button.collapsed::after {
+    filter: none;
+}
+
+/* --- BARRA DE COOKIES / LGPD (OTIMIZADA) --- */
+.lgpd-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #fffaf2;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    padding: 20px;
+    border-radius: 15px;
+    z-index: 10000;
+    display: none; 
+    border-left: 5px solid var(--laranja-acao);
+}
+
+.lgpd-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.lgpd-text {
+    font-size: 0.85rem;
+    color: #555;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.btn-lgpd {
+    background-color: var(--azul-institucional);
+    color: #fff !important;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.75rem;
+    white-space: nowrap; /* Impede o texto do botão de quebrar em 2 linhas */
+    transition: 0.3s;
+}
+
+/* AJUSTE ESPECÍFICO PARA MOBILE */
+@media (max-width: 767px) {
+    .lgpd-banner {
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        padding: 15px;
+    }
+    
+    .lgpd-content {
+        flex-direction: column; /* Empilha texto e botão no celular */
+        gap: 10px;
+        text-align: center;
+    }
+
+    .lgpd-text {
+        font-size: 0.75rem; /* Diminui a letra no celular */
+    }
+
+    .btn-lgpd {
+        width: 100%; /* Botão ocupa a largura toda no celular para facilitar o clique */
+        padding: 10px;
+    }
+}

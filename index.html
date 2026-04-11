@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Venha doar amor aos que precisam. Traga conforto, ajude famílias." />
+    <meta name="keywords" 
+        content="vizinhossolidarios, vizinhossolidariosongbr, ong, ongrecife, vizinhos, vizinhosrecife, recife, doar, doação, doe, ajudar, ajuda, ajude, Recife, Pernambuco, mantededor, manter, caridade, vizinhos, solidários"
+    />
+    <meta name="author" content="Jacques de Lassau Albuquerque Cheron" />
+    <meta property="og:image" content="imagens/logo.png" />	
+    <meta property="og:image:type" content="imagens/png" />
+    <meta property="og:image:width" content="500" />
+    <meta property="og:image:height" content="460" />
+		
+    <title>Home | Instituto Vizinhos Solidários</title>
+	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="imagens/favicon.png" />
+</head>
+<body>    
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+        <div class="container">
+                        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">                    
+					<li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-house"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#sobre">QUEM SOMOS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="acoes.html">AÇÕES</a></li>
+					<li class="nav-item"><a class="nav-link" href="noticias.html">NOTÍCIAS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="transparencia.html">TRANSPARÊNCIA</a></li>
+					<li class="nav-item"><a class="nav-link" href="voluntario.html">VOLUNTÁRIO</a></li>
+					<li class="nav-item"><a class="nav-link" href="faleConosco.html">FALE CONOSCO</a></li>					
+                </ul>
+				<div class="nav-btn-container d-lg-block" style="padding:8px 0px;">
+					<a href="index.html#doar" class="btn-laranja text-center" style="padding: 8px 30px; font-size: 0.8rem;">DOE AGORA</a>
+				</div>
+            </div>
+            
+            <a class="navbar-brand" href="index.html">
+                <img src="imagens/logo.png" alt="Instituto Vizinhos Solidários" height="65">
+            </a>
+        </div>
+    </nav>
+    
+	<section id="inicio" class="p-0">
+		<div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="imagens/slide1.png" class="hero-img" alt="Crianças">
+					<div class="carousel-caption">
+						<div class="container">
+							<h1 class="hero-title">Nutrindo sonhos no Brasil</h1>
+							<p class="hero-text">Entregamos dignidade e esperança para centenas de famílias. Amor em forma de alimento.</p>
+							<a href="#doar" class="btn-laranja btn-lg">Quero Apoiar</a>
+						</div>
+					</div>
+				</div>					
+				<div class="carousel-item">
+					<img src="imagens/slide2.png" class="hero-img" alt="Marmitas">
+					<div class="carousel-caption">
+						<div class="container">
+							<h1 class="hero-title">Nutrindo sonhos no Brasil</h1>
+							<p class="hero-text">Entregamos dignidade e esperança para centenas de famílias. Amor em forma de alimento.</p>
+							<a href="#doar" class="btn-laranja btn-lg">Quero Apoiar</a>
+						</div>
+					</div>
+				</div>
+	
+			</div>
+		</div>
+	</section>
+
+    <section class="bg-impacto">
+		<div class="container text-center">			
+			<h2 class="section-title">Nosso Impacto em Números</h2>
+			<span class="text-muted">Resultados reais alcançados com a ajuda de pessoas como você.</span>
+			
+			<div class="row g-4 mt-2">
+				<div class="col-md-4">
+					<div class="counter-box shadow-sm">
+						<i class="fas fa-utensils"></i>
+						<span class="counter-number">+ 1.000.000</span>
+						<span class="counter-text">Refeições Entregues</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="counter-box shadow-sm">
+						<i class="fas fa-heart"></i>
+						<span class="counter-number">+ 1.000.000</span>
+						<span class="counter-text">Cestas Básicas</span>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="counter-box shadow-sm">
+						<i class="fas fa-hands-helping"></i>
+						<span class="counter-number">+ 1.000.000</span>
+						<span class="counter-text">Pessoas Atendidas</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+	<section id="chamada-mapa" class="bg-rota-impacto position-relative overflow-hidden">
+		<div class="rota-map-icon d-none d-lg-block">
+			<i class="fas fa-map-marked-alt"></i>
+		</div>
+	
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-7">
+					<span class="text-uppercase fw-bold" style="color: var(--laranja-acao); font-size: 0.8rem; letter-spacing: 2px;">Expansão</span>
+					<h2 class="section-title text-start mb-4" style="left:0; transform:none;">Nossa solidariedade não tem fronteiras</h2>
+					<p class="text-secondary mb-5" style="font-size: 1.1rem; line-height: 1.8;">
+						Nascemos no Pina, mas o nosso compromisso com a vida já percorreu milhares de quilômetros. De Pernambuco ao Rio Grande do Sul, passando pelo Sertão e chegando até o Norte do país, veja como a sua ajuda se transforma em ação em qualquer lugar.
+					</p>
+					<a href="porOndeAndamos.html" class="btn-explorar">
+						Explore nossa Rota de Impacto <i class="fas fa-arrow-right ms-2"></i>
+					</a>
+				</div>
+
+				<div class="col-lg-5 text-center d-lg-none mt-5">					
+					<i class="fas fa-map-marked-alt fa-5x text-orange opacity-50"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+    
+    <section id="sobre" class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center bg-light rounded-5 overflow-hidden shadow-lg g-0">                
+                <div class="col-lg-6">                    
+                    <img src="imagens/apresentacao.png" class="img-fluid h-100 w-100" style="object-fit: cover; min-height: 400px;" alt="Sobre">
+                </div>                
+				<div class="col-lg-6 p-5">
+					<h2 class="section-title text-center" style="left:0; transform:none; margin-bottom: 25px;">Quem Somos</h2>			
+					<div class="accordion accordion-flush mt-4" id="accordionSobre">
+						<div class="accordion-item bg-transparent">
+							<h2 class="accordion-header" id="headingOne">
+								<button class="accordion-button collapsed bg-transparent ps-0 fw-bold text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+									Conhece nossa história?
+								</button>
+							</h2>
+							<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionSobre">
+								<div class="accordion-body ps-0 text-secondary" style="text-align: justify;">
+									<p>Instituto Vizinhos Solidários: Transformando Vidas e Comunidades.</p>									
+									<p>O Instituto Vizinhos Solidários nasceu em março de 2020, quando a empreendedora social Maria Eduarda Fernandes e a nutricionista Mayara Amaral, sensibilizadas pela crise de fome agravada pela pandemia, começaram a preparar 20 marmitas diárias em suas próprias casas para distribuir entre vizinhos necessitados na região de Boa Viagem, Recife. Esse gesto de solidariedade rapidamente inspirou outros moradores a se unirem à causa, originando o nome “Vizinhos Solidários”. </p>									
+									<p>O que começou como uma pequena ação evoluiu para um instituto dedicado a auxiliar aqueles que mais precisam no Grande Recife e Olinda. Até o momento, já fornecemos mais de 500 mil refeições e distribuímos mais de 100 mil cestas básicas em 72 pontos diferentes, abrangendo Recife, Olinda, Jaboatão dos Guararapes e o Sertão de Pernambuco.</p>
+									<p>Atualmente, alimentamos mais de 20 mil pessoas por mês, contando com o apoio de 50 voluntários, 4 funcionários, diversos doadores individuais e mais de 30 empresas parceiras. Além da distribuição diária de 150 a 200 marmitas, entregamos 2.410 cestas básicas mensais e assistimos 611 famílias através do Mercado Solidário.</p>
+									<p>Recentemente, ampliamos nossas iniciativas, investindo no esporte como um viés transformador nas comunidades que atendemos, promovendo inclusão e desenvolvimento social.</p>
+									<p>Mantemos um calendário anual de ações, com atuações significativas em diversas áreas. Realizamos atividades nos hospitais, incluindo o Hospital Otávio de Freitas e o Hospital de Câncer de Pernambuco, e desenvolvemos projetos voltados para idosos. Em 2024, expandimos nossa atuação para o âmbito nacional, prestando assistência às vítimas das enchentes no Rio Grande do Sul, demonstrando nosso compromisso em oferecer ajuda emergencial às comunidades afetadas.</p>
+									<p>Apoiamos mais de 16 projetos sociais que atuam em todo o Recife, Grande Recife, Olinda e outros estados. Além disso, oferecemos cursos profissionalizantes para proporcionar às pessoas da comunidade oportunidades de uma vida digna e sustentável, juntamente com programas de acompanhamento com assistentes sociais.</p>									
+									<p>Acreditamos que podemos mudar os mundos ao nosso redor. Assim, transformamos vidas, realizamos sonhos e levamos esperança a muitas famílias.</p>									
+									<p>
+										Para saber mais ou contribuir com nossa missão,<br/>
+										visite nosso site: <a href="#">vizinhossolidarios.ong.br</a> <br/>
+										e siga-nos no Instagram: <a href="https://www.instagram.com/vizinhos.solidarios/" target="_blank">@vizinhos.solidarios </a><a></a></p><a>
+                           </a>
+								</div>
+							</div>
+						</div>
+					</div>				
+					<a href="acoes.html" class="btn-laranja mt-4" style="width:100%;text-align:center;">Nossas Ações</a>
+				</div>
+            </div>
+        </div>
+    </section>
+	
+    <section id="doar" class="py-5 bg-white">
+		<div class="container">			
+			<div class="bg-light rounded-5 shadow-lg p-4 p-md-5">
+				<h2 class="section-title text-center" style="left:0; transform:none; margin-bottom: 20px;">Como Ajudar</h2>
+				<p class="text-secondary mb-4 text-center">Se preferir, você pode realizar uma doação direta via PIX ou transferência bancária.</p>
+				<div class="row align-items-center">										
+					<div class="col-lg-5 text-center border-end-lg">
+						<h3 class="fw-bold mb-4" style="color: var(--azul-institucional);">Seja um Mantedor</h3>						
+						<div class="mantedor-container">							
+							<a onclick="CallAsaas('bnlzdc62zpwjes2s')" target="_blank" style="cursor:pointer" class="btn-mantedor">
+								<div class="mantedor-icon"><i class="fas fa-money-bill-wave"></i></div>
+								<div class="mantedor-value">R$ 30,00</div>
+							</a>
+														
+							<a onclick="CallAsaas('6kj1exw0ra1mqazp')" target="_blank" style="cursor:pointer" class="btn-mantedor">
+								<div class="mantedor-icon"><i class="fas fa-money-bill-wave"></i></div>
+								<div class="mantedor-value">R$ 50,00</div>
+							</a>
+														
+							<a onclick="CallAsaas('4bb3ec7qs4fzm5hh')" target="_blank" style="cursor:pointer" class="btn-mantedor">
+								<div class="mantedor-icon"><i class="fas fa-money-bill-wave"></i></div>
+								<div class="mantedor-value">R$ 100,00</div>
+							</a>
+	
+							<div class="divider-mantedor"></div>
+								
+							<a href="https://api.whatsapp.com/send?phone=558193270018" target="_blank" class="btn-mantedor">
+								<div class="mantedor-icon"><i class="fas fa-hand-holding-usd"></i></div>
+								<div class="mantedor-value" style="font-size: 0.9rem;">Outros Valores</div>
+							</a>
+						</div>
+					</div>						
+					<div class="col-lg-7 ps-lg-5 mt-5 mt-lg-0">						
+						<div class="p-4 rounded-4 mb-4 text-center bg-white border">
+							<h5 class="fw-bold mb-2 text-primary"><i class="fas fa-qrcode"></i> Doação via PIX</h5>
+							<p class="mb-2 text-muted small">Chave PIX:</p>
+							<img src="imagens/qrCodePix.jpeg" alt="Chave Pix" width="50%" />
+							<hr/>
+							<p style="font-size:0.6em; overflow-wrap: break-word;" id="pixKey">00020126360014br.gov.bcb.pix0114399887750001525204000053039865802BR5925INSTITUTO VIZINHOS SOLIDA6014RIO DE JANEIRO622905251095D3066E2C472899295ECA66304DCED</p>
+							<button class="btn btn-outline-primary btn-sm rounded-pill px-4" onclick="copyPix()">
+								<i class="far fa-copy"></i> Copiar Chave
+							</button>
+						</div>
+							
+						<div class="row g-3 text-secondary">
+							<div class="col-sm-12">
+								<h6 class="fw-bold text-dark mb-2">Dados Bancários:</h6>
+								<p class="small mb-1"><strong>Stone Pagamentos S.A. (197)</strong>Ag: 0001 | C/C: 9396483-1</p>
+								<p class="small mb-0 text-muted">Instituto Vizinhos Solidários</p>
+							</div>
+						</div>
+					</div>
+	
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="campanhas" class="bg-campanhas">
+		<div class="container">
+			<div id="carouselCampanhas" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-inner">
+										
+					<div class="carousel-item active">
+						<div class="row px-5">
+							<div class="col-lg-4">
+								<div class="card-campanha card-azul">
+									<div>										
+										<span class="sub-header">Sua doação fortalece:</span>
+									</div>
+									<div class="icon-impacto"><i class="fas fa-shopping-basket"></i></div>
+									<div class="titulo-destino">Cestas Básicas</div>
+									<a href="javascript:void(0)" class="pix-btn-card" onclick="copyPixCard()">
+										<i class="far fa-copy me-2"></i> Copiar chave Pix
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 d-none d-lg-block">
+								<div class="card-campanha card-laranja">
+									<div>										
+										<span class="sub-header">Sua doação fortalece:</span>
+									</div>
+									<div class="icon-impacto"><i class="fas fa-store"></i></div>
+									<div class="titulo-destino">Mercado Solidário</div>
+									<a href="javascript:void(0)" class="pix-btn-card" onclick="copyPixCard()">
+										<i class="far fa-copy me-2"></i> Copiar chave Pix
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 d-none d-lg-block">
+								<div class="card-campanha card-amarelo">
+									<div>										
+										<span class="sub-header">Sua doação fortalece:</span>
+									</div>
+									<div class="icon-impacto"><i class="fas fa-graduation-cap"></i></div>
+									<div class="titulo-destino">Capacitações</div>
+									<a href="javascript:void(0)" class="pix-btn-card" onclick="copyPixCard()">
+										<i class="far fa-copy me-2"></i> Copiar chave Pix
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+						
+					<div class="carousel-item">
+						<div class="row px-5">
+							<div class="col-lg-4">
+								<div class="card-campanha card-verde">
+									<div>										
+										<span class="sub-header">Sua doação fortalece:</span>
+									</div>
+									<div class="icon-impacto"><i class="fas fa-utensils"></i></div>
+									<div class="titulo-destino">Marmitas</div>
+									<a href="javascript:void(0)" class="pix-btn-card" onclick="copyPixCard()">
+										<i class="far fa-copy me-2"></i> Copiar chave Pix
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 d-none d-lg-block">
+								<div class="card-campanha card-roxo">
+									<div>										
+										<span class="sub-header">Sua doação fortalece:</span>
+									</div>
+									<div class="icon-impacto"><i class="fas fa-home"></i></div>
+									<div class="titulo-destino">Abrigo Sto Antônio</div>
+									<a href="javascript:void(0)" class="pix-btn-card" onclick="copyPixCard()">
+										<i class="far fa-copy me-2"></i> Copiar chave Pix
+									</a>
+								</div>
+							</div>
+							<div class="col-lg-4 d-none d-lg-block">
+								<div class="card-campanha card-vermelho">
+									<div>										
+										<span class="sub-header">Sua doação fortalece:</span>
+									</div>									
+									<div class="icon-impacto">
+										<i class="fas fa-brain"></i>
+									</div>									
+									<div class="titulo-destino">
+										Atendimento Psiquiátrico
+									</div>																		
+									<a href="javascript:void(0)" class="pix-btn-card" onclick="copyPixCard()">
+										<i class="far fa-copy me-2"></i> Copiar chave Pix
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+										
+					<div class="carousel-item">
+						<div class="row px-5">
+							<div class="col-lg-4 d-lg-block">
+								<div class="card-campanha card-escuro">
+									<div>										
+										<span class="sub-header">Sua doação fortalece:</span>
+									</div>
+									<div class="icon-impacto"><i class="fas fa-first-aid"></i></div>
+									<div class="titulo-destino">Ações Emergenciais</div>
+									<a href="javascript:void(0)" class="pix-btn-card" onclick="copyPixCard()">
+										<i class="far fa-copy me-2"></i> Copiar chave Pix
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+	
+				</div>
+								
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselCampanhas" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Anterior</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselCampanhas" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Próximo</span>
+				</button>
+			</div>
+		</div>
+	</section>
+		
+	<section id="apoio" class="bg-apoio">
+		<div class="container text-center">
+			<span class="apoio-label">Parcerias</span>
+			
+			<div class="row justify-content-center align-items-center">
+				<div class="col-lg-1 col-md-1 col-sm-12" style="padding:12px">					
+					<a href="https://www.microsoft.com/pt-br" target="_blank"><img src="imagens/microsoft.png" alt="Apoio Microsoft" class="logo-apoio img-fluid"></a>
+				</div>				
+				<div class="col-lg-1 col-md-1 col-sm-12" style="padding:12px">
+					<a href="https://www.instagram.com/p/DWe5CReAcLx/" target="_blank"><img src="imagens/ferreiraCosta.svg" alt="Parceiro" class="logo-apoio img-fluid"></a>
+				</div> 				
+			</div>
+		</div>
+	</section>
+		
+	<section id="institucional" class="py-5 bg-white text-center">
+		<div class="container">			
+			<div class="mb-5">
+				<span class="text-uppercase fw-bold" style="letter-spacing: 2px; font-size: 0.8rem; color: #fb9d1e;">Sobre</span>
+				<h2 class="section-title">O Instituto</h2>
+			</div>
+	
+			<div class="row g-4">	
+				<div class="col-lg-4">
+					<div class="p-4 rounded-4 shadow h-100" style="background-color: #0093e9 !important;color: #ffffff !important;">
+						<h3 class="fw-bold h5 mb-3 text-uppercase">Missão</h3>
+						<p class="small mb-0">Nossa missão é doar amor em forma de alimento e promover o bem-estar e a melhoria da qualidade de vida das pessoas que vivem em situação de vulnerabilidade social.</p>
+					</div>
+				</div>
+					
+				<div class="col-lg-4">
+					<div class="p-4 rounded-4 shadow h-100" style="background-color: #008137 !important;color: #ffffff !important;">
+						<h3 class="fw-bold h5 mb-3 text-uppercase">Valores</h3>
+						<p class="small mb-0">O Instituto Vizinhos Solidários atua sob a orientação dos seguintes valores: senso de urgência, ética, espírito de equipe, comprometimento e criatividade.</p>
+					</div>
+				</div>	
+				
+				<div class="col-lg-4">
+					<div class="p-4 rounded-4 shadow h-100" style="background-color: #fb9d1e !important;color: #ffffff !important;">
+						<h3 class="fw-bold h5 mb-3 text-uppercase">Visão</h3>
+						<p class="small mb-0">Ser uma organização inovadora, impactante e reconhecida nacionalmente, através do desenvolvimento e implantação de melhorias sociais das famílias, com base nos princípios que provam a nossa excelência.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>		
+	
+	<section id="informativo" class="bg-informativo">
+		<div class="container">
+			<div class="row g-5">								
+				<div class="col-lg-6">
+					<h2 class="titulo-sessao-news text-uppercase"><i class="fas fa-chart-line text-orange"></i> Impacto Estruturado</h2>
+					<p class="text-muted small mb-4 ms-2">Evolução estratégica: Da ação emergencial à gestão profissional.</p>	
+					<div class="accordion accordion-fiel" id="accImpacto">						
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#fiel1">
+									<div class="icon-informativo bg-icon-orange"><i class="fas fa-route"></i></div>
+									A Jornada da Transformação
+								</button>
+							</h2>
+							<div id="fiel1" class="accordion-collapse collapse show" data-bs-parent="#accImpacto">
+								<div class="accordion-body small text-secondary">
+									<i class="fas fa-check-circle text-success me-2"></i><strong>Evolução Emergencial:</strong> Transição das marmitas noturnas para a distribuição de cestas básicas para 2.600 famílias.
+									<br><br>
+									<i class="fas fa-check-circle text-success me-2"></i><strong>Rede de Sustentabilidade:</strong> Parceria com 55 empresas locais para cursos profissionalizantes.
+								</div>
+							</div>
+						</div>
+							
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#fiel2">
+									<div class="icon-informativo bg-icon-orange"><i class="fas fa-microchip"></i></div>
+									Inovação e Gestão Ágil
+								</button>
+							</h2>
+							<div id="fiel2" class="accordion-collapse collapse" data-bs-parent="#accImpacto">
+								<div class="accordion-body small text-secondary">
+									<i class="fas fa-check-circle text-success me-2"></i><strong>Gestão PDCA:</strong> Escuta ativa e relatórios de impacto.
+									<br><br>
+									<i class="fas fa-check-circle text-success me-2"></i><strong>Inovação:</strong> Mercado Solidário com cartões sociais e a moeda <strong>"Pontinho"</strong> para circular a economia local.
+								</div>
+							</div>
+						</div>
+							
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#fiel3">
+									<div class="icon-informativo bg-icon-orange"><i class="fas fa-table"></i></div>
+									Matriz de Contas (Metodologia Neide)
+								</button>
+							</h2>
+							<div id="fiel3" class="accordion-collapse collapse" data-bs-parent="#accImpacto">
+								<div class="accordion-body p-0">
+									<table class="table table-sm table-metodologia mb-0 text-center">
+										<thead>
+											<tr>
+												<th>Relatório</th>
+												<th>Objetivo</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr><td>Mensal</td><td>Monitoramento de KPIs.</td></tr>
+											<tr><td>Impacto</td><td>Legado gerado a longo prazo.</td></tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+					
+				<div class="col-lg-6">
+					<span class="label-jornal ps-2">Reconhecimento | DP + Social</span>
+					<h2 class="titulo-sessao-news text-uppercase"><i class="fas fa-newspaper text-primary"></i> Projeto na Zona Sul</h2>
+					
+					<div class="position-relative mb-4">
+						<img src="imagens/sede.jpeg" class="img-fluid rounded-4 shadow" alt="Sede Pina">
+						<div class="position-absolute bottom-0 start-0 bg-primary text-white p-2 rounded-end small shadow" style="font-size: 0.7rem;">Sede no Pina, Recife</div>
+					</div>
+	
+					<div class="accordion accordion-fiel" id="accJornal">
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#newsFiel1">
+									<div class="icon-informativo bg-icon-blue"><i class="fas fa-map-marker-alt"></i></div>
+									A Sede e a Origem
+								</button>
+							</h2>
+							<div id="newsFiel1" class="accordion-collapse collapse show" data-bs-parent="#accJornal">
+								<div class="accordion-body small text-secondary" style="text-align: justify;">
+									Iniciado na Rua Antônio de Sá Leitão, hoje o Instituto tem sua base na <strong>Rua Pereira da Costa, 211 - Pina</strong>. Atendemos mensalmente moradores do Pina e Brasília Teimosa com cestas básicas e marmitas.
+								</div>
+							</div>
+						</div>
+	
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed d-flex align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#newsFiel2">
+									<div class="icon-informativo bg-icon-blue"><i class="fas fa-users"></i></div>
+									Abrangência Social
+								</button>
+							</h2>
+							<div id="newsFiel2" class="accordion-collapse collapse" data-bs-parent="#accJornal">
+								<div class="accordion-body small text-secondary" style="text-align: justify;">
+									Estendemos nosso apoio ao <strong>Abrigo Santo Antônio (Olinda)</strong> e a famílias atingidas por tragédias no interior (Agreste e Sertão), reforçando a união de pessoas comuns em prol do bem comum.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+			</div>
+		</div>
+	</section>
+	    
+    <footer class="bg-dark text-white pt-5 pb-3">
+        <div class="container text-center text-md-start">
+            <div class="row">                
+                <div class="col-md-4 mb-4 text-center">
+                    <img src="imagens/logo.png" alt="Logo" height="60" class="mb-3 filter-white" style="filter: brightness(0) invert(1);">
+                    <p class="small text-secondary">Transformando a realidade do nosso país através da solidariedade e segurança alimentar.</p>
+                </div>                
+                <div class="col-md-4 mb-4 text-center">
+                    <h6 class="fw-bold mb-3 text-white">Navegação</h6>
+                    <ul class="list-unstyled small">
+						<li class="mb-2"><a href="index.html" class="text-secondary text-decoration-none">Início</a></li>
+                        <li class="mb-2"><a href="index.html#sobre" class="text-secondary text-decoration-none">Quem Somos</a></li>
+                        <li class="mb-2"><a href="acoes.html" class="text-secondary text-decoration-none">Nossas Ações</a></li>
+                        <li class="mb-2"><a href="noticias.html" class="text-secondary text-decoration-none">Nossas Notícias</a></li>													
+						<li class="mb-2"><a href="porOndeAndamos.html" class="text-secondary text-decoration-none">Por Onde Andamos</a></li>
+                        <li class="mb-2"><a href="transparencia.html" class="text-secondary text-decoration-none">Transparência</a></li>
+						<li class="mb-2"><a href="voluntario.html" class="text-secondary text-decoration-none">Seja Voluntário</a></li>
+						<li class="mb-2"><a href="faleConosco.html" class="text-secondary text-decoration-none">Fale Conosco</a></li>
+						<li class="mb-2"><a href="privacidade.html" class="text-secondary text-decoration-none">Política de Privacidade e LGPD</a></li>
+                    </ul>
+                </div>                
+                <div class="col-md-4 mb-4 text-center">
+                    <h6 class="fw-bold mb-3 text-white">Contatos</h6>
+                    <div class="mb-3">
+                        <a href="https://www.instagram.com/vizinhos.solidarios/" target="_blank" class="text-white me-3 fs-3"><i class="fab fa-instagram"></i></a>   
+						<a href="https://api.whatsapp.com/send?phone=558193270018" target="_blank" class="text-white me-3 fs-3"><i class="fab fa-whatsapp"></i></a>
+						<a href="https://linkedin.com/in/maria-eduarda-fernandes-8721b823/" target="_blank" class="text-white me-3 fs-3"><i class="fab fa-linkedin"></i></a>
+						<a href="https://play.google.com/store/apps/details?id=cygnussh.vizinhossolidarios.ong" target="_blank" class="text-white me-3 fs-3"><i class="fab fa-google-play"></i></a>
+                    </div>
+                    <p class="small text-secondary mb-1"><i class="fas fa-envelope me-2"></i> contato@vizinhossolidarios.ong.br</p>
+                    <p class="small text-secondary"><i class="fas fa-phone me-2"></i> (81) 99327-0018</p>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <p class="text-center small text-secondary">© 2026 Instituto Vizinhos Solidários - CNPJ: 39.998.775/0001-52</p>
+			<p class="text-center small text-secondary">Desenvolvido por <a href="https://www.linkedin.com/in/jacques-de-lassau/" target="_blank">Jacques de Lassau</a></p>
+        </div>
+    </footer>
+	
+	<div id="lgpd-banner" class="lgpd-banner">
+		<div class="container">
+			<div class="lgpd-content">
+				<p class="lgpd-text">
+					O <strong>Instituto Vizinhos Solidários</strong> utiliza cookies e armazena dados de formulários para melhorar sua experiência e a comunicação com nossos voluntários, de acordo com a nossa <a href="privacidade.html"/>Política de Privacidade e a LGPD.</a>
+				</p>
+				<button class="btn-lgpd" onclick="aceitarLGPD()">ACEITAR E FECHAR</button>
+			</div>
+		</div>
+	</div>
+    
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<script>
+	
+        function copyPix() {
+            const pix = document.getElementById('pixKey').innerText;
+            navigator.clipboard.writeText(pix);
+            alert("Chave PIX copiada com sucesso!");
+        }
+		
+		function copyPixCard() {
+			navigator.clipboard.writeText('00020126360014br.gov.bcb.pix0114399887750001525204000053039865802BR5925INSTITUTO VIZINHOS SOLIDA6014RIO DE JANEIRO622905251095D3066E2C472899295ECA66304DCED');
+			alert("Chave PIX copiada com sucesso!");
+		}
+		
+		function CallAsaas(pIdDonation) { 
+			window.open('https://www.asaas.com/c/' + pIdDonation, '_blank'); 
+		}
+		
+		$(document).ready(function() {			
+			if (!localStorage.getItem('lgpd-aceita')) {
+				$('#lgpd-banner').fadeIn(1000);
+			}
+		});
+		
+		function aceitarLGPD() {			
+			localStorage.setItem('lgpd-aceita', 'true');			
+			$('#lgpd-banner').fadeOut(500);
+		}
+    </script>
+</body>
+</html>
