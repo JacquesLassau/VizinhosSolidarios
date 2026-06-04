@@ -921,3 +921,53 @@ path#BRPE, path#BRBA, path#BRMT, path#BRPR, path#BRSC, path#BRRS, path#BRRO {
         padding: 10px;
     }
 }
+
+/* ==========================================================
+   CSS DO SLIDE DE AVISOS (HERO)
+   ========================================================== */
+.slide-comercial {    
+    background: linear-gradient(135deg, var(--azul-institucional) 0%, #001f3f 100%);
+    min-height: 600px; /* Mantém uma altura robusta para o banner */
+    padding: 60px 0;
+}
+
+.wrapper-camisas {
+    position: relative;
+    padding: 20px 0;
+}
+
+.camisa-img {
+    width: 30%; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid rgba(255,255,255,0.1);
+}
+
+.camisa-img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4) !important;
+    z-index: 10;
+}
+
+.camisa-img.destaque {
+    transform: scale(1.15); /* Fica um pouco maior */
+    z-index: 5;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;
+    border: 2px solid var(--laranja-acao);
+}
+
+.camisa-img.destaque:hover {
+    transform: scale(1.20) translateY(-5px);
+}
+
+@media (max-width: 991px) {
+    .slide-comercial {
+        min-height: auto;
+        padding: 50px 0 80px 0;
+    }
+    .slide-comercial .hero-title {
+        font-size: 2rem;
+    }
+    .camisa-img.destaque {
+        transform: scale(1.10); /* Reduz o destaque no mobile para não cortar a tela */
+    }
+}
