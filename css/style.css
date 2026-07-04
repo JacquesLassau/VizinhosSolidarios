@@ -971,3 +971,59 @@ path#BRPE, path#BRBA, path#BRMT, path#BRPR, path#BRSC, path#BRRS, path#BRRO {
         transform: scale(1.10); /* Reduz o destaque no mobile para não cortar a tela */
     }
 }
+
+/* ==========================================================
+   CSS DO SLIDE EMERGÊNCIA (GOIANA)
+   ========================================================== */
+.slide-goiana {
+    /* O gradiente vai de um verde sólido na esquerda até ficar transparente na direita, 
+       permitindo que a casa centralizada da foto apareça perfeitamente */
+    background-image: linear-gradient(90deg, rgba(0, 77, 47, 0.95) 0%, rgba(0, 119, 73, 0.8) 45%, rgba(0, 0, 0, 0.4) 100%), url('../imagens/goiana-enchente.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    padding: 60px 0;
+    position: relative;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+.z-index-2 {
+    position: relative;
+    z-index: 2;
+}
+
+/* Animação para a tag de Urgente chamar a atenção sutilmente */
+.pulse-urgencia {
+    animation: pulse-orange 2s infinite;
+}
+
+@keyframes pulse-orange {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 107, 0, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(255, 107, 0, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 107, 0, 0);
+    }
+}
+
+/* Ajustes para Mobile */
+@media (max-width: 991px) {
+    .slide-goiana {
+        /* No mobile, escurecemos a imagem inteira para garantir leitura do texto que vai ocupar toda a tela */
+        background-image: linear-gradient(to bottom, rgba(0, 77, 47, 0.9) 0%, rgba(0, 0, 0, 0.7) 100%), url('../imagens/goiana-enchente.png');
+        min-height: auto;
+        padding: 50px 0 80px 0;
+    }
+    .slide-goiana .hero-title {
+        font-size: 2.5rem !important;
+    }
+    .slide-goiana .pix-box .fs-2 {
+        font-size: 1.8rem !important;
+    }
+}
