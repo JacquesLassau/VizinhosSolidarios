@@ -1061,3 +1061,152 @@ path#BRPE, path#BRBA, path#BRMT, path#BRPR, path#BRSC, path#BRRS, path#BRRO {
         font-size: 2.2rem !important; /* Mantém a proporção no celular */
     }
 }
+
+/* ============================
+   CARD COMPARATIVO DE DOAÇÕES 
+   ============================ */
+.card-transparencia-doacoes {
+    background-color: #021830;
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 24px 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    height: 100%; /* Ocupa toda a altura da coluna */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-verde-destaque { color: #00e6a8 !important; }
+.text-laranja-destaque { color: #fb9d1e !important; }
+
+/* Contadores do Topo */
+.box-metric-top {
+    border: 1.5px solid #00e6a8;
+    border-radius: 12px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(0, 230, 168, 0.03);
+}
+
+.box-metric-top i {
+    font-size: 1.5rem;
+    color: #00e6a8;
+}
+
+.box-metric-top .num {
+    font-size: 1.4rem;
+    font-weight: 800;
+    line-height: 1;
+    color: #00e6a8;
+}
+
+.box-metric-top .label {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #00e6a8;
+}
+
+/* Mini Cards de Estatísticas */
+.stat-card-item {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 12px 10px;
+    height: 100%;
+}
+
+.stat-card-item.featured {
+    background: #00e6a8;
+    color: #021830 !important;
+    border: none;
+}
+
+.stat-card-item.featured i,
+.stat-card-item.featured .stat-percent,
+.stat-card-item.featured .stat-desc {
+    color: #021830 !important;
+}
+
+.stat-card-item i {
+    font-size: 1rem;
+    color: #00e6a8;
+    margin-bottom: 6px;
+}
+
+.stat-card-item .stat-percent {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #00e6a8;
+    line-height: 1;
+    margin-bottom: 4px;
+}
+
+.stat-card-item .stat-desc {
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+/* Gráfico em CSS */
+.chart-box-container {
+    border: 1px solid rgba(0, 230, 168, 0.3);
+    border-radius: 14px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+.css-bar-chart {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+    height: 120px;
+    padding-top: 20px;
+    position: relative;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.css-bar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.css-bar {
+    width: 42px;
+    background: #00e6a8;
+    border-radius: 8px 8px 0 0;
+}
+
+.css-bar-1 { height: 70px; }
+.css-bar-2 { height: 95px; }
+
+.chart-badge-growth {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #021830;
+    border: 1px dashed #00e6a8;
+    color: #00e6a8;
+    font-weight: 800;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+.box-municipios {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 14px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-left: 4px solid #fb9d1e;
+    height: 100%;
+}
