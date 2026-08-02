@@ -53,8 +53,71 @@
 	<section id="inicio" class="p-0">
 		<div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel">
 			<div class="carousel-inner">
-				<!-- INICIO - SLIDE DE AVISOS -->				
-				<div class="carousel-item active slide-cazetv">
+				<!-- INICIO - SLIDE DE AVISOS -->
+				<div class="carousel-item active slide-pix-banner">
+					<div class="container h-100 d-flex align-items-center justify-content-center py-4 py-lg-0">
+						<div class="row w-100 align-items-center justify-content-center text-center">
+							
+							<!-- TÍTULO PRINCIPAL (TOPO EM TELAS MENORES / COMPARTILHADO) -->
+							<div class="col-12 mb-3 mb-lg-4">
+								<h1 class="pix-title text-white fw-bold">
+									Doe com <span class="pix-handwritten">Pix</span>
+								</h1>
+							</div>
+				
+							<!-- COLUNA DA ESQUERDA: Texto Secundário -->
+							<div class="col-lg-3 col-md-4 text-center text-lg-end mb-4 mb-lg-0 order-2 order-lg-1">
+								<p class="pix-side-text">
+									Rápido<br>
+									fácil e<br>
+									<span class="text-destaque-verde">seguro</span>
+								</p>
+							</div>
+				
+							<!-- COLUNA CENTRAL: Smartphone Mockup com QR Code Original -->
+							<div class="col-lg-4 col-md-4 text-center mb-4 mb-lg-0 order-1 order-lg-2">
+								<div class="phone-mockup shadow-lg">
+									<div class="phone-notch"></div>
+									<div class="phone-screen">
+										
+										<!-- Banco -->
+										<span class="phone-bank-label">BANCO ITAÚ</span>
+										
+										<!-- QR Code Preservado -->
+										<div class="phone-qr-wrapper">
+											<img src="imagens/qrCodePix.jpeg" alt="QR Code PIX para Doação" class="img-fluid qr-code-img">
+										</div>
+				
+										<!-- Chave PIX -->
+										<div class="phone-pix-info">
+											<span class="d-block small fw-bold text-white opacity-75">PIX (CNPJ):</span>
+											<span class="phone-cnpj">39.988.775/0001-52</span>
+										</div>
+				
+										<!-- Botão Interativo Copiar Chave -->
+										<button type="button" class="btn btn-phone-copy" onclick="copyPixCard()">
+											<i class="far fa-copy me-1"></i> Copiar Chave
+										</button>
+				
+									</div>
+								</div>
+							</div>
+				
+							<!-- COLUNA DA DIREITA: Instrução de Escanear -->
+							<div class="col-lg-3 col-md-4 text-center text-lg-start order-3 order-lg-3">
+								<p class="pix-side-text">
+									Basta escanear<br>
+									o QR Code ou<br>
+									<span class="text-destaque-verde cursor-pointer" onclick="copyPixCard()">copiar a chave</span>
+								</p>
+							</div>
+				
+						</div>
+					</div>
+				</div>
+				<!-- FIM - BANNER DOE COM PIX -->
+				
+				<div class="carousel-item slide-cazetv">
 					<div class="container h-100 d-flex align-items-center">
 						<div class="row w-100 mt-2">
 							
@@ -334,8 +397,8 @@
 							
 						<div class="row g-3 text-secondary">
 							<div class="col-sm-12">
-								<h6 class="fw-bold text-dark mb-2">Dados Bancários:</h6>
-								<p class="small mb-1"><strong>Stone Pagamentos S.A. (197)</strong>Ag: 0001 | C/C: 9396483-1</p>
+								<h6 class="fw-bold text-dark mb-2">Outros Dados Bancários:</h6>
+								<p class="small mb-1"><strong>Stone Pagamentos S.A. (197) </strong>Ag: 0001 | C/C: 9396483-1</p>
 								<p class="small mb-0 text-muted">Instituto Vizinhos Solidários</p>
 							</div>
 						</div>
